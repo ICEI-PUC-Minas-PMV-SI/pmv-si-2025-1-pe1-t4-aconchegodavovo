@@ -64,6 +64,8 @@ body {
 .card:hover {
     background-color: var(--azul-2);
     color: var(--branco);
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 .pix, .credito, .debito {
