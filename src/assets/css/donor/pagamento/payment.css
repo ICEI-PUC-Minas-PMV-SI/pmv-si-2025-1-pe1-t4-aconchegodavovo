@@ -172,6 +172,12 @@ body {
     color: var(--azul-2);
 }
 
+.btn-border:hover {
+    background-color: var(--azul-2);
+    color: var(--branco);
+    transition: 0.5s;
+}
+
 /* Right */
 .parent-right {
     display: flex;
