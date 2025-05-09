@@ -3,28 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="../../assets/img/icon-logo-favecon.svg">
   <title>Editar Cadastro - Aconchego da Vovó</title>
-  <link rel="stylesheet" href="../../assets/css/global.css">
-  <link rel="stylesheet" href="../../assets/css/navbar/style.css">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="editRegistration.css" />
 </head>
 <body>
 
-  <nav id="container-nav">
-    <a href="#"><img src="../../assets/img/logo.svg" height="45px"></a>
-    <div>
-        <a href="index.html" class="active">Home</a>
-        <a href="#" class="active">Histórico de Doações</a>
-        <a href="#"><img src="../../assets/img/icon-nav-account.svg"></a>
+  <header>
+    <div class="logo-container">
+      <img src="logo-vovo.png" alt="Logo Aconchego da Vovó" class="logo" />
     </div>
-  </nav>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Histórico de Doações</a>
+      <img src="Perfil.png" alt="Avatar do Usuário" class="avatar-img" />
+    </nav>
+  </header>
 
   <div class="layout">
     <aside>
-      <h2>Configurações</h2>
-     <!---button class="btn-primary">✏️ Editar cadastro</button>
-      <button class="btn-danger">🗑️ Excluir conta</button> --->!
+      <h2>
+        <img src="Seta.svg" alt="Voltar" class="icon-seta" />
+        Configurações
+      </h2>
+
+      <button class="btn-primary">
+        <img src="lapis.svg" alt="Editar" class="icon" />
+        Editar cadastro
+      </button>
+
+      <button class="btn-danger">
+        <img src="lixeira.svg" alt="Excluir" class="icon" />
+        Excluir conta
+      </button>
     </aside>
 
     <main>
@@ -39,7 +49,7 @@
         <input type="password" placeholder="Repetir Senha" />
         
         <div class="form-actions">
-          <button type="button" class="btn-cancel">Cancelar</button>
+          <button type="reset" class="btn-cancel">Cancelar</button>
           <button type="submit" class="btn-save">Salvar</button>
         </div>
       </form>
