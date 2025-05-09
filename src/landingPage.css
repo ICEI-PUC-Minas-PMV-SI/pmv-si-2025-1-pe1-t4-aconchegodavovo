@@ -93,6 +93,7 @@
 }
 
 .card-introduction:hover {
+    transform: translateY(-10px);
     background-color: var(--cinza);
     transition: 0.5s;
 }
