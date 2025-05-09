@@ -1,9 +1,3 @@
-body {
-  margin: 0;
-  font-family: "Inter", sans-serif;
-  background-color: var(--branco);
-}
-
 #container-nav {
   background-color: var(--azul-2);
   color: var(--cinza-claro);
@@ -91,13 +85,11 @@ body {
   font-size: 2rem;
   color: var(--azul-2);
   margin-bottom: 0.5rem;
-  text-align: center;
 }
 
 .form-container p {
   margin-bottom: 2rem;
   color: #555;
-  text-align: center;
 }
 
 form {

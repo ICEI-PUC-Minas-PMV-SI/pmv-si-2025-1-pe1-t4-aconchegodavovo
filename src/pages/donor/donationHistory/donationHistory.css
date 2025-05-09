@@ -1,80 +1,155 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-  }
-  
-  /* Removido o texto do cabeçalho */  
-  .content {
-    max-width: 1000px;
-    margin: 40px auto;
-    background-color: white;
-    padding: 40px;
-    border-radius: 8px;
-  }
-  
-  .back-button {
-    background: none;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    display: block;
-    margin-bottom: 10px;
-    color: #555;
-  }
-  
-  .content h2 {
-    text-align: center;
-    font-size: 22px;
-    color: #003865;
-    margin-bottom: 16px;
-  }
-  
-  .search-bar {
-    position: relative;
-    max-width: 400px;
-    margin: 0 auto 30px;
-  }
-  
-  .search-bar input {
-    width: 100%;
-    padding: 10px 48px 10px 12px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 14px;
-    background-color: #fafafa;
-    outline: none;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
-  }
-  
-  .search-icon {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 32px;
-    height: 32px;
-    opacity: 0.6;
-    pointer-events: none;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 16px;
-  }
-  
-  thead {
-    background-color: #f0f0f0;
-  }
-  
-  th, td {
-    padding: 12px 16px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  tbody tr:hover {
-    background-color: #f9f9f9;
-  }
-  
+header {
+  background-color: #003865;
+  color: white;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+.logo-container h1 {
+  display: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 24px;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+.profile-wrapper {
+  position: relative;
+  margin-left: 20px;
+}
+
+.profile-icon {
+  width: 32px;
+  height: 32px;
+  background: white url('user-icon.png') center center no-repeat;
+  background-size: 60%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #003865;
+  color: white;
+  border-radius: 6px;
+  padding: 8px 0;
+  width: 180px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  display: block; /* Sempre visível */
+}
+
+.dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown li {
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dropdown li:hover {
+  background-color: #00529c;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.content h2 {
+  font-size: 28px;
+  color: #003865;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto 30px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px 48px 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fafafa;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+thead {
+  background-color: #f0f0f0;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
