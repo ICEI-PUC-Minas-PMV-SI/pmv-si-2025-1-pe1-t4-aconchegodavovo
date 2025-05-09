@@ -4,24 +4,6 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #f9f9f9;
 }
-.header nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 20px;
-}
-
-.header nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.header nav ul li a:hover {
-  text-decoration: underline;
-}
 
 /* Conteúdo principal */
 .main-container {
