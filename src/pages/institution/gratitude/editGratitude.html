@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="/src/assets/img/icon-logo-favecon.svg" />
+  <title>Aconchego da Vovó | Editar agradecimentos</title>
+  <link rel="stylesheet" href="/src/assets/css/global.css" />
+  <link rel="stylesheet" href="/src/assets/css/navbar/style.css" />
+  <link rel="stylesheet" href="./editGratitude.css" />
+  <link rel="stylesheet" href="../../../pages/institution/dropDown/dropDown.css" />
+</head>
+<body>
+     <nav id="container-nav">
+    <a href="#"><img src="/src/assets/img/logo.svg" height="45px" /></a>
+    <div>
+      <a href="#" class="active">Agradecimentos</a>
+      <a href="#" class="active">Perfil</a>
+      <a href="#" class="active">Planos</a>
+      <a href="#" class="active">Home</a>
+      <a href="#" onclick="toggleDropdown()">
+        <img src="/src/assets/img/icon-nav-account.svg" class="user-icon" />
+      </a>
+    </div>
+  </nav>
+
+    <div id="container-header">
+        <div id="arrow-header"> 
+           <a href="#"><img src="/src/assets/img/icon-seta.svg" alt="voltar"/></a> 
+        </div>
+        <h1>Editar agradecimento</h1>
+        <div></div>
+    </div>
+
+    <form id="container-form"> 
+        <div> 
+            <label class="label-form">Título do Agradecimento</label>
+            <input id="input-form" placeholder="Título"/>          
+        </div>
+       
+        <div> 
+            <label class="label-form">Texto</label>
+            <textarea id="textarea-form" placeholder="Descreva o seu agradecimento..."></textarea> 
+        </div>
+      
+       <div>
+            <label class="label-form">Foto</label>
+            <label class="upload-box">
+            Upload
+                <input type="file" accept="image/*" class="input-file">
+            </label>
+        </div>
+
+        <div id="container-button"> 
+             <button id="button-register">Salvar</button>
+             <button id="button-delete">Excluir</button>
+        </div>
+     
+    </form>
+</body>

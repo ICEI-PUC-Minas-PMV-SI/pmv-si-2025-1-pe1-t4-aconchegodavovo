@@ -60,7 +60,7 @@
 }
 
 #button-register {
-    background-color: var(--azul-2);
+    background-color:var(--azul-2);
     color: var(--branco);
     border: 2px solid var(--azul-2);
     padding: 10px 60px;
@@ -103,3 +103,29 @@
     display: none;
 }
  
+#container-button {
+    display: flex;
+    justify-content: space-between;
+    width: 618px;
+}
+
+#button-delete{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: 2px solid var(--vermelho);
+    padding: 10px 60px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    align-self: flex-start;
+    font-size: 20px;
+}
+
+#button-delete:hover {
+    cursor: pointer;
+    background-color: var(--vermelho-hover);
+    transition: 0.5s;
+}
