@@ -50,9 +50,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-021| Desenvolver tela de Editar Cadastro Page 2		| Rafael | editingRegistrationPage2.html |
 |RF-022| Desenvolver tela de Editar Cadastro Page 3 	| Rafael | editingRegistrationPage3.html |
 |RF-023| Desenvolver tela de Editar Perfil 				| Rafael | editingProfile.html |
-|RF-024| Desenvolver tela de Agradecimentos 			| Raissa | ... |
-|RF-025| Desenvolver tela de Cadastrar Agradecimentos 	| Raissa | ... |
-|RF-026| Desenvolver tela de Editar Agradecimentos 		| Raissa | ... |
+|RF-024| Desenvolver tela de Agradecimentos 			| Raissa | gratitude.html |
+|RF-025| Desenvolver tela de Cadastrar Agradecimentos 	| Raissa | registerGratitude.html |
+|RF-026| Desenvolver tela de Editar Agradecimentos 		| Raissa | editGratitude.html |
 |RF-027| Desenvolver Drop Down					 		| Rafael | dropDownMenu.js |
 
 ## Descrição das estruturas:
