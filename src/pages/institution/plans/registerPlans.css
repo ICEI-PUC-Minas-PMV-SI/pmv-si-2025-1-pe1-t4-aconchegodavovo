@@ -12,15 +12,6 @@ body {
     align-items: center;
 }
 
-.container-newplan {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: space-evenly;
-    height: 1200px;
-    gap: 200px;
-}
-
 .arrow {
     color: var(--azul-2);
     font-size: 45px;
@@ -32,17 +23,9 @@ h2 {
     margin-bottom: 10px;
 }
 
-.h2-newplan {
-    margin-bottom: 30px;
-}
-
 p {
     font-size: 16px;
     color: var(--cinza-mediano);
-}
-
-.p-newplan {
-    margin-top: 20px;
 }
 
 input {
@@ -55,7 +38,7 @@ input {
     display: inline-block;
     font-size: 20px;
     padding: 15px;
-    width: 400px;
+    width: 900px;
     height: 60px;
     text-decoration: none;
 }
@@ -65,11 +48,7 @@ input {
     font-weight: lighter;
 }
 
-.input-newplan {
-    width: 900px;
-}
-
-.input-descricao {
+.descricao {
     height: 150px;
 }
 
@@ -100,6 +79,32 @@ input {
     transition: 0.5s;
 }
 
-.margin-newplan {
+.input-card {
+    margin-bottom: 20px;
+}
+
+.container-btn {
     margin-top: 30px;
+}
+
+/* 
+    ---------- ---------- ---------- ---------- ---------- 
+*/
+
+.container-main {
+    margin: 100px 0;
+}
+
+.container-registerPlans {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.container-middle {
+    height: 100%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
 }

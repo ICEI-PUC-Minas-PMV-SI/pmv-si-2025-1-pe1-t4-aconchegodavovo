@@ -1,0 +1,99 @@
+
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--branco);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color:#f9f9f9;
+    border-radius: 8px;
+}
+
+.arrow {  /*back button*/
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #083c5a;
+}
+
+h1 {
+    font-size: 45x;
+    font-weight: bold;
+    color: #083c5a;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    color: #9B9B9B;
+}
+
+.form label {
+    font-size: 14px;
+    color: #9B9B9B;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #FEFEFE;
+}
+
+.form textarea {
+    resize: none;
+    height: 100px;
+}
+
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color: #083c5a;
+}
+
+.save-button {
+    flex: 1;
+    background-color: #083c5a;
+    color: #f9f9f9;
+    border: none;
+    padding: 12px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete-button {
+    flex: 1;
+    background-color: #EC3746;
+    color: #f9f9f9;
+    border: none;
+    padding: 12px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}   

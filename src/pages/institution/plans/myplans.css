@@ -1,0 +1,93 @@
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--branco);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    padding: 20px;
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    font-size: 45px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+  
+  .title {
+    color: #0d3b66;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .add-button {
+    display: flex;
+    background-color: #1768AC;
+    color: #f9f9f9;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float:right;
+    margin-bottom: 20px;
+  }
+  
+  .plan-list {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .plan-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .plan-item input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #9B9B9B;
+  }
+  
+  .plan-item input:focus {
+    outline: none;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn img,
+  .delete-btn img {
+    width: 20px;
+    height: 20px;
+  }
+  
