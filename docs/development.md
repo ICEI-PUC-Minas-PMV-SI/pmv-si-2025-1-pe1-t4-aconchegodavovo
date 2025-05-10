@@ -90,10 +90,44 @@ Esta tela exibe o histórico de doações realizadas pelo usuário, permitindo c
 | Título da página       | Texto           | Indica que a página mostra o histórico de doações                      | Histórico de Doações     |
 | Campo de busca         | Texto           | Permite filtrar as doações por nome da instituição                     | "Instituição São Gabriel"|
 | Lista de doações       | Tabela/Listagem | Tabela com as doações feitas pelo usuário                              | -                        |
-| → Data                 | Data            | Data da doação                                                         | XX/XX/XXXX               |
-| → Nome da Instituição | Texto           | Nome da instituição que recebeu a doação                               | Instituição São Gabriel  |
-| → Forma de pagamento   | Texto           | Método utilizado para a doação                                         | PIX                      |
-| → Valor                | Moeda           | Valor doado em reais                                                  | R$ 50,00                 |
+|  Data                 | Data            | Data da doação                                                         | XX/XX/XXXX               |
+| Nome da Instituição | Texto           | Nome da instituição que recebeu a doação                               | Instituição São Gabriel  |
+| Forma de pagamento   | Texto           | Método utilizado para a doação                                         | PIX                      |
+| Valor                | Moeda           | Valor doado em reais                                                  | R$ 50,00                 |
 | Ícone de configurações | Ícone           | Ícone de engrenagem para acessar o menu de configurações do usuário    | ⚙                        |
+
+## Tela de Editar Cadastro
+
+Esta tela permite ao usuário atualizar suas informações pessoais cadastradas na plataforma "Aconchego da Vovó", além de ter acesso à opção de exclusão de conta.
+
+| **Nome**               | **Tipo**   | **Descrição**                                          | **Exemplo**           |
+|------------------------|------------|--------------------------------------------------------|------------------------|
+| Menu lateral           | Menu       | Contém as opções de "Editar cadastro" e "Excluir conta"| -                      |
+| Título da página       | Texto      | Indica que o usuário está na tela de edição de dados   | Editar Cadastro        |
+| Nome completo          | Texto      | Campo para editar o nome completo                      | James                  |
+| CPF                    | Texto      | Campo para editar o CPF                                | 000.000.000-00         |
+| Telefone               | Texto      | Campo para editar o número de telefone                 | (00) 00000-0000        |
+| Data de Nascimento     | Texto/Data | Campo para editar a data de nascimento                 | 01/01/1990             |
+| E-mail                 | Texto      | Campo para editar o e-mail                             | email@gmail.com        |
+| Senha                  | Senha      | Campo para alterar a senha                             | ********               |
+| Repetir Senha          | Senha      | Campo para confirmar a nova senha                      | ********               |
+| Botão "Cancelar"       | Botão      | Cancela a edição e retorna à tela anterior             | -                      |
+| Botão "Salvar"         | Botão      | Salva as alterações feitas                             | -                      |
+
+## Tela de Cadastro - Etapa Inicial (Instituição)
+
+Esta é a primeira etapa do cadastro do usuário, onde são solicitadas informações básicas para criação da conta.
+
+| **Nome**          | **Tipo** | **Descrição**                                                   | **Exemplo**           |
+|-------------------|----------|------------------------------------------------------------------|------------------------|
+| Título da página  | Texto    | Informa que o usuário está na etapa de cadastro                 | Cadastro               |
+| Subtítulo         | Texto    | Mensagem de incentivo para o usuário se cadastrar               | "Cadastre-se e faça a diferença..." |
+| E-mail            | Texto    | Campo para inserir o e-mail do usuário                          | exemplo@email.com      |
+| Senha             | Senha    | Campo para criação de senha                                     | ********               |
+| Repetir senha     | Senha    | Campo para confirmar a senha                                    | ********               |
+| Botão "Próximo"   | Botão    | Avança para a próxima etapa do cadastro                         | -                      |
+| Imagem lateral    | Imagem   | Imagem ilustrativa para tornar a interface mais acolhedora      | Foto de idoso e cuidador |
+
+
 
 
