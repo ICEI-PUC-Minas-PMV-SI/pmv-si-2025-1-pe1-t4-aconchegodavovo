@@ -16,9 +16,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-006| Desenvolver tela de Cadastro ILPI Page 4 		| Rafael | registrationILPIPage4.html |
 |RF-007| Desenvolver tela de Login                		| Camila | login.html |
 |RF-008| Desenvolver tela de Esqueci a Senha      		| Camila | forgot-password.html |
-|RF-009| Desenvolver tela de Listagem das Instituições 	| Júlia  | index.html |
-|RF-010| Desenvolver tela de Histórico de Doações 		| Júlia  | index.html |
-|RF-011| Desenvolver tela de Editar Cadastro 			| Júlia  | index.html |
+|RF-009| Desenvolver tela de Listagem das Instituições 	| Júlia  | listInstitutions.html |
+|RF-010| Desenvolver tela de Histórico de Doações 		| Júlia  | donationHistory.html |
+|RF-011| Desenvolver tela de Editar Cadastro 			| Júlia  | editRegistration.html |
 |RF-012| Desenvolver tela de Perfil das Intituições 	| Brenda | profileOfInstitutions.html |
 |RF-013| Desenvolver tela de Pagamento 					| Camila | payment.html |
 |RF-014| Desenvolver tela de Erro de Pagamento 			| Camila | payment-error.html |
