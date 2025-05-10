@@ -51,3 +51,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Título         | Texto             | Título do Agradecimento                   | Agradecemos pelas doações                                  |
 | Texto     | Texto             | Descrição do agradecimento                 | Com muito carinho, agradecemos a todos os doadores que tornaram possível a reforma de um dos quartos do nosso lar.                            |
 | Foto  | Texto(Base64) | Foto do Agradecimento       |                foto.jpeg                           |
+
+# Tela de Cadastro (Doador)
+
+Esta tela permite que novos usuários se cadastrem na plataforma "Aconchego da Vovó".
+
+| **Nome**           | **Tipo**         | **Descrição**                                 | **Exemplo**                          |
+|--------------------|------------------|-----------------------------------------------|--------------------------------------|
+| Nome completo      | Texto            | Campo para inserir o nome completo do usuário | João da Silva                        |
+| CPF                | Texto            | Campo para inserir o CPF do usuário           | 123.456.789-00                       |
+| Telefone           | Texto            | Campo para inserir o número de telefone       | (11) 91234-5678                      |
+| Data de nascimento | Texto/Data       | Campo para inserir a data de nascimento       | 10/05/1985                           |
+| E-mail             | Texto            | Campo para inserir o e-mail                   | joao@email.com                       |
+| Senha              | Senha            | Campo para criar uma senha de acesso          | ********                             |
+| Repita a senha     | Senha            | Campo para confirmar a senha                  | ********                             |
+| Botão "Cadastrar"  | Botão            | Envia os dados preenchidos para o cadastro    | -                                    |
+
+# Tela de Listagem de Instituições
+
+Esta tela exibe as instituições de acolhimento de idosos disponíveis para doações e permite a busca por nome ou município.
+
+| **Nome**                  | **Tipo**      | **Descrição**                                                             | **Exemplo**                    |
+|---------------------------|---------------|---------------------------------------------------------------------------|--------------------------------|
+| Banner informativo        | Imagem + Texto| Área superior com imagem e chamada para ação                              | "Ajude a transformar a vida..."|
+| Campo de busca            | Texto         | Campo para filtrar instituições por nome ou município                     | "São Paulo", "Bem Viver"       |
+| Cartão da instituição     | Componente    | Bloco com informações de cada instituição                                 |                                |
+| → Nome da instituição     | Texto         | Nome exibido no cartão                                                    | Residencial Bem Viver          |
+| → Foto da instituição     | Imagem        | Foto ilustrativa da instituição                                           | imagem.jpeg                    |
+| → Ícone da instituição    | Ícone         | Ícone que representa a categoria ou entidade                              | 🏠                             |
+| Lista de instituições     | Grid/Listagem | Área que agrupa todos os cartões de instituições cadastradas              | -                              |
+
