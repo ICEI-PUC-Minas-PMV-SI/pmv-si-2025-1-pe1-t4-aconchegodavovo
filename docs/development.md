@@ -43,14 +43,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Título         | Texto             | Título do Agradecimento                   | Agradecemos pelas doações                                  |
 | Texto     | Texto             | Descrição do agradecimento                 | Com muito carinho, agradecemos a todos os doadores que tornaram possível a reforma de um dos quartos do nosso lar.                            |
-| Foto  | Texto(Base64) | Foto do Agradecimento       |                foto.jpeg                           |
+| Foto  | String | Foto do Agradecimento       |                foto.jpeg                           |
 
 ## Tela de Editar Agradecimentos
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Título         | Texto             | Título do Agradecimento                   | Agradecemos pelas doações                                  |
 | Texto     | Texto             | Descrição do agradecimento                 | Com muito carinho, agradecemos a todos os doadores que tornaram possível a reforma de um dos quartos do nosso lar.                            |
-| Foto  | Texto(Base64) | Foto do Agradecimento       |                foto.jpeg                           |
+| Foto  | String | Foto do Agradecimento       |                foto.jpeg                           |
 
 ## Tela de Cadastro (Doador)
 
@@ -77,7 +77,7 @@ Esta tela exibe as instituições de acolhimento de idosos disponíveis para doa
 | Campo de busca            | Texto         | Campo para filtrar instituições por nome ou município                     | "São Paulo", "Bem Viver"       |
 | Cartão da instituição     | Componente    | Bloco com informações de cada instituição                                 |                                |
 |Nome da instituição     | Texto         | Nome exibido no cartão                                                    | Residencial Bem Viver          |
-| Foto da instituição     | Imagem        | Foto ilustrativa da instituição                                           | imagem.jpeg                    |
+| Foto da instituição     |Imagem     | Foto ilustrativa da instituição                                           | imagem.jpeg                    |
 | Ícone da instituição    | Ícone         | Ícone que representa a categoria ou entidade                              | 🏠                             |
 | Lista de instituições     | Grid/Listagem | Área que agrupa todos os cartões de instituições cadastradas              | -                              |
 
