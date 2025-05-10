@@ -42,7 +42,7 @@
 }
 
 .button-landing-page:hover {
-    background-color: var(--azul-2);
+    background-color: var(--azul-1-hover);
     transition: 0.5s;
 }
 
