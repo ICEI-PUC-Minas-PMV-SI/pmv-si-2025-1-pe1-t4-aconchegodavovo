@@ -14,111 +14,105 @@
 </head>
 
 <body>
-    <nav id="container-nav">
-        <a href="#"><img src="/src/assets/img/logo.svg" height="45px"></a>
-        <div>
-            <a href="#" class="active">Agradecimentos</a>
-            <a href="#" class="active">Perfil</a>
-            <a href="#" class="active">Planos</a>
-            <a href="#" class="active">Home</a>
-            <a href="#"><img src="/src/assets/img/icon-nav-account.svg"></a>
-        </div>
-    </nav>
+    <div class="main">
+        <nav id="container-nav">
+            <a href="#"><img src="/src/assets/img/logo.svg" height="45px"></a>
+            <div>
+                <a href="#" class="active">Agradecimentos</a>
+                <a href="#" class="active">Perfil</a>
+                <a href="#" class="active">Planos</a>
+                <a href="#" class="active">Home</a>
+                <a href="#"><img src="/src/assets/img/icon-nav-account.svg"></a>
+            </div>
+        </nav>
 
-    <div class="container-main">
-        <div class="container-registerPlans">
+        <div class="container-main">
 
             <div class="container-left">
-                <div class="container-arrow">
-                    <div class="container-ar">
-                        <a href="#"><i class="fa fa-angle-left arrow"></i></a>
-                    </div>
-                </div>
+                <a href="#"><i class="fa fa-angle-left arrow"></i></a>
             </div>
 
             <div class="container-middle">
-                <div class="container-inputBtn">
-                    <h2>Cadastrar novo plano</h2>
-                    <div class="container-input">
-                        <form>
-                            <div class="input-card">
-                                <p>Nome do Plano</p>
-                                <input type="text" required placeholder="Nome">
-                            </div>
+                <h2>Cadastrar novo plano</h2>
+                
+                <div class="container-input">
+                    <form>
+                        <div class="input-card">
+                            <label for="NomePlano">Nome do Plano</label>
+                            <input type="text" required placeholder="Nome" name="NomePlano">
+                        </div>
 
-                            <div class="input-card">
-                                <p>Descrição do Plano</p>
-                                <input class="descricao" type="text" required placeholder="Descreva a sua ILPI...">
-                            </div>
+                        <div class="input-card">
+                            <label for="DescricaoPlano">Descrição do Plano</label>
+                            <input class="descricao" type="text" required placeholder="Descreva a sua ILPI..."
+                                name="DescricaoPlano">
+                        </div>
 
-                            <div class="input-card">
-                                <p>Valor</p>
-                                <input type="text" required placeholder="R$ 150,00">
-                            </div>
+                        <div class="input-card">
+                            <label for="Valor">Valor</label>
+                            <input type="text" required placeholder="R$ 150,00" name="Valor">
+                        </div>
 
-                            <div class="input-card">
-                                <p>Responsável Legal</p>
-                                <input type="text" required placeholder="Nome Completo">
-                            </div>
+                        <div class="input-card">
+                            <label for="Responsavel">Responsável Legal</label>
+                            <input type="text" required placeholder="Nome Completo" name="Responsavel">
+                        </div>
 
-                            <div class="input-card">
-                                <p>Periodicidade</p>
-                                <input type="text" required placeholder="Mensal / Anual">
-                            </div>
+                        <div class="input-card">
+                            <label for="Periodicidade">Periodicidade</label>
+                            <input type="text" required placeholder="Mensal / Anual" name="Periodicidade">
+                        </div>
 
-                            <div class="input-card">
-                                <p>Data de Início</p>
-                                <input type="date" required placeholder="00/00/00">
-                            </div>
+                        <div class="input-card">
+                            <label for="DataInicio">Data de Início</label>
+                            <input type="date" required placeholder="00/00/00" name="DataInicio">
+                        </div>
 
-                            <div>
-                                <p>Data de Término</p>
-                                <input type="date" required placeholder="00/00/00">
-                            </div>
-                        </form>
-                    </div>
-
-                    <div class="container-btn">
-                        <button class="btn btn-azul-2" type="button">Salvar</button>
-                    </div>
+                        <div>
+                            <label for="DataFim">Data de Término</label>
+                            <input type="date" required placeholder="00/00/00" name="DataFim">
+                        </div>
+                    </form>
                 </div>
+
+                <button class="btn btn-azul-2" type="button">Salvar</button>
             </div>
 
             <div class="container-right"></div>
         </div>
-    </div>
 
-    <footer class="footer">
-        <div class="footer-content">
+        <footer class="footer">
+            <div class="container-footer">
+                <div class="footer-content">
+                    <div class="social">
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="copyright">
+                            Copyright© 2025 Aconchego da Vovó - Todos os direitos reservados
+                        </div>
+                    </div>
 
-            <div class="social">
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-x-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                </div>
-                <div class="copyright">
-                    Copyright© 2025 Aconchego da Vovó - Todos os direitos reservados
-                </div>
-            </div>
-
-            <div class="right-group">
-                <div class="logo">
-                    <img src="/src/assets/img/logo.svg" alt="Aconchego da Vovó">
-                </div>
-                <div class="contact">
-                    <div class="contact-box">
-                        <i class="fas fa-envelope"></i>
-                        <div class="contact-text">
-                            <span>Contato</span><br />
-                            <a href="mailto:aconchegodavovo@gmail.com">aconchegodavovo@gmail.com</a>
+                    <div class="right-group">
+                        <div class="logo">
+                            <img src="/src/assets/img/logo.svg" alt="Aconchego da Vovó">
+                        </div>
+                        <div class="contact">
+                            <div class="contact-box">
+                                <i class="fas fa-envelope"></i>
+                                <div class="contact-text">
+                                    <span>Contato</span><br />
+                                    <a href="mailto:aconchegodavovo@gmail.com">aconchegodavovo@gmail.com</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 
 </html>

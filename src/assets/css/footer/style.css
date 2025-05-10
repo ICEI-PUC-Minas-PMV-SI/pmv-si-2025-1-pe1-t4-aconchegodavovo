@@ -11,18 +11,23 @@
   .footer {
     background-color: var(--azul-2);
     color: var(--branco);
-    padding: 20px 0;
+  }
+
+  .container-footer {
+    height: 155px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .footer-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
+    align-items: center;
+    gap: 500px;
     max-width: 1200px;
-    margin: auto;
-    padding: 10px 20px;
   }
   
   .social,

@@ -6,10 +6,8 @@
 }
 
 body {
-    background-color: var(--branco);
     height: 100vh;
-    justify-content: center;
-    align-items: center;
+    background-color: var(--branco);
 }
 
 .arrow {
@@ -20,10 +18,9 @@ body {
 h2 {
     font-weight: bold;
     font-size: 45px;
-    margin-bottom: 10px;
 }
 
-p {
+label {
     font-size: 16px;
     color: var(--cinza-mediano);
 }
@@ -33,14 +30,13 @@ input {
     background-color: #FEFEFE;
     border: 1px solid #D3D3D3;
     border-radius: 5px;
-    box-sizing: border-box;
     color: var(--cinza-escuro);
-    display: inline-block;
     font-size: 20px;
     padding: 15px;
     width: 900px;
     height: 60px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 ::placeholder {
@@ -79,23 +75,17 @@ input {
     transition: 0.5s;
 }
 
-.input-card {
-    margin-bottom: 20px;
-}
-
-.container-btn {
-    margin-top: 30px;
-}
-
 /* 
     ---------- ---------- ---------- ---------- ---------- 
 */
 
-.container-main {
-    margin: 100px 0;
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
-.container-registerPlans {
+.container-main {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -107,4 +97,11 @@ input {
     width: 900px;
     display: flex;
     flex-direction: column;
+    gap: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
