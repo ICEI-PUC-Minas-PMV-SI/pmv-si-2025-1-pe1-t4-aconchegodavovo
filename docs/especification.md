@@ -206,11 +206,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID       | Descrição do Requisito                                                | Prioridade |
 |----------|-----------------------------------------------------------------------|------------|
-| RNF-001  | O sistema deve ser responsivo e acessível em dispositivos móveis.     | ALTA       |
-| RNF-002 | O sistema deve possuir uma interface intuitiva e amigável para usuários com pouca experiência tecnológica. | ALTA       |
-| RNF-003  | O sistema deve ser desenvolvido utilizando apenas HTML, CSS e JS, sem frameworks. | ALTA       |
-| RNF-004  | O sistema deve ser compatível com os navegadores mais utilizados.     | ALTA       |
-| RNF-005 | A interface deve manter um padrão visual consistente em todas as páginas, incluindo cores, fontes, ícones e layout, para proporcionar uma experiência de usuário fluída e coesa.| ALTA  |
+| RNF-001 | O sistema deve possuir uma interface intuitiva e amigável para usuários com pouca experiência tecnológica. | ALTA       |
+| RNF-002 | O sistema deve ser desenvolvido utilizando apenas HTML, CSS e JS, sem frameworks. | ALTA       |
+| RNF-003  | O sistema deve ser compatível com os navegadores mais utilizados.     | ALTA       |
+| RNF-004 | A interface deve manter um padrão visual consistente em todas as páginas, incluindo cores, fontes, ícones e layout, para proporcionar uma experiência de usuário fluída e coesa.| ALTA  |
 
   
 
