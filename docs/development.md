@@ -52,7 +52,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Texto     | Texto             | Descrição do agradecimento                 | Com muito carinho, agradecemos a todos os doadores que tornaram possível a reforma de um dos quartos do nosso lar.                            |
 | Foto  | Texto(Base64) | Foto do Agradecimento       |                foto.jpeg                           |
 
-# Tela de Cadastro (Doador)
+## Tela de Cadastro (Doador)
 
 Esta tela permite que novos usuários se cadastrem na plataforma "Aconchego da Vovó".
 
@@ -67,7 +67,7 @@ Esta tela permite que novos usuários se cadastrem na plataforma "Aconchego da V
 | Repita a senha     | Senha            | Campo para confirmar a senha                  | ********                             |
 | Botão "Cadastrar"  | Botão            | Envia os dados preenchidos para o cadastro    | -                                    |
 
-# Tela de Listagem de Instituições
+## Tela de Listagem de Instituições
 
 Esta tela exibe as instituições de acolhimento de idosos disponíveis para doações e permite a busca por nome ou município.
 
@@ -76,8 +76,24 @@ Esta tela exibe as instituições de acolhimento de idosos disponíveis para doa
 | Banner informativo        | Imagem + Texto| Área superior com imagem e chamada para ação                              | "Ajude a transformar a vida..."|
 | Campo de busca            | Texto         | Campo para filtrar instituições por nome ou município                     | "São Paulo", "Bem Viver"       |
 | Cartão da instituição     | Componente    | Bloco com informações de cada instituição                                 |                                |
-| → Nome da instituição     | Texto         | Nome exibido no cartão                                                    | Residencial Bem Viver          |
-| → Foto da instituição     | Imagem        | Foto ilustrativa da instituição                                           | imagem.jpeg                    |
-| → Ícone da instituição    | Ícone         | Ícone que representa a categoria ou entidade                              | 🏠                             |
+|Nome da instituição     | Texto         | Nome exibido no cartão                                                    | Residencial Bem Viver          |
+| Foto da instituição     | Imagem        | Foto ilustrativa da instituição                                           | imagem.jpeg                    |
+| Ícone da instituição    | Ícone         | Ícone que representa a categoria ou entidade                              | 🏠                             |
 | Lista de instituições     | Grid/Listagem | Área que agrupa todos os cartões de instituições cadastradas              | -                              |
+
+## Tela de Histórico de Doações
+
+Esta tela exibe o histórico de doações realizadas pelo usuário, permitindo consultar data, instituição beneficiada, forma de pagamento e valor.
+
+| **Nome**              | **Tipo**       | **Descrição**                                                        | **Exemplo**              |
+|------------------------|----------------|------------------------------------------------------------------------|--------------------------|
+| Título da página       | Texto           | Indica que a página mostra o histórico de doações                      | Histórico de Doações     |
+| Campo de busca         | Texto           | Permite filtrar as doações por nome da instituição                     | "Instituição São Gabriel"|
+| Lista de doações       | Tabela/Listagem | Tabela com as doações feitas pelo usuário                              | -                        |
+| → Data                 | Data            | Data da doação                                                         | XX/XX/XXXX               |
+| → Nome da Instituição | Texto           | Nome da instituição que recebeu a doação                               | Instituição São Gabriel  |
+| → Forma de pagamento   | Texto           | Método utilizado para a doação                                         | PIX                      |
+| → Valor                | Moeda           | Valor doado em reais                                                  | R$ 50,00                 |
+| Ícone de configurações | Ícone           | Ícone de engrenagem para acessar o menu de configurações do usuário    | ⚙                        |
+
 
