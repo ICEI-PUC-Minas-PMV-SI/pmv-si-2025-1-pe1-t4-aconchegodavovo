@@ -1,8 +1,15 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #f9f9f9;
+  background-color: var(--branco);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-container {
@@ -11,7 +18,9 @@ body {
 }
 
 .image-section {
-  width: 70%;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .image-section img {
@@ -33,7 +42,7 @@ body {
 }
 
 .form-section h1 {
-  font-size: 32px;
+  font-size: 45px;
   margin-bottom: 40px;
   color: #0B3C5D;
 }
@@ -49,10 +58,13 @@ body {
   border-radius: 20px;
   text-decoration: none;
   color: #0B3C5D;
+  font-size: 32px;
   font-weight: bold;
-  width: 150px;
+  width: 300px;
+  height: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   transition: transform 0.2s;
@@ -63,7 +75,7 @@ body {
 }
 
 .btn img {
-  width: 50px;
+  width: 125px;
   margin-bottom: 10px;
 }
 
