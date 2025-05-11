@@ -1,3 +1,7 @@
+body {
+    background-color: var(--branco);
+}
+
 #container-nav {
     background-color: var(--azul-2);
     color: var(--cinza-claro);

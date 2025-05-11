@@ -1,3 +1,7 @@
+body {
+  background-color: var(--branco);
+}
+
 header {
   background-color: #003865;
   color: white;
