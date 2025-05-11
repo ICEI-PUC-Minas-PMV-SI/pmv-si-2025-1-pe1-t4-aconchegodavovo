@@ -7,59 +7,170 @@
 }
 
 body {
-    background-color: var(--branco);
     height: 100vh;
-    justify-content: center;
-    align-items: center;
+    background-color: var(--branco);
+}
+
+.arrow {
+    color: var(--azul-2);
+    font-size: 45px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+label {
+    font-size: 16px;
+    color: var(--cinza-mediano);
+}
+
+input, textarea {
+    outline: none;
+    background-color: #FEFEFE;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    color: var(--cinza-escuro);
+    font-size: 20px;
+    padding: 15px;
+    width: 900px;
+    max-width: 900px;
+    min-width: 900px;
+    height: 60px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: var(--cinza-mediano);
+    font-weight: lighter;
+}
+
+.descricao {
+    height: 150px;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+} 
+
+.btn200 {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.btn-azul-2 {
+    background-color: var(--azul-2);
+    color: var(--branco);
+}
+
+.btn-azul-2:hover {
+    background-color: var(--azul-2-hover);
+    transition: 0.5s;
+}
+
+.btn-vermelho {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+.btn-vermelho:hover {
+    background-color: var(--vermelho-hover);
+    transition: 0.5s;
 }
 
 
 .main {
-    max-width: 500px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color:#f9f9f9;
-    border-radius: 8px;
-}
-
-.arrow {  /*back button*/
-    background: none;
-    border: none;
-    font-size: 28px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    color: #083c5a;
-}
-
-h1 {
-    font-size: 45x;
-    font-weight: bold;
-    color: #083c5a;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.form {
     display: flex;
     flex-direction: column;
-    color: #9B9B9B;
+    gap: 50px;
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.container-middle {
+    height: 100%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.arrow { 
+    color: var(--azul-2);
+    font-size: 45px;
+}
+
+
+h2 {
+    font-weight: bold;
+    font-size: 45px;
 }
 
 .form label {
-    font-size: 14px;
-    color: #9B9B9B;
-    margin-bottom: 5px;
+    font-size: 16px;
+    color: var(--cinza-mediano);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .form input,
 .form textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    outline: none;
     background-color: #FEFEFE;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    color: var(--cinza-escuro);
+    font-size: 20px;
+    padding: 15px;
+    width: 900px;
+    max-width: 900px;
+    min-width: 900px;
+    height: 60px;
+    text-decoration: none;
+    cursor: pointer;
 }
+
+::placeholder {
+    color: var(--cinza-mediano);
+    font-weight: lighter;
+}
+
+.descricao {
+    height: 150px;
+}
+
 
 .form textarea {
     resize: none;
@@ -96,4 +207,37 @@ h1 {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-}   
+}
+
+.container-dropdown div {
+    background-color: #FEFEFE;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    color: var(--cinza-escuro);
+    font-size: 20px;
+}
+
+.dropdown-menu li {
+    color: var(--cinza-mediano);
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    height: 60px;
+    width: 200px;
+}
+
+.dropdown-menu li:hover {
+    border-left: 5px solid var(--azul-1);
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    display: none;
+}
+
+.container-dropdown:hover .dropdown-menu {
+    display: block;
+}
