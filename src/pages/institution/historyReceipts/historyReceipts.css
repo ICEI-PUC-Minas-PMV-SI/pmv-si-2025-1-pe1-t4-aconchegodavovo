@@ -1,4 +1,7 @@
 /* Estilo: Histórico de Recebimentos */
+body {
+  background-color: var(--branco);
+}
 
 .main-container {
     padding: 1rem;
