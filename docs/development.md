@@ -129,6 +129,85 @@ Esta é a primeira etapa do cadastro do usuário, onde são solicitadas informa�
 | Botão "Próximo"   | Botão    | Avança para a próxima etapa do cadastro                         | -                      |
 | Imagem lateral    | Imagem   | Imagem ilustrativa para tornar a interface mais acolhedora      | Foto de idoso e cuidador |
 
+## Tela de Login
 
+Esta tela usuários já cadastrados realizem o login em suas contas na plataforma "Aconchego da Vovó".
 
+| **Nome**           | **Tipo**         | **Descrição**                                 | **Exemplo**                          |
+|--------------------|------------------|-----------------------------------------------|--------------------------------------|
+| E-mail      		 | Texto            | Campo para inserir o E-mail		            | gatos@gmail.com                      |
+| Senha              | Texto            | Campo para inserir a senha		            | **************                       |
+| Foto               | String           | Foto de Login						            | img.svg						       |
+| Botão "Login"      | Botão            | Logar na conta							    | -                                    |
+
+## Tela de Esqueci a Senha
+
+Esta tela usuários já cadastrados podem fazer o requerimento de recuperar a senha perdida.
+
+| **Nome**           | **Tipo**         | **Descrição**                                 | **Exemplo**                          |
+|--------------------|------------------|-----------------------------------------------|--------------------------------------|
+| E-mail      		 | Texto            | Campo para inserir o E-mail		            | gatos@gmail.com                      |
+| Senha              | Texto            | Descrição de recuperação de senha             | Digite seu e-mail e enviaremos um e-mail para você informando como recuperá-la.   |
+| Foto               | String           | Foto de Esqueci a Senha			            | img.svg				    		   |
+| Botão "Enviar"     | Botão            | Enviar e-mail de recuperação de senha		    | -                                    |
+
+## Tela de Pagamento
+
+Esta tela doadores podem realizar a doação para a Instituição de Longa Permanência escolhida.
+
+| **Nome**           | **Tipo**         | **Descrição**                                 | **Exemplo**                          |
+|--------------------|------------------|-----------------------------------------------|--------------------------------------|
+| Pix   			 | String           | Bloco com ícone do Pix	 		            | img.svg						       |
+| Cartão de Crédito	 | String           | Bloco com ícone de Cartão de Crédito	        | img.svg						       |
+| Débito Online      | String           | Bloco com ícone de Cartão			            | img.svg						       |
+| Boleto		     | String           | Bloco com ícone de Código de Barras           | img.svg						       |
+| Qr-Code		     | String           | Qr-Code da ILPI para o realizar o pagamento   | img.svg						       |
+| Nome da ILPI 		 | Texto            | Nome da ILPI escolhida			            | Cantinho da Paz                      |
+| Plano      		 | Texto            | Tipo de Plano escolhido para pagamento        | Plano Básico		                   |
+| Total      		 | Texto         	| Total da Doação					            | R$ 150,00		                       |
+| Guia do Qr-Code 1  | Texto            | Descrição de pagamento com Qr-code            | Abra seu app PagBank ou da instituição financeira de sua preferência   |
+| Guia do Qr-Code 2	 | Texto            | Descrição de pagamento com Qr-code            | Aponte a câmera do seu celular para o QR Code Pix   |
+| Botão "Cancelar"   | Botão            | Cancelar o Pagamento              		    | -                                    |
+| Botão "Continuar"  | Botão            | Ir para tela de sucesso de pagamento		    | -                                    |
+
+## Tela de Erro de Pagamento
+
+Esta tela doadores ficam cientes de que a forma de pagamento escolhida não foi autorizada ou os dados bancários foram preenchidos incorretamente.
+
+| **Nome**           | **Tipo**         | **Descrição**                                 | **Exemplo**                          |
+|--------------------|------------------|-----------------------------------------------|--------------------------------------|
+| Título      		 | Texto            | Texto Pagamento não autorizado      			| Oops! Seu pagamento não foi autorizado!		    |
+| Plano      		 | Texto            | Texto Revise os Dados					        | Revise os dados ou altere a forma de pagamento!	|
+| Foto               | String           | Foto de círculo vermelho com X no meio		| img.svg						   				    |
+| Foto               | String           | Foto de Erro de Pagamento			            | img.svg						   				    |
+| Botão "Voltar"     | Botão            | Voltar para pagamento						    | -                                				    |
+
+## Tela de Cadastro de Novo Plano
+
+Esta tela Instituições podem criar um novo plano para receber doações.
+
+| **Nome**           | **Tipo**         | **Descrição**                                 | **Exemplo**                          |
+|--------------------|------------------|-----------------------------------------------|--------------------------------------|
+| Nome do Plano      | Texto            | Campo para inserir o nome do plano            	| Premiun		                       |
+| Descrição do Plano | Texto            | Campo para inserir a descrição do plano			| Itens essenciais como fraldas, produtos de higiene e lanches saudáveis.                       |
+| Valor              | Texto            | Campo para inserir o valor do plano          		| R$ 150,00						       |
+| Responsável Legal  | Texto            | Campo para inserir o nome do Responsável Legal	| Cleide da Silva                      |
+| Periodicidade		 | Texto            | Campo para inserir se o Plano será Anul ou Mensal	| Mensal                               |
+| Data de Início	 | Data	            | Campo para inserir a data de Início do Plano    	| 00/00/00                             |
+| Data de Término    | Data	            | Campo para inserir a data de Término do Plano    	| 00/00/00                             |
+
+## Tela de Cadastro ILPI 2
+
+Esta tela usuários que escolheram se cadastrar como Instituição podem inserir os dados da empresa.
+
+| **Nome**           | **Tipo**         | **Descrição**                                 | **Exemplo**                          |
+|--------------------|------------------|-----------------------------------------------|--------------------------------------|
+| CNPJ      		 	 | Texto            | Campo para inserir o CNPJ		            | 00.623.904/0001-73                   |
+| Telefone           	 | Texto            | Campo para inserir o Telefone		        | (00) 00000-0000                      |
+| Tipo de Instituição	 | Texto            | Campo para inserir o Tipo de Instituição  | Instituição de Longa Permanência     |
+| Cargo Responsável	 	 | Texto            | Campo para inserir o Nome do Responsável  | Cleide da Silva                      |
+| Data da Fundação	 	 | Texto            | Campo para inserir a Data da Fundação		| 00/00/00                             |
+| Foto               	 | String           | Foto de Cadastro					        | img.svg						       |
+| Botão "Próximo"      	 | Botão            | Ir para a próxima página de cadastro		| -                                    |
+| Botão "Voltar"      	 | Botão            | Voltar para a página de cadastro anterior	| -                                    |
 
