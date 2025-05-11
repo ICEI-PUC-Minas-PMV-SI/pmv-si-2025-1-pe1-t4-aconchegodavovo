@@ -109,17 +109,6 @@ Esta tela exibe o histórico de doações realizadas pelo usuário, permitindo c
 | Valor                | Moeda           | Valor doado em reais                                                  | R$ 50,00                 |
 | Ícone de configurações | Ícone           | Ícone de engrenagem para acessar o menu de configurações do usuário    | ⚙                        |
 
-## Tela Confirmação de Doação
-
-| **Nome**                 | **Tipo**   | **Descrição**                                                  | **Exemplo**                                 |
-|--------------------------|------------|----------------------------------------------------------------|---------------------------------------------|
-| Ícone de Sucesso         | Ícone      | Ícone visual indicando que a ação foi concluída com sucesso    | img_check.svg                                       |
-| Mensagem Principal       | Texto      | Mensagem de confirmação da doação                              | Doação realizada com sucesso!                       |
-| Mensagem Secundária      | Texto      | Agradecimento pela contribuição                                | Obrigado por fazer a diferença na vida de um idoso! |
-| Botão Voltar             | Botão      | Retorna para a tela anterior ou inicial                        | Voltar                                              |
-| Imagem de Fundo (esquerda)| Imagem     | Foto ilustrativa de idosos felizes, representando gratidão    | idosos_abraço.svg                                   |
-
-
 ## Tela de Editar Cadastro
 
 Esta tela permite ao usuário atualizar suas informações pessoais cadastradas na plataforma "Aconchego da Vovó", além de ter acesso à opção de exclusão de conta.
@@ -261,7 +250,20 @@ Esta tela doadores podem realizar a doação para a Instituição de Longa Perma
 | Botão "Cancelar"   | Botão            | Cancelar o Pagamento              		    | -                                    |
 | Botão "Continuar"  | Botão            | Ir para tela de sucesso de pagamento		    | -                                    |
 
-## Tela de Erro de Pagamento
+## Tela Confirmação de Doação (Doador)
+
+Esta tela doadores ficam cientes de que a forma de pagamento escolhida foi autorizada e concluída com sucesso. 
+
+| **Nome**                 | **Tipo**   | **Descrição**                                                  | **Exemplo**                                 |
+|--------------------------|------------|----------------------------------------------------------------|---------------------------------------------|
+| Ícone de Sucesso         | Ícone      | Ícone visual indicando que a ação foi concluída com sucesso    | img_check.svg                                       |
+| Mensagem Principal       | Texto      | Mensagem de confirmação da doação                              | Doação realizada com sucesso!                       |
+| Mensagem Secundária      | Texto      | Agradecimento pela contribuição                                | Obrigado por fazer a diferença na vida de um idoso! |
+| Botão Voltar             | Botão      | Retorna para a tela anterior ou inicial                        | Voltar                                              |
+| Imagem de Fundo (esquerda)| Imagem     | Foto ilustrativa de idosos felizes, representando gratidão    | idosos_abraço.svg                                   |
+
+
+## Tela de Erro de Pagamento (Doador)
 
 Esta tela doadores ficam cientes de que a forma de pagamento escolhida não foi autorizada ou os dados bancários foram preenchidos incorretamente.
 
