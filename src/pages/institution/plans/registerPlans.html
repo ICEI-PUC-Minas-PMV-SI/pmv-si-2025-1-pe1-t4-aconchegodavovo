@@ -34,7 +34,7 @@
 
             <div class="container-middle">
                 <h2>Cadastrar novo plano</h2>
-                
+
                 <div class="container-input">
                     <form>
                         <div class="input-card">
@@ -44,8 +44,8 @@
 
                         <div class="input-card">
                             <label for="DescricaoPlano">Descrição do Plano</label>
-                            <input class="descricao" type="text" required placeholder="Descreva a sua ILPI..."
-                                name="DescricaoPlano">
+                            <textarea class="descricao" type="text" required placeholder="Descreva a sua ILPI..."
+                                name="DescricaoPlano"></textarea>
                         </div>
 
                         <div class="input-card">
@@ -60,7 +60,15 @@
 
                         <div class="input-card">
                             <label for="Periodicidade">Periodicidade</label>
-                            <input type="text" required placeholder="Mensal / Anual" name="Periodicidade">
+                            <div class="container-dropdown">
+                                <input class="periodicidade" type="text" required placeholder="Mensal / Anual" name="Periodicidade">
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li>Mensal</li>
+                                        <li>Anual</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="input-card">

@@ -2,10 +2,10 @@
     position: absolute;
     right: 20px;
     top: 70px;
-    background-color: #0c2f45;
+    background-color: var(--azul-2);
     padding: 1rem;
     border-radius: 16px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.63);
     z-index: 1000;
     min-width: 220px;
   }

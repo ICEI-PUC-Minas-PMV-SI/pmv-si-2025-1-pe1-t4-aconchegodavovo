@@ -25,7 +25,7 @@ label {
     color: var(--cinza-mediano);
 }
 
-input {
+input, textarea {
     outline: none;
     background-color: #FEFEFE;
     border: 1px solid #D3D3D3;
@@ -34,6 +34,8 @@ input {
     font-size: 20px;
     padding: 15px;
     width: 900px;
+    max-width: 900px;
+    min-width: 900px;
     height: 60px;
     text-decoration: none;
     cursor: pointer;
@@ -104,4 +106,41 @@ form {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+/* 
+    ---------- ---------- ---------- ---------- ---------- 
+*/
+
+.container-dropdown div {
+    background-color: #FEFEFE;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    color: var(--cinza-escuro);
+    font-size: 20px;
+}
+
+.dropdown-menu li {
+    color: var(--cinza-mediano);
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    height: 60px;
+    width: 200px;
+}
+
+.dropdown-menu li:hover {
+    border-left: 5px solid var(--azul-1);
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    display: none;
+}
+
+.container-dropdown:hover .dropdown-menu {
+    display: block;
 }
