@@ -5,7 +5,6 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Conteúdo principal */
 .main-container {
   display: flex;
   height: calc(100vh - 80px);
@@ -39,7 +38,6 @@ body {
   color: #0B3C5D;
 }
 
-/* Botões de escolha */
 .buttons {
   display: flex;
   gap: 40px;
