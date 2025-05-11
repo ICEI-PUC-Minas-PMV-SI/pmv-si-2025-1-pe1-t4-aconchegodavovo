@@ -2,21 +2,35 @@ body {
     background-color: var(--branco);
 }
 
-#container-nav {
-    background-color: var(--azul-2);
-    color: var(--cinza-claro);
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 5rem;
-    padding: 0 3rem;
+#container-img-header>img {
+    width: 100%;
+    height: auto; 
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#container-nav > div {
+#container-text-header {
+    position: absolute;
+    top: 20%;
+    left: 55%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 2rem;
+    align-items: center;
+}
+
+#container-text-header>h1 {
+    color: var(--cinza);
+    width: 530px;
+    font-size: 42px;
+    text-align: center;
+}
+
+#container-text-header>h3 {
+    color: var(--cinza);
+    width: 490px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .active {
