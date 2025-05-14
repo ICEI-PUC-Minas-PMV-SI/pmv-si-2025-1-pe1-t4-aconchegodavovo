@@ -18,21 +18,16 @@ body {
     object-fit: cover;
 }
 
-#imgassets img {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
 .parent {
     display: flex;
+    flex-direction: space;
+    justify-content: space-between;
     width: 100%;
     height: 100vh;
 }
 
 .container {
     display: flex;
-    width: 50%;
     height: 100vh;
     flex-direction: column;
     justify-content: center;
