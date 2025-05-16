@@ -10,21 +10,33 @@
     <link rel="stylesheet" href="/src/assets/css/navbar/style.css">
     <link rel="stylesheet" href="/src/assets/css/footer/style.css">
     <link rel="stylesheet" href="./registerPlans.css">
+    <link rel="stylesheet" href="/src/pages/institution/dropDown/dropDown.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
     <div class="main">
         <nav id="container-nav">
-            <a href="/src/pages/institution/historyReceipts/historyReceipts.html"><img src="/src/assets/img/logo.svg" height="45px"></a>
+            <a href="/src/pages/institution/historyReceipts/historyReceipts.html"><img src="/src/assets/img/logo.svg"
+                    height="45px" /></a>
             <div>
                 <a href="/src/pages/institution/gratitude/gratitude.html" class="active">Agradecimentos</a>
                 <a href="/src/pages/institution/profileInstitution/profileInstitution.html" class="active">Perfil</a>
                 <a href="/src/pages/institution/plans/plans.html" class="active">Planos</a>
                 <a href="/src/pages/institution/historyReceipts/historyReceipts.html" class="active">Home</a>
-                <a href="#"><img src="/src/assets/img/icon-nav-account.svg"></a>
+                <a href="#" onclick="toggleDropdown()">
+                    <img src="/src/assets/img/icon-nav-account.svg" class="user-icon" />
+                </a>
             </div>
         </nav>
+
+        <div id="userDropdown" class="dropdown-menu" style="display: none;">
+            <a href="/src/pages/institution/editRegistration/firstEditRegister.html">
+                Configurações da conta <img src="/src/assets/img/icon-editar.svg" />
+            </a>
+
+            <a href="#">Sair <img src="/src/assets/img/icon-sair.svg" /></a>
+        </div>
 
         <div class="container-main">
 
@@ -61,7 +73,8 @@
                         <div class="input-card">
                             <label for="Periodicidade">Periodicidade</label>
                             <div class="container-dropdown">
-                                <input class="periodicidade" type="text" required placeholder="Mensal / Anual" name="Periodicidade">
+                                <input class="periodicidade" type="text" required placeholder="Mensal / Anual"
+                                    name="Periodicidade">
                                 <div class="dropdown-menu">
                                     <ul>
                                         <li class="border-li">Mensal</li>
@@ -83,7 +96,8 @@
                     </form>
                 </div>
 
-                <a href="/src/pages/institution/plans/plans.html"><button class="btn btn-azul-2" type="button">Salvar</button></a>
+                <a href="/src/pages/institution/plans/plans.html"><button class="btn btn-azul-2"
+                        type="button">Salvar</button></a>
             </div>
 
             <div class="container-right"></div>
@@ -121,6 +135,7 @@
             </div>
         </footer>
     </div>
+    <script src="/src/assets/js/dropDownMenu.js"></script>
 </body>
 
 </html>

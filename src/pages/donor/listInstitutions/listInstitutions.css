@@ -33,21 +33,6 @@ body {
     text-align: center;
 }
 
-.active {
-    color: var(--cinza-claro);
-    text-decoration: none;
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 1.1rem;
-    transition: border-bottom 0.1s ease; 
-    border-bottom: 0 solid var(--cinza-claro);
-    padding-bottom: 0.063rem;
-}
-
-.active:hover {
-    border-bottom: 0.063rem solid var(--cinza-claro);
-}
-
 .logo img {
     height: 50px;
 }

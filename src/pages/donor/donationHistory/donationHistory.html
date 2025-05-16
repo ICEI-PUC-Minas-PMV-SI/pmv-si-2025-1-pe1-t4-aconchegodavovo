@@ -8,30 +8,32 @@
   <title>Histórico de Doações</title>
   <link rel="stylesheet" href="/src/assets/css/global.css">
   <link rel="stylesheet" href="/src/assets/css/navbar/style.css">
-  <link rel="stylesheet" href="./donationHistory.css" />
+  <link rel="stylesheet" href="./donationHistory.css">
+  <link rel="stylesheet" href="/src/pages/institution/dropDown/dropDown.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
-  <header>
-    <div class="logo-container">
-      <a href="/src/pages/donor/listInstitutions/listInstitutions.html"><img src="/src/assets/img/logo.svg" height="45px"></a>
-    </div>
-    <nav>
-      <a href="/src/pages/donor/listInstitutions/listInstitutions.html">Home</a>
+  <nav id="container-nav">
+    <a href="/src/pages/donor/listInstitutions/listInstitutions.html"><img src="/src/assets/img/logo.svg"
+        height="45px" /></a>
+    <div>
+      <a href="/src/pages/donor/listInstitutions/listInstitutions.html" class="active">Home</a>
       <a href="/src/pages/donor/donationHistory/donationHistory.html" class="active">Histórico de Doações</a>
-      <div class="profile-wrapper">
-        <div class="profile-icon"></div>
-        <div class="dropdown">
-          <ul>
-            <li>Configurações da conta </li>
-            <li>Sair </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+      <a href="#" onclick="toggleDropdown()">
+        <img src="/src/assets/img/icon-nav-account.svg" class="user-icon" />
+      </a>
+    </div>
+  </nav>
+
+  <div id="userDropdown" class="dropdown-menu" style="display: none;">
+    <a href="/src/pages/donor/editRegistration/editRegistration.html">
+      Configurações da conta <img src="/src/assets/img/icon-editar.svg" />
+    </a>
+
+    <a href="#">Sair <img src="/src/assets/img/icon-sair.svg" /></a>
+  </div>
 
   <main class="content">
     <button class="back-button">←</button>
@@ -91,7 +93,7 @@
       </tbody>
     </table>
   </main>
-
+  <script src="/src/assets/js/dropDownMenu.js"></script>
 </body>
 
 </html>
