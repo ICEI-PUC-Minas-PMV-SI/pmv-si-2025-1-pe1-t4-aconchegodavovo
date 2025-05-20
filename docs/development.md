@@ -76,8 +76,8 @@ Esta tela permite que novos usuários se cadastrem na plataforma "Aconchego da V
 | Telefone           | Texto            | Campo para inserir o número de telefone       | (11) 91234-5678                      |
 | Data de nascimento | Texto/Data       | Campo para inserir a data de nascimento       | 10/05/1985                           |
 | E-mail             | Texto            | Campo para inserir o e-mail                   | joao@email.com                       |
-| Senha              | Senha            | Campo para criar uma senha de acesso          | ********                             |
-| Repita a senha     | Senha            | Campo para confirmar a senha                  | ********                             |
+| Senha              | Senha            | Campo para criar uma senha de acesso          | Todos os caracteres                             |
+| Repita a senha     | Senha            | Campo para confirmar a senha                  | Todos os caracteres                           |
 | Botão "Cadastrar"  | Botão            | Envia os dados preenchidos para o cadastro    | -                                    |
 
 ## Tela de Listagem de Instituições
@@ -103,7 +103,7 @@ Esta tela exibe o histórico de doações realizadas pelo usuário, permitindo c
 | Título da página       | Texto           | Indica que a página mostra o histórico de doações                      | Histórico de Doações     |
 | Campo de busca         | Texto           | Permite filtrar as doações por nome da instituição                     | "Instituição São Gabriel"|
 | Lista de doações       | Tabela/Listagem | Tabela com as doações feitas pelo usuário                              | -                        |
-|  Data                 | Data            | Data da doação                                                         | XX/XX/XXXX               |
+|  Data                 | Data            | Data da doação                                                         | 10/05/2025               |
 | Nome da Instituição | Texto           | Nome da instituição que recebeu a doação                               | Instituição São Gabriel  |
 | Forma de pagamento   | Texto           | Método utilizado para a doação                                         | PIX                      |
 | Valor                | Moeda           | Valor doado em reais                                                  | R$ 50,00                 |
@@ -118,12 +118,12 @@ Esta tela permite ao usuário atualizar suas informações pessoais cadastradas 
 | Menu lateral           | Menu       | Contém as opções de "Editar cadastro" e "Excluir conta"| -                      |
 | Título da página       | Texto      | Indica que o usuário está na tela de edição de dados   | Editar Cadastro        |
 | Nome completo          | Texto      | Campo para editar o nome completo                      | James                  |
-| CPF                    | Texto      | Campo para editar o CPF                                | 000.000.000-00         |
+| CPF                    | Texto      | Campo para editar o CPF                                | 763.054.076-02        |
 | Telefone               | Texto      | Campo para editar o número de telefone                 | (00) 00000-0000        |
 | Data de Nascimento     | Texto/Data | Campo para editar a data de nascimento                 | 01/01/1990             |
 | E-mail                 | Texto      | Campo para editar o e-mail                             | email@gmail.com        |
-| Senha                  | Senha      | Campo para alterar a senha                             | ********               |
-| Repetir Senha          | Senha      | Campo para confirmar a nova senha                      | ********               |
+| Senha                  | Senha      | Campo para alterar a senha                             | Todos os caracteres            |
+| Repetir Senha          | Senha      | Campo para confirmar a nova senha                      | Todos os caracteres              |
 | Botão "Cancelar"       | Botão      | Cancela a edição e retorna à tela anterior             | -                      |
 | Botão "Salvar"         | Botão      | Salva as alterações feitas                             | -                      |
 
@@ -136,8 +136,8 @@ Esta é a primeira etapa do cadastro do usuário, onde são solicitadas informa�
 | Título da página  | Texto    | Informa que o usuário está na etapa de cadastro                 | Cadastro                            |
 | Subtítulo         | Texto    | Mensagem de incentivo para o usuário se cadastrar               | "Cadastre-se e faça a diferença..." |
 | E-mail            | Texto    | Campo para inserir o e-mail do usuário                          | exemplo@email.com                   |
-| Senha             | Senha    | Campo para criação de senha                                     | ********                            |
-| Repetir senha     | Senha    | Campo para confirmar a senha                                    | ********                            |
+| Senha             | Senha    | Campo para criação de senha                                     | Todos os caracteres                              |
+| Repetir senha     | Senha    | Campo para confirmar a senha                                    | Todos os caracteres                           |
 | Botão "Próximo"   | Botão    | Avança para a próxima etapa do cadastro                         | -                                   |
 | Imagem lateral    | Imagem   | Imagem ilustrativa para tornar a interface mais acolhedora      | Foto de idoso e cuidador            |
 
@@ -216,7 +216,7 @@ Esta tela usuários já cadastrados realizem o login em suas contas na plataform
 | **Nome**           | **Tipo**         | **Descrição**                                 | **Exemplo**                          |
 |--------------------|------------------|-----------------------------------------------|--------------------------------------|
 | E-mail      		 | Texto            | Campo para inserir o E-mail		            | gatos@gmail.com                      |
-| Senha              | Texto            | Campo para inserir a senha		            | **************                       |
+| Senha              | Texto            | Campo para inserir a senha		            | Todos os caracteres                     |
 | Foto               | String           | Foto de Login						            | img.svg						       |
 | Botão "Login"      | Botão            | Logar na conta							    | -                                    |
 
@@ -286,8 +286,8 @@ Esta tela Instituições podem criar um novo plano para receber doações.
 | Valor              | Texto            | Campo para inserir o valor do plano          		| R$ 150,00						       |
 | Responsável Legal  | Texto            | Campo para inserir o nome do Responsável Legal	| Cleide da Silva                      |
 | Periodicidade		 | Texto            | Campo para inserir se o Plano será Anul ou Mensal	| Mensal                               |
-| Data de Início	 | Data	            | Campo para inserir a data de Início do Plano    	| 00/00/00                             |
-| Data de Término    | Data	            | Campo para inserir a data de Término do Plano    	| 00/00/00                             |
+| Data de Início	 | Data	            | Campo para inserir a data de Início do Plano    	| 10/03/2025                           |
+| Data de Término    | Data	            | Campo para inserir a data de Término do Plano    	| 10/03/2025                            |
 
 ## Tela de Cadastro ILPI 2
 
@@ -296,10 +296,10 @@ Esta tela usuários que escolheram se cadastrar como Instituição podem inserir
 | **Nome**           | **Tipo**         | **Descrição**                                 | **Exemplo**                          |
 |--------------------|------------------|-----------------------------------------------|--------------------------------------|
 | CNPJ      		 	 | Texto            | Campo para inserir o CNPJ		            | 00.623.904/0001-73                   |
-| Telefone           	 | Texto            | Campo para inserir o Telefone		        | (00) 00000-0000                      |
+| Telefone           	 | Texto            | Campo para inserir o Telefone		        | (31) 995312092                  |
 | Tipo de Instituição	 | Texto            | Campo para inserir o Tipo de Instituição  | Instituição de Longa Permanência     |
 | Cargo Responsável	 	 | Texto            | Campo para inserir o Nome do Responsável  | Cleide da Silva                      |
-| Data da Fundação	 	 | Texto            | Campo para inserir a Data da Fundação		| 00/00/00                             |
+| Data da Fundação	 	 | Texto            | Campo para inserir a Data da Fundação		| 10/03/2025                        |
 | Foto               	 | String           | Foto de Cadastro					        | img.svg                              |
 | Botão "Próximo"      	 | Botão            | Ir para a próxima página de cadastro		| -                                    |
 | Botão "Voltar"      	 | Botão            | Voltar para a página de cadastro anterior	| -                                    |
