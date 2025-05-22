@@ -1,0 +1,88 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.texto-modal>h2 {
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+
+.texto-modal>p {
+    font-size: 24px;
+    color: var(--cinza-mediano);
+}
+
+.btn-modal {
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    height: 80px;
+    font-size: 32px;
+    transition: 0.5s;
+}
+
+.btn-vermelho {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+.btn-vermelho:hover {
+    background-color: var(--vermelho-hover);
+}
+
+/* Btn Cinza */
+.btn-cinza {
+    background-color: var(--cinza-claro);
+    color: black;
+}
+
+.btn-cinza:hover {
+    background-color: var(--cinza);
+}
+
+/* ------------------------------------------------------------ */
+
+.modal {
+    border-top: 20px solid var(--vermelho);
+    background-color: var(--branco);
+    width: 836px;
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 77px;
+}
+
+.texto-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-modal {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / .5);
+}
+
+dialog {
+    border: none;
+    position: fixed;  /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 25%;
+    top: 20%;
+}
