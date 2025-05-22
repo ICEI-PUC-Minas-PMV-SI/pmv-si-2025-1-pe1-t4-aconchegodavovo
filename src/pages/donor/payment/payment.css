@@ -175,9 +175,10 @@ body {
 }
 
 .btn-border:hover {
-    background-color: var(--azul-2);
+    border: none;
+    background-color: var(--vermelho);
     color: var(--branco);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 /* Right */
