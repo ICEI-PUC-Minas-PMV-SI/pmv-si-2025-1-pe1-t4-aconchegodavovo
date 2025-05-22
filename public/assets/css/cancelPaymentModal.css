@@ -81,8 +81,8 @@ dialog::backdrop {
 
 dialog {
     border: none;
-    position: fixed;  /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 25%;
-    top: 20%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
