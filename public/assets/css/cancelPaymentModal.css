@@ -1,31 +1,24 @@
-* {
-    font-family: "Inter", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .texto-modal>h2 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: black;
 }
 
 .texto-modal>p {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cinza-mediano);
 }
 
 .btn-modal {
     border: none;
-    border-radius: 15px;
+    border-radius: 1rem;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    width: 300px;
-    height: 80px;
-    font-size: 32px;
+    width: 18.75rem;
+    height: 5rem;
+    font-size: 2rem;
     transition: 0.5s;
 }
 
@@ -51,28 +44,28 @@
 /* ------------------------------------------------------------ */
 
 .modal {
-    border-top: 20px solid var(--vermelho);
+    border-top: 1.5rem solid var(--vermelho);
     background-color: var(--branco);
-    width: 836px;
-    height: 592px;
+    width: 52rem;
+    height: 37rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 77px;
+    gap: 5rem;
 }
 
 .texto-modal {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .button-modal {
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 4.5rem;
 }
 
 dialog::backdrop {
@@ -81,7 +74,7 @@ dialog::backdrop {
 
 dialog {
     border: none;
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);

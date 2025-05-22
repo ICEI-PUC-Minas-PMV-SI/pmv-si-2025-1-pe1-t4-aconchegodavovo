@@ -1,6 +1,6 @@
-const button = document.getElementById("cancelar")
+const button = document.getElementById("buttonOpenModal")
 const modal = document.querySelector("dialog")
-const buttonClose = document.querySelector("dialog button")
+const buttonClose = document.getElementById("buttonExitModal")
 
 button.onclick = function () {
     modal.showModal()
