@@ -1,5 +1,6 @@
 :root {
     --vermelho: #EC3746;
+    --verde: #2BAF66;
     --branco: #F9F9F9;
     --branco-escuro: #F5F5F5;
     --cinza: #D9D9D9;
@@ -10,7 +11,8 @@
     --azul-1: #177EC3;
     --azul-2: #0B3C5D;
     --azul-3: #03263D;
-    --vermelho-hover: #B7222F;
+    --vermelho-hover: #DD000D;
+    --verde-hover: #75CB5E;
     --azul-0-hover: #6AABC0;
     --azul-1-hover: #3EA2E5;
     --azul-2-hover: #012C4A;

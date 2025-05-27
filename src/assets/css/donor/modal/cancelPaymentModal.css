@@ -41,6 +41,16 @@
     background-color: var(--cinza);
 }
 
+/* Btn Verde */
+.btn-verde {
+    background-color: var(--verde);
+    color: var(--branco);
+}
+
+.btn-verde:hover {
+    background-color: var(--verde-hover);
+}
+
 /* ------------------------------------------------------------ */
 
 .modal {
@@ -53,6 +63,10 @@
     justify-content: center;
     align-items: center;
     gap: 5rem;
+}
+
+.modal-verde {
+    border-top: 1.5rem solid var(--verde);
 }
 
 .texto-modal {

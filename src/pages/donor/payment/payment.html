@@ -209,7 +209,7 @@
                         </button>
                     </a><br>
                     <a href="/src/pages/donor/payment/paymentSuccess.html">
-                        <button class="btn btn-azul-2" type="button">
+                        <button class="btn btn-azul-2" id="btnOpenConfirm" type="button">
                             Continuar
                         </button>
                     </a>
@@ -235,7 +235,7 @@
             </div>
         </div>
 
-        <dialog>
+        <dialog id="cancel-modal">
             <div class="modal">
                 <div class="texto-modal">
                     <h2>
@@ -259,10 +259,36 @@
                 </div>
             </div>
         </dialog>
+
+        <dialog id="confirmModal">
+            <div class="modal modal-verde">
+                <div class="texto-modal">
+                    <h2>
+                        Você deseja confirmar<br>
+                        o pagamento?
+                    </h2>
+                    <p>
+                        Essa ação não poderá ser desfeita.
+                    </p>
+                </div>
+
+                <div class="button-modal">
+                    <button type="button" class="btn-modal btn-cinza" id="buttonExitModal">
+                        Voltar
+                    </button>
+                    <a href="/src/pages/donor/payment/paymentSuccess.html">
+                        <button type="button" class="btn-modal btn-verde">
+                            Confirmar
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </dialog>
     </div>
 
     <script src="/src/assets/js/dropDownMenu.js"></script>
     <script src="/src/assets/js/donor/modal/cancelPaymentModal.js"></script>
+    <script src="/src/assets/js/donor/modal/confirmPaymentModal.js"></script>
 
 </body>
 
