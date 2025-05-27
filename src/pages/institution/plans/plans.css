@@ -42,8 +42,8 @@
   
   .add-button {
     position: absolute;
-    right: 11rem;
-    top: 6%;
+    right: 9rem;
+    top: 50%;
     transform: translateY(-50%);
     background-color: #1768AC;
     color: #f9f9f9;
