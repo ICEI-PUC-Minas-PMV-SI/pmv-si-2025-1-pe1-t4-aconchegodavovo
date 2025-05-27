@@ -61,14 +61,14 @@ body {
     justify-content: space-between;
 }
 
-.card:hover {
+.active-card, .card:hover {
     background-color: var(--azul-2);
     color: var(--branco);
     transform: translateX(10px);
     transition: 0.2s;
 }
 
-.pix, .credito, .debito {
+.pix, .credito, .mercado {
     margin-bottom: 40px;
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 /* Middle */
-.qr-code {
+.qr-code, .cartao, .mercado-pago, .boleto-input {
     background-color: var(--cinza);
     color: #E4E4E4;
     width: 683px;
@@ -93,6 +93,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10%;
+    /* overflow: hidden; */
+}
+
+.parent-left a {
+    text-decoration: none;
 }
 
 .parent-qr-code {
@@ -136,6 +141,59 @@ body {
 
 .middle span {
     font-weight: bold;
+}
+
+/* Input */
+input {
+    outline: none;
+    background-color: #FEFEFE;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: var(--cinza-escuro);
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+    width: 500px;
+    height: 60px;
+    text-decoration: none;
+}
+
+::placeholder {
+    color: var(--cinza-mediano);
+    font-weight: lighter;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+label {
+    color: #515151;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.texto-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.texto-card h3 {
+    color: #515151;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.texto-card p {
+    color: #515151;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 /* Botões */
