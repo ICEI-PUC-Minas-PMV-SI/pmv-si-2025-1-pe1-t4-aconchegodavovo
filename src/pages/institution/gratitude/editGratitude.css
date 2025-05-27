@@ -112,7 +112,7 @@ body {
     width: 618px;
 }
 
-#button-delete{
+.buttonDelete{
     background-color: var(--vermelho);
     color: var(--branco);
     border: 2px solid var(--vermelho);
@@ -127,7 +127,7 @@ body {
     font-size: 20px;
 }
 
-#button-delete:hover {
+.buttonDelete:hover {
     cursor: pointer;
     background-color: var(--vermelho-hover);
     transition: 0.5s;
