@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-    height: 100vh;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 100px;
@@ -93,7 +93,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10%;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .parent-left a {
@@ -268,4 +268,10 @@ label {
     margin: 30px 0;
     width: 185px;
     border-bottom: 1px solid var(--cinza-mediano);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
 }
