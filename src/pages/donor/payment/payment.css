@@ -167,7 +167,16 @@ input {
 .inputs {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+}
+
+.validade {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.validade-input {
+    width: 240px;
 }
 
 label {
