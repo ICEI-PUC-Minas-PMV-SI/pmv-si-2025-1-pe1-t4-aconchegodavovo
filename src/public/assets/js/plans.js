@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
    
     btnEditar.addEventListener("click", () => {
-      window.location.href = "/src/pages/institution/plans/editPlans.html";
+      window.location.href = "/src/public/pages/institution/plans/editPlans.html";
     });
 
  
