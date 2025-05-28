@@ -11,8 +11,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
  
-    btnExcluir.addEventListener("click", () => {
-      plano.remove();
+    btnExcluir.addEventListener("click", (event) => {
+      let img = event.target; 
+      const planList = document.querySelector (".plan-list");
+      console.log (img.parentNode.parentNode.parentNode);
+      let planItem = img.parentNode.parentNode.parentNode;
+      planList.removeChild (planItem);
+      //plano.remove(); 
     });
   });
 });
