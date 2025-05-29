@@ -1,11 +1,11 @@
-const button = document.getElementById("buttonOpenModal")
-const modal = document.querySelector("dialog")
-const buttonClose = document.getElementById("buttonExitModal")
+const buttonOpenModal = document.getElementById("buttonOpenModal")
+const cancelModal = document.getElementById("cancel-modal")
+const buttonExitModal = document.getElementById("buttonExitModal")
 
-button.onclick = function () {
-    modal.showModal()
+buttonOpenModal.onclick = function () {
+    cancelModal.showModal()
 }
 
-buttonClose.onclick = function () {
-    modal.close()
+buttonExitModal.onclick = function () {
+    cancelModal.close()
 }
