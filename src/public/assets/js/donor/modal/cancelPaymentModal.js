@@ -1,11 +1,11 @@
-const buttonOpenModal = document.getElementById("buttonOpenModal")
-const cancelModal = document.getElementById("cancel-modal")
-const buttonExitModal = document.getElementById("buttonExitModal")
+const btnCancel = document.getElementById("buttonOpenModal")
+const modalCancel = document.getElementById("cancel-modal")
+const btnCloseCancel = document.getElementById("buttonExitModal")
 
-buttonOpenModal.onclick = function () {
-    cancelModal.showModal()
+btnCancel.onclick = function () {
+    modalCancel.showModal()
 }
 
-buttonExitModal.onclick = function () {
-    cancelModal.close()
+btnCloseCancel.onclick = function () {
+    modalCancel.close()
 }
