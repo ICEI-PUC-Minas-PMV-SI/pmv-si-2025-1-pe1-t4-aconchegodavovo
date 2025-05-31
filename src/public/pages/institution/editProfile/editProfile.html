@@ -1,87 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="/src/public/assets/img/icon-logo-favecon.svg" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/src/public/assets/img/icon-logo-favecon.svg">
   <title>Aconchego da Vovó | Editar Perfil</title>
-  <link rel="stylesheet" href="/src/public/assets/css/global.css" />
-  <link rel="stylesheet" href="/src/public/assets/css/navbar/style.css" />
-  <link rel="stylesheet" href="/src/public/pages/institution/dropDown/dropDown.css" />
-  <link rel="stylesheet" href="./editProfile.css" />
+  <link rel="stylesheet" href="/src/public/assets/css/global.css">
+  <link rel="stylesheet" href="/src/public/assets/css/navbar/style.css">
+  <link rel="stylesheet" href="/src/public/pages/institution/dropDown/dropDown.css">
+  <link rel="stylesheet" href="/src/public/assets/css/modal/globalModal.css">
+  <link rel="stylesheet" href="./editProfile.css">
 </head>
+
 <body>
   <nav id="container-nav">
-    <a href="/src/public/pages/institution/historyReceipts/historyReceipts.html"><img src="/src/public/assets/img/logo.svg" height="45px" /></a>
+    <a href="/src/public/pages/institution/historyReceipts/historyReceipts.html"><img src="/src/public/assets/img/logo.svg" height="45px"></a>
     <div>
       <a href="/src/public/pages/institution/gratitude/gratitude.html" class="active">Agradecimentos</a>
       <a href="/src/public/pages/institution/profileInstitution/profileInstitution.html" class="active">Perfil</a>
       <a href="/src/public/pages/institution/plans/plans.html" class="active">Planos</a>
       <a href="/src/public/pages/institution/historyReceipts/historyReceipts.html" class="active">Home</a>
       <a href="#" onclick="toggleDropdown()">
-        <img src="/src/public/assets/img/icon-nav-account.svg" class="user-icon" />
+        <img src="/src/public/assets/img/icon-nav-account.svg" class="user-icon">
       </a>
     </div>
   </nav>
 
   <div id="userDropdown" class="dropdown-menu" style="display: none;">
     <a href="/src/public/pages/institution/editRegistration/firstEditRegister.html">
-      Configurações da conta <img src="/src/public/assets/img/icon-editar.svg" />
-    </a>
-    <a href="/src/public/index.html">
-      Sair <img src="/src/public/assets/img/icon-sair.svg" />
-    </a>
+        Configurações da conta <img src="/src/public/assets/img/icon-editar.svg">
+      </a>
+      
+    <a href="/src/public/index.html">Sair <img src="/src/public/assets/img/icon-sair.svg"></a>
   </div>
 
   <div class="main-content">
     <div class="sidebar">
-    <div class="config-title">
-      <img src="/src/public/assets/img/icon-seta.svg" alt="voltar" />
-      <span>Configurações</span>
-    </div>
-  
-    <a href="/src/public/pages/institution/editRegistration/firstEditRegister.html" class="menu-item">
-      <img src="/src/public/assets/img/icon-lapis-cinza.svg" alt="Editar cadastro" />
-      Editar cadastro
-    </a>
-    
-    <a href="#" class="menu-item active">
-      <img src="/src/public/assets/img/icon-lapis-cinza.svg" alt="Editar Perfil" />
-      Editar perfil
-    </a>
-      
+      <div class="config-title">
+        <img src="/src/public/assets/img/icon-seta.svg" alt="voltar">
+        <span>Configurações</span>
+      </div>
+
+      <a href="/src/public/pages/institution/editRegistration/firstEditRegister.html" class="menu-item">
+        <img src="/src/public/assets/img/icon-lapis-cinza.svg" alt="Editar cadastro">
+        Editar cadastro
+      </a>
+
+      <a href="#" class="menu-item active">
+        <img src="/src/public/assets/img/icon-lapis-cinza.svg" alt="Editar Perfil">
+        Editar perfil
+      </a>
+
       <a href="#" class="menu-item">
-        <img src="/src/public/assets/img/icon-lixeira-cinza.svg" alt="Excluir Conta" />
+        <img src="/src/public/assets/img/icon-lixeira-cinza.svg" alt="Excluir Conta">
         Excluir conta
       </a>
-    </a>
-  </div>
-  </aside>
+    </div>
 
-  <section class="form-section">
-    <h1>Editar Perfil</h1>
-    <form>
-      <label for="nome">Nome da Instituição</label><br>
-      <input id="nome" class="input-file-label-1" type="text" placeholder="Nome"><br>
-    
-      <label for="descricao">Descrição</label><br>
-      <textarea id="descricao" class="inputs descricao-ilpi" placeholder="Descreva a sua ILPI..."></textarea><br>
-    
-      <label for="foto">Foto</label><br>
-      <label for="foto" class="input-file-label">
-        Upload
-        <input id="foto" type="file" accept="image/*" class="input-file">
-      </label>
-    
-      <div class="botoes-rodape">
-        <button class="botao-salvar">Salvar</button>
-        <button class="botao-excluir">Excluir</button>
+    <section class="form-section">
+      <h1>Editar Perfil</h1>
+      <form>
+        <label for="nome">Nome da Instituição</label><br>
+        <input id="nome" class="input-file-label-1" type="text" placeholder="Nome"><br>
+
+        <label for="descricao">Descrição</label><br>
+        <textarea id="descricao" class="inputs descricao-ilpi" placeholder="Descreva a sua ILPI..."></textarea><br>
+
+        <label for="foto">Foto</label><br>
+        <label for="foto" class="input-file-label">
+          Upload
+          <input id="foto" type="file" accept="image/*" class="input-file">
+        </label>
+
+        <div class="botoes-rodape">
+          <button class="botao-salvar">Salvar</button>
+          <button class="botao-excluir" id="btnDeletProfile">Excluir</button>
+        </div>
+      </form>
+
+    </section>
+
+    <dialog id="modalDeletProfile">
+      <div class="modal">
+        <div class="texto-modal">
+          <h2>
+            Você tem certeza que deseja<br>
+            excluir o seu perfil?
+          </h2>
+          <p>
+            Essa ação não poderá ser desfeita.
+          </p>
+        </div>
+
+        <div class="button-modal">
+          <button type="button" class="btn-modal btn-cinza" id="btnCloseDeletProfile">
+            Cancelar
+          </button>
+          <a href="/src/public/pages/institution/historyReceipts/historyReceipts.html">
+            <button type="button" class="btn-modal btn-vermelho">
+              Excluir
+            </button>
+          </a>
+        </div>
       </div>
-    </form>
-    
-  </section>
-  </main>
+    </dialog>
 
-  <script src="/src/public/assets/js/dropDownMenu.js"></script>
+    <script src="/src/public/assets/js/dropDownMenu.js"></script>
+    <script src="/src/public/assets/js/institutions/modal/deletProfileModal.js"></script>
 </body>
+
 </html>

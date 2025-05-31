@@ -1,11 +1,11 @@
-const btnConfirm = document.getElementById("btnOpenConfirm")
-const modalConfirm = document.getElementById("confirmModal")
-const btnCloseConfirm = document.getElementById("btnExitConfirm")
+const btnConfirm = document.getElementById("btnOpenConfirm");
+const modalConfirm = document.getElementById("confirmModal");
+const btnCloseConfirm = document.getElementById("btnExitConfirm");
 
 btnConfirm.onclick = function () {
-    modalConfirm.showModal()
+    modalConfirm.showModal();
 }
 
 btnCloseConfirm.onclick = function () {
-    modalConfirm.close()
+    modalConfirm.close();
 }
