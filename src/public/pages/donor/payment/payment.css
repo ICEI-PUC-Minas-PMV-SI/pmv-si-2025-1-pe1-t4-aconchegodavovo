@@ -61,7 +61,7 @@ body {
     justify-content: space-between;
 }
 
-.card:active, .card:hover {
+.cardFocus, .card:hover {
     background-color: var(--azul-2);
     color: var(--branco);
     transform: translateX(10px);
@@ -147,6 +147,18 @@ body {
     font-weight: bold;
 }
 
+.imgBoleto {
+    position: relative;
+}
+
+.fa-file-export {
+    position: absolute;
+    color: var(--branco);
+    font-size: 22px;
+    left: 15px;
+    bottom: 17px;
+}
+
 /* Input */
 input {
     outline: none;
@@ -207,6 +219,18 @@ label {
     font-size: 24px;
     font-weight: bold;
     margin-top: 5px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputGap {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 /* Botões */
