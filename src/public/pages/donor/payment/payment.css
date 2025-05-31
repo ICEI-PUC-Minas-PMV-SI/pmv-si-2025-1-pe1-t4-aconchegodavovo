@@ -61,7 +61,7 @@ body {
     justify-content: space-between;
 }
 
-.active-card, .card:hover {
+.card:active, .card:hover {
     background-color: var(--azul-2);
     color: var(--branco);
     transform: translateX(10px);
@@ -94,6 +94,10 @@ body {
     align-items: center;
     gap: 10%;
     overflow: hidden;
+}
+
+.cartao, .mercado-pago, .boleto-input {
+    display: none;
 }
 
 .parent-left a {
