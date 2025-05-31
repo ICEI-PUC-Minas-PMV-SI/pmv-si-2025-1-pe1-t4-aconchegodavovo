@@ -47,10 +47,12 @@ body {
     color: #515151; 
     width: 126px;
     height: 126px;
+    border: none;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: left;
 }
 
 .parent-card {
@@ -61,7 +63,7 @@ body {
     justify-content: space-between;
 }
 
-.cardFocus, .card:hover {
+.card:hover, .special {
     background-color: var(--azul-2);
     color: var(--branco);
     transform: translateX(10px);

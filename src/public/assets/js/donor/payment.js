@@ -22,3 +22,14 @@ buttons.pix.onclick = () => toggleSection(sections.qrCode);
 buttons.credito.onclick = () => toggleSection(sections.cartao);
 buttons.mercado.onclick = () => toggleSection(sections.mercadoPago);
 buttons.boleto.onclick = () => toggleSection(sections.boleto);
+
+/* --------------------------------------------------------------------------------------- */
+
+const cardElList = document.querySelectorAll('.card');
+
+cardElList.forEach(cardElList => {
+    cardElList.addEventListener('click', () => {
+        document.querySelector('.special')?.classList.remove('special');
+        cardElList.classList.add('special');
+    })
+})
