@@ -39,6 +39,7 @@ body {
 .parent-left {
     display: flex;
     flex-direction: column;
+    gap: 40px;
     height: 720px;
 }
 
@@ -71,10 +72,6 @@ body {
     transition: 0.2s;
 }
 
-.pix, .credito, .mercado {
-    margin-bottom: 40px;
-}
-
 .icon {
     font-size: 150%;
 }
@@ -85,6 +82,12 @@ body {
 }
 
 /* Middle */
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 .qr-code, .cartao, .mercado-pago, .boleto-input {
     background-color: var(--cinza);
     color: #E4E4E4;
@@ -241,7 +244,6 @@ label {
     display: flex;
     width: 683px;
     justify-content: space-between;
-    margin-top: 25px;
 }
 
 .btn {
