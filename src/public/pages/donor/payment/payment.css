@@ -53,6 +53,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: left;
+    transition: 0.2s;
 }
 
 .parent-card {

@@ -19,23 +19,23 @@
         <div>
             <nav id="container-nav">
                 <a href="/src/public/pages/donor/listInstitutions/listInstitutions.html"><img
-                        src="/src/public/assets/img/logo.svg" height="45px" /></a>
+                        src="/src/public/assets/img/logo.svg" height="45px"></a>
                 <div>
                     <a href="/src/public/pages/donor/listInstitutions/listInstitutions.html" class="active">Home</a>
                     <a href="/src/public/pages/donor/donationHistory/donationHistory.html" class="active">Histórico de
                         Doações</a>
                     <a href="#" onclick="toggleDropdown()">
-                        <img src="/src/public/assets/img/icon-nav-account.svg" class="user-icon" />
+                        <img src="/src/public/assets/img/icon-nav-account.svg" class="user-icon">
                     </a>
                 </div>
             </nav>
 
             <div id="userDropdown" class="dropdown-menu" style="display: none;">
                 <a href="/src/public/pages/donor/editRegistration/editRegistration.html">
-                    Configurações da conta <img src="/src/public/assets/img/icon-editar.svg" />
+                    Configurações da conta <img src="/src/public/assets/img/icon-editar.svg">
                 </a>
 
-                <a href="/src/public/index.html">Sair <img src="/src/public/assets/img/icon-sair.svg" /></a>
+                <a href="/src/public/index.html">Sair <img src="/src/public/assets/img/icon-sair.svg"></a>
             </div>
         </div>
 
@@ -208,12 +208,12 @@
 
                         <div class="parent-btn">
                             <a href="#">
-                                <button class="btn btn-border" id="buttonOpenModal" type="button">
+                                <button class="btn btn-border" id="btnCancel" type="button">
                                     Cancelar
                                 </button>
                             </a><br>
                             <a href="#">
-                                <button class="btn btn-azul-2" id="btnOpenConfirm" type="button">
+                                <button class="btn btn-azul-2" id="btnConfirm" type="button">
                                     Continuar
                                 </button>
                             </a>
@@ -245,7 +245,7 @@
         <div></div>
     </div>
 
-    <dialog id="cancel-modal">
+    <dialog id="modalCancel">
         <div class="modal">
             <div class="texto-modal">
                 <h2>
@@ -258,7 +258,7 @@
             </div>
 
             <div class="button-modal">
-                <button type="button" class="btn-modal btn-cinza" id="buttonExitModal">
+                <button type="button" class="btn-modal btn-cinza" id="btnCloseCancel">
                     Voltar
                 </button>
                 <a href="/src/public/pages/donor/listInstitutions/listInstitutions.html">
@@ -270,7 +270,7 @@
         </div>
     </dialog>
 
-    <dialog id="confirmModal">
+    <dialog id="modalConfirm">
         <div class="modal modal-verde">
             <div class="texto-modal">
                 <h2>
@@ -283,7 +283,7 @@
             </div>
 
             <div class="button-modal">
-                <button type="button" class="btn-modal btn-cinza" id="btnExitConfirm">
+                <button type="button" class="btn-modal btn-cinza" id="btnCloseConfirm">
                     Voltar
                 </button>
                 <a href="/src/public/pages/donor/payment/paymentSuccess.html">
@@ -297,8 +297,7 @@
 
     <script src="/src/public/assets/js/dropDownMenu.js"></script>
     <script src="/src/public/assets/js/donor/payment.js"></script>
-    <script src="/src/public/assets/js/donor/modal/cancelPaymentModal.js"></script>
-    <script src="/src/public/assets/js/donor/modal/confirmPaymentModal.js"></script>
+    <script src="/src/public/assets/js/donor/modal/paymentModal.js"></script>
 
 </body>
 

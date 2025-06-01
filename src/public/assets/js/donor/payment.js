@@ -1,3 +1,4 @@
+/* Mudar os inputs de acordo com o card selecionado */
 const sections = {
   qrCode: document.querySelector('.qr-code'),
   cartao: document.querySelector('.cartao'),
@@ -23,13 +24,12 @@ buttons.credito.onclick = () => toggleSection(sections.cartao);
 buttons.mercado.onclick = () => toggleSection(sections.mercadoPago);
 buttons.boleto.onclick = () => toggleSection(sections.boleto);
 
-/* --------------------------------------------------------------------------------------- */
+/* Mudar a cor do card quando selecionado */
+const cardList = document.querySelectorAll('.card');
 
-const cardElList = document.querySelectorAll('.card');
-
-cardElList.forEach(cardElList => {
-    cardElList.addEventListener('click', () => {
+cardList.forEach(cardList => {
+    cardList.addEventListener('click', () => {
         document.querySelector('.special')?.classList.remove('special');
-        cardElList.classList.add('special');
+        cardList.classList.add('special');
     })
 })
