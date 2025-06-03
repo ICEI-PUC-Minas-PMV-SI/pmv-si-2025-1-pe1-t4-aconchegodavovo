@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/src/public/assets/img/icon-logo-favecon.svg">
+    <link rel="icon" type="image/x-icon" href="../../../assets/img/icon-logo-favecon.svg">
     <title>Aconchego da Vovó | Pagamento</title>
-    <link rel="stylesheet" href="/src/public/assets/css/global.css">
-    <link rel="stylesheet" href="/src/public/assets/css/navbar/style.css">
-    <link rel="stylesheet" href="/src/public/pages/donor/payment/payment.css">
-    <link rel="stylesheet" href="/src/public/pages/institution/dropDown/dropDown.css">
-    <link rel="stylesheet" href="/src/public/assets/css/modal/globalModal.css">
+    <link rel="stylesheet" href="../../../assets/css/global.css">
+    <link rel="stylesheet" href="../../../assets/css/navbar/style.css">
+    <link rel="stylesheet" href="../../../pages/donor/payment/payment.css">
+    <link rel="stylesheet" href="../../../pages/institution/dropDown/dropDown.css">
+    <link rel="stylesheet" href="../../../assets/css/modal/globalModal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
@@ -18,24 +18,24 @@
     <div class="main">
         <div>
             <nav id="container-nav">
-                <a href="/src/public/pages/donor/listInstitutions/listInstitutions.html"><img
-                        src="/src/public/assets/img/logo.svg" height="45px"></a>
+                <a href="../../../pages/donor/listInstitutions/listInstitutions.html"><img
+                        src="../../../assets/img/logo.svg" height="45px"></a>
                 <div>
-                    <a href="/src/public/pages/donor/listInstitutions/listInstitutions.html" class="active">Home</a>
-                    <a href="/src/public/pages/donor/donationHistory/donationHistory.html" class="active">Histórico de
+                    <a href="../../../pages/donor/listInstitutions/listInstitutions.html" class="active">Home</a>
+                    <a href="../../../pages/donor/donationHistory/donationHistory.html" class="active">Histórico de
                         Doações</a>
                     <a href="#" onclick="toggleDropdown()">
-                        <img src="/src/public/assets/img/icon-nav-account.svg" class="user-icon">
+                        <img src="../../../assets/img/icon-nav-account.svg" class="user-icon">
                     </a>
                 </div>
             </nav>
 
             <div id="userDropdown" class="dropdown-menu" style="display: none;">
-                <a href="/src/public/pages/donor/editRegistration/editRegistration.html">
-                    Configurações da conta <img src="/src/public/assets/img/icon-editar.svg">
+                <a href="../../../pages/donor/editRegistration/editRegistration.html">
+                    Configurações da conta <img src="../../../assets/img/icon-editar.svg">
                 </a>
 
-                <a href="/src/public/index.html">Sair <img src="/src/public/assets/img/icon-sair.svg"></a>
+                <a href="../../../index.html">Sair <img src="../../../assets/img/icon-sair.svg"></a>
             </div>
         </div>
 
@@ -83,12 +83,12 @@
                         <div class="qr-code">
 
                             <div class="parent-qr-code qr-img">
-                                <img src="/src/public/assets/img/img-qr-code-pagamento.svg" alt="QR-Code">
+                                <img src="../../../assets/img/img-qr-code-pagamento.svg" alt="QR-Code">
                             </div>
 
                             <div class="parent-qr-code parent-guide">
                                 <div class="guide">
-                                    <img src="/src/public/assets/img/img-pagamento-numero1.svg" alt="Número 1">
+                                    <img src="../../../assets/img/img-pagamento-numero1.svg" alt="Número 1">
                                     <p>
                                         Abra seu app <span>PagBank</span> ou<br>
                                         da instituição financeira de<br>
@@ -99,7 +99,7 @@
                                 <div class="traco"></div>
 
                                 <div class="guide">
-                                    <img src="/src/public/assets/img/img-pagamento-numero2.svg" alt="Número 2">
+                                    <img src="../../../assets/img/img-pagamento-numero2.svg" alt="Número 2">
                                     <p>
                                         Aponte a câmera do<br>
                                         seu celular para o<br>
@@ -200,8 +200,9 @@
                                 </form>
 
                                 <div class="imgBoleto">
-                                    <a href="/src/public/assets/img/boleto.svg" download="boleto"><i class="fa-solid fa-file-export"></i></a>
-                                    <img src="/src/public/assets/img/boleto.svg" alt="">
+                                    <a href="../../../assets/img/boleto.svg" download="boleto"><i
+                                            class="fa-solid fa-file-export"></i></a>
+                                    <img src="../../../assets/img/boleto.svg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -261,7 +262,7 @@
                 <button type="button" class="btn-modal btn-cinza" id="btnCloseCancel">
                     Voltar
                 </button>
-                <a href="/src/public/pages/donor/listInstitutions/listInstitutions.html">
+                <a href="../../../pages/donor/listInstitutions/listInstitutions.html">
                     <button type="button" class="btn-modal btn-vermelho">
                         Cancelar
                     </button>
@@ -286,7 +287,7 @@
                 <button type="button" class="btn-modal btn-cinza" id="btnCloseConfirm">
                     Voltar
                 </button>
-                <a href="/src/public/pages/donor/payment/paymentSuccess.html">
+                <a href="../../../pages/donor/payment/paymentSuccess.html">
                     <button type="button" class="btn-modal btn-verde">
                         Confirmar
                     </button>
@@ -295,9 +296,9 @@
         </div>
     </dialog>
 
-    <script src="/src/public/assets/js/dropDownMenu.js"></script>
-    <script src="/src/public/assets/js/donor/payment.js"></script>
-    <script src="/src/public/assets/js/donor/modal/paymentModal.js"></script>
+    <script src="../../../assets/js/dropDownMenu.js"></script>
+    <script src="../../../assets/js/donor/payment.js"></script>
+    <script src="../../../assets/js/donor/modal/paymentModal.js"></script>
 
 </body>
 
