@@ -4,40 +4,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="/src/public/assets/img/icon-logo-favecon.svg" />
+  <link rel="icon" type="image/x-icon" href="../../../assets/img/icon-logo-favecon.svg" />
   <title>Aconchego da Vovó | Editar agradecimentos</title>
-  <link rel="stylesheet" href="/src/public/assets/css/global.css" />
-  <link rel="stylesheet" href="/src/public/assets/css/navbar/style.css" />
+  <link rel="stylesheet" href="../../../assets/css/global.css" />
+  <link rel="stylesheet" href="../../../assets/css/navbar/style.css" />
   <link rel="stylesheet" href="./editGratitude.css" />
-  <link rel="stylesheet" href="/src/public/pages/institution/dropDown/dropDown.css"/>
-   <link rel="stylesheet" href="/src/public/assets/css/modal/globalModal.css">
+  <link rel="stylesheet" href="../../../pages/institution/dropDown/dropDown.css"/>
+   <link rel="stylesheet" href="../../../assets/css/modal/globalModal.css">
 </head>
 
 <body>
   <nav id="container-nav">
-    <a href="/src/public/pages/institution/historyReceipts/historyReceipts.html"><img src="/src/public/assets/img/logo.svg" height="45px" /></a>
+    <a href="../../../pages/institution/historyReceipts/historyReceipts.html"><img src="../../../assets/img/logo.svg" height="45px" /></a>
     <div>
-      <a href="/src/public/pages/institution/gratitude/gratitude.html" class="active">Agradecimentos</a>
-      <a href="/src/public/pages/institution/profileInstitution/profileInstitution.html" class="active">Perfil</a>
-      <a href="/src/public/pages/institution/plans/plans.html" class="active">Planos</a>
-      <a href="/src/public/pages/institution/historyReceipts/historyReceipts.html" class="active">Home</a>
+      <a href="../../../pages/institution/gratitude/gratitude.html" class="active">Agradecimentos</a>
+      <a href="../../../pages/institution/profileInstitution/profileInstitution.html" class="active">Perfil</a>
+      <a href="../../../pages/institution/plans/plans.html" class="active">Planos</a>
+      <a href="../../../pages/institution/historyReceipts/historyReceipts.html" class="active">Home</a>
       <a href="#" onclick="toggleDropdown()">
-        <img src="/src/public/assets/img/icon-nav-account.svg" class="user-icon" />
+        <img src="../../../assets/img/icon-nav-account.svg" class="user-icon" />
       </a>
     </div>
   </nav>
 
   <div id="userDropdown" class="dropdown-menu" style="display: none;">
-    <a href="/src/public/pages/institution/editRegistration/firstEditRegister.html">
-        Configurações da conta <img src="/src/public/assets/img/icon-editar.svg" />
+    <a href="../../../pages/institution/editRegistration/firstEditRegister.html">
+        Configurações da conta <img src="../../../assets/img/icon-editar.svg" />
       </a>
       
-    <a href="/src/public/index.html">Sair <img src="/src/public/assets/img/icon-sair.svg" /></a>
+    <a href="../../../index.html">Sair <img src="../../../assets/img/icon-sair.svg" /></a>
   </div>
 
   <div id="container-header">
     <div id="arrow-header">
-      <a href="gratitude.html"><img src="/src/public/assets/img/icon-seta.svg" alt="voltar" /></a>
+      <a href="gratitude.html"><img src="../../../assets/img/icon-seta.svg" alt="voltar" /></a>
     </div>
     <h1>Editar agradecimento</h1>
     <div></div>
@@ -63,7 +63,7 @@
     </div>
 
     <div id="container-button">
-      <a href="/src/public/pages/institution/gratitude/gratitude.html"><button id="button-register">Salvar</button></a>
+      <a href="../../../pages/institution/gratitude/gratitude.html"><button id="button-register">Salvar</button></a>
       <button class="buttonDelete" id="buttonDelete" type="button">Excluir</button>
     </div>
 
@@ -84,7 +84,7 @@
                     <button type="button" class="btn-modal btn-cinza" id="buttonExitModal">
                         Voltar
                     </button>
-                    <a href="/src/public/pages/institution/gratitude/gratitude.html">
+                    <a href="../../../pages/institution/gratitude/gratitude.html">
                         <button type="button" class="btn-modal btn-vermelho">
                             Excluir
                         </button>
@@ -92,8 +92,8 @@
                 </div>
             </div>
         </dialog>
-        <script src="modalDeleteGratitude.js"></script>
-        <script src="/src/public/assets/js/dropDownMenu.js"></script>
+        <script src="./modalDeleteGratitude.js"></script>
+        <script src="../../../assets/js/dropDownMenu.js"></script>
 </body>
 
 </html>
