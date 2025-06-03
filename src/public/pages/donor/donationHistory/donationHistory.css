@@ -76,3 +76,130 @@ th, td {
 tbody tr:hover {
   background-color: #f9f9f9;
 }
+
+/* Estilo: Histórico de Recebimentos */
+body {
+  background-color: var(--branco);
+}
+
+.main-container {
+    padding: 1rem;
+  }
+  
+ /* Ícone de voltar */
+.voltar img {
+    width: 45px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+/* Título centralizado e em negrito */
+.main-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--azul-2);
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+/* Campo de busca centralizado e com sombra */
+.search-box {
+    display: flex;
+    align-items: center;
+    margin: 1rem auto 2rem auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 800px;
+    height: 50px;
+    background-color: #fff;
+  }
+  
+  .search-box input {
+    border: none;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    flex: 1;
+    outline: none;
+    background: transparent;
+  }
+  
+  .search-box button {
+    border: none;
+    background: transparent;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+  }
+  
+  .search-box button img {
+    width: 60px; /* lupa maior */
+    height: 60px;
+  }
+  
+  .linha {
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    padding: 0 0 0.5rem 0;
+    border-bottom: 2px solid #d3d3d3; /* cinza */
+    box-shadow: none; /* remove qualquer sombra */
+  }
+  
+  .linha span {
+    color: var(--cinza-mediano);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: none; /* remove sombra do texto */
+  }
+
+/* Tabela */
+.tabela {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  /* Cabeçalho da tabela */
+  .tabela {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--azul-2);
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+
+  .titulo {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    color: var(--cinza-mediano);
+    margin: 10px auto;
+    width: 90%;
+    max-width: 1550px;
+    box-shadow: none;
+  }
+  
+  .tabela span {
+    font-weight: normal;
+    color: var(--cinza-mediano);
+  }
+
+/* Linhas dos históricos */
+.linha {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin: 10px auto; /* <-- centraliza horizontalmente */
+    background-color: #fff;
+    border: 2px solid #d3d3d3;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: var(--cinza-mediano);
+    font-weight: 600;
+    box-shadow: none;
+    width: 90%; /* melhor para responsividade que 1600px fixos */
+    max-width: 1600px; /* ou ajuste conforme o layout */
+  } 
