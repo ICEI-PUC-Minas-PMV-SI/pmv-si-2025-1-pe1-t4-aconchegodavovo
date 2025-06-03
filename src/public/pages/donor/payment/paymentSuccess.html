@@ -2,61 +2,62 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../../../assets/img/icon-logo-favecon.svg">
-    <title>Aconchego da Vovó | Sucesso no Pagamento</title>
-    <link rel="stylesheet" href="../../../assets/css/global.css">
-    <link rel="stylesheet" href="../../../assets/css/navbar/style.css">
-    <link rel="stylesheet" href="../../../pages/donor/payment/paymentSuccess.css">
-    <link rel="stylesheet" href="../../../pages/institution/dropDown/dropDown.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="../../../assets/css/modal/globalModal.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../assets/img/icon-logo-favecon.svg">
+  <title>Aconchego da Vovó | Sucesso no Pagamento</title>
+  <link rel="stylesheet" href="../../../assets/css/global.css">
+  <link rel="stylesheet" href="../../../assets/css/navbar/style.css">
+  <link rel="stylesheet" href="../../../pages/donor/payment/paymentSuccess.css">
+  <link rel="stylesheet" href="../../../pages/institution/dropDown/dropDown.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../../../assets/css/modal/globalModal.css">
 </head>
 
 <body>
-    <nav id="container-nav">
-        <a href="../../../pages/donor/listInstitutions/listInstitutions.html"><img src="../../../assets/img/logo.svg"
-                height="45px"></a>
-        <div>
-            <a href="../../../pages/donor/listInstitutions/listInstitutions.html" class="active">Home</a>
-            <a href="../../../pages/donor/donationHistory/donationHistory.html" class="active">Histórico de Doações</a>
-            <a href="#" onclick="toggleDropdown()">
-                <img src="../../../assets/img/icon-nav-account.svg" class="user-icon">
-            </a>
-        </div>
-    </nav>
-
-    <div id="userDropdown" class="dropdown-menu" style="display: none;">
-        <a href="../../../pages/donor/editRegistration/editRegistration.html">
-            Configurações da conta <img src="../../../assets/img/icon-editar.svg">
-        </a>
-
-        <a href="../../../index.html" id="btnLogout">Sair <img src="../../../assets/img/icon-sair.svg"></a>
+  <nav id="container-nav">
+    <a href="../../../pages/donor/listInstitutions/listInstitutions.html"><img src="../../../assets/img/logo.svg"
+        height="45px"></a>
+    <div>
+      <a href="../../../pages/donor/listInstitutions/listInstitutions.html" class="active">Home</a>
+      <a href="../../../pages/donor/donationHistory/donationHistory.html" class="active">Histórico de Doações</a>
+      <a href="#" onclick="toggleDropdown()">
+        <img src="../../../assets/img/icon-nav-account.svg" class="user-icon">
+      </a>
     </div>
+  </nav>
 
-    <div class="parent">
+  <div id="userDropdown" class="dropdown-menu" style="display: none;">
+    <a href="../../../pages/donor/editRegistration/editRegistration.html">
+      Configurações da conta <img src="../../../assets/img/icon-editar.svg">
+    </a>
 
-        <img id="imgassets" src="../../../assets/img/img-sucesso-doacao.svg" alt="Dois idosos se abraçando.">
+    <a href="#" id="btnLogout">Sair <img src="../../../assets/img/icon-sair.svg"></a>
+  </div>
 
-        <div class="container">
+  <div class="parent">
 
-            <img id="pngerro" src="../../../assets/img/img-success.svg" alt="Círculo verde com um v no meio.">
+    <img id="imgassets" src="../../../assets/img/img-sucesso-doacao.svg" alt="Dois idosos se abraçando.">
 
-            <div class="margin">
-                <h2>Doação realizada<br>com sucesso!</h2>
-                <p class="p-payment-error">Obrigado por fazer a diferença<br>na vida de um idoso!</p>
-            </div>
+    <div class="container">
 
-            <div class="margin">
-                <a href="../../../pages/donor/donationHistory/donationHistory.html"><button
-                        class="btn btn300x80 btn-azul-2" type="button">Voltar</button></a>
-            </div>
+      <img id="pngerro" src="../../../assets/img/img-success.svg" alt="Círculo verde com um v no meio.">
 
-        </div>
-        <div></div>
+      <div class="margin">
+        <h2>Doação realizada<br>com sucesso!</h2>
+        <p class="p-payment-error">Obrigado por fazer a diferença<br>na vida de um idoso!</p>
+      </div>
+
+      <div class="margin">
+        <a href="../../../pages/donor/donationHistory/donationHistory.html"><button class="btn btn300x80 btn-azul-2"
+            type="button">Voltar</button></a>
+      </div>
+
     </div>
-        <dialog id="cancel-modal">
+    <div></div>
+  </div>
+  
+  <dialog id="modalLogout">
     <div class="modal">
       <div class="texto-modal">
         <h2>
@@ -64,12 +65,12 @@
           da sua conta?
         </h2>
         <p>
-         Você precisará fazer login novamente no próximo acesso.
+          Você precisará fazer login novamente no próximo<br>acesso.
         </p>
       </div>
 
       <div class="button-modal">
-        <button type="button" class="btn-modal btn-cinza" id="buttonExitModal">
+        <button type="button" class="btn-modal btn-cinza" id="btnCloseLogout">
           Cancelar
         </button>
         <a href="../../../index.html">
@@ -81,7 +82,7 @@
     </div>
   </dialog>
   <script src="../../../assets/js/modalDropDown.js"></script>
-    <script src="../../../assets/js/dropDownMenu.js"></script>
+  <script src="../../../assets/js/dropDownMenu.js"></script>
 </body>
 
 </html>

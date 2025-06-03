@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./editRegistration.css">
   <link rel="stylesheet" href="../../../pages/institution/dropDown/dropDown.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="../../../assets/css/modal/globalModal.css">
+  <link rel="stylesheet" href="../../../assets/css/modal/globalModal.css">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
       Configurações da conta <img src="../../../assets/img/icon-editar.svg">
     </a>
 
-    <a href="../../../index.html" id="btnLogout">Sair <img src="../../../assets/img/icon-sair.svg"></a>
+    <a href="#" id="btnLogout">Sair <img src="../../../assets/img/icon-sair.svg"></a>
   </div>
 
   <div class="layout">
@@ -72,7 +72,8 @@
       </form>
     </main>
   </div>
-        <dialog id="cancel-modal">
+  
+  <dialog id="modalLogout">
     <div class="modal">
       <div class="texto-modal">
         <h2>
@@ -80,12 +81,12 @@
           da sua conta?
         </h2>
         <p>
-         Você precisará fazer login novamente no próximo acesso.
+          Você precisará fazer login novamente no próximo<br>acesso.
         </p>
       </div>
 
       <div class="button-modal">
-        <button type="button" class="btn-modal btn-cinza" id="buttonExitModal">
+        <button type="button" class="btn-modal btn-cinza" id="btnCloseLogout">
           Cancelar
         </button>
         <a href="../../../index.html">

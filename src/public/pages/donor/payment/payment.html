@@ -36,7 +36,7 @@
                     Configurações da conta <img src="../../../assets/img/icon-editar.svg">
                 </a>
 
-                <a href="../../../index.html"  id="btnLogout">Sair <img src="../../../assets/img/icon-sair.svg"></a>
+                <a href="#" id="btnLogout">Sair <img src="../../../assets/img/icon-sair.svg"></a>
             </div>
         </div>
 
@@ -296,31 +296,32 @@
             </div>
         </div>
     </dialog>
-    <dialog id="cancel-modal">
-    <div class="modal">
-      <div class="texto-modal">
-        <h2>
-          Você tem certeza que deseja sair<br>
-          da sua conta?
-        </h2>
-        <p>
-         Você precisará fazer login novamente no próximo acesso.
-        </p>
-      </div>
+    
+    <dialog id="modalLogout">
+        <div class="modal">
+            <div class="texto-modal">
+                <h2>
+                    Você tem certeza que deseja sair<br>
+                    da sua conta?
+                </h2>
+                <p>
+                    Você precisará fazer login novamente no próximo<br>acesso.
+                </p>
+            </div>
 
-      <div class="button-modal">
-        <button type="button" class="btn-modal btn-cinza" id="buttonExitModal">
-          Cancelar
-        </button>
-        <a href="../../../index.html">
-          <button type="button" class="btn-modal btn-vermelho">
-            Sair
-          </button>
-        </a>
-      </div>
-    </div>
-  </dialog>
-  <script src="../../../assets/js/modalDropDown.js"></script>
+            <div class="button-modal">
+                <button type="button" class="btn-modal btn-cinza" id="btnCloseLogout">
+                    Cancelar
+                </button>
+                <a href="../../../index.html">
+                    <button type="button" class="btn-modal btn-vermelho">
+                        Sair
+                    </button>
+                </a>
+            </div>
+        </div>
+    </dialog>
+    <script src="../../../assets/js/modalDropDown.js"></script>
     <script src="../../../assets/js/dropDownMenu.js"></script>
     <script src="../../../assets/js/donor/payment.js"></script>
     <script src="../../../assets/js/donor/modal/paymentModal.js"></script>
