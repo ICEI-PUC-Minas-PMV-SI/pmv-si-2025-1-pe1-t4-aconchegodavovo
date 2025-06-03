@@ -1,6 +1,6 @@
 const btnLogout = document.getElementById("btnLogout");
-const modalLogout = document.getElementById("cancel-modal");
-const btnCloseLogout = document.getElementById("buttonExitModal");
+const modalLogout = document.getElementById("modalLogout");
+const btnCloseLogout = document.getElementById("btnCloseLogout");
 
   btnLogout.onclick = function (e) {
     e.preventDefault();
