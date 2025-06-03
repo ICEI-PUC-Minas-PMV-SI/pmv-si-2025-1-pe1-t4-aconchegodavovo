@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/institutionProfile'; 
+const API_URL = 'http://localhost:3000/perfil'; 
 
 const nomeInput = document.getElementById('nome');
 const descricaoInput = document.getElementById('descricao');
