@@ -1,5 +1,5 @@
 const button = document.getElementById("buttonDelete")
-const modal = document.querySelector("dialog")
+const modal = document.getElementById("modalDeleteGratitude")
 const buttonClose = document.getElementById("buttonExitModal")
 
 button.onclick = function () {
