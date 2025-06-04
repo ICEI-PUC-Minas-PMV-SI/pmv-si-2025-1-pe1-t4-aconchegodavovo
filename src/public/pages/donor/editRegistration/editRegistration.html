@@ -15,64 +15,130 @@
 </head>
 
 <body>
-
-  <nav id="container-nav">
-    <a href="../../../pages/donor/listInstitutions/listInstitutions.html"><img src="../../../assets/img/logo.svg"
-        height="45px"></a>
+  <div>
     <div>
-      <a href="../../../pages/donor/listInstitutions/listInstitutions.html" class="active">Home</a>
-      <a href="../../../pages/donor/donationHistory/donationHistory.html" class="active">Histórico de Doações</a>
-      <a href="#" onclick="toggleDropdown()">
-        <img src="../../../assets/img/icon-nav-account.svg" class="user-icon">
-      </a>
-    </div>
-  </nav>
-
-  <div id="userDropdown" class="dropdown-menu" style="display: none;">
-    <a href="../../../pages/donor/editRegistration/editRegistration.html">
-      Configurações da conta <img src="../../../assets/img/icon-editar.svg">
-    </a>
-
-    <a href="#" id="btnLogout">Sair <img src="../../../assets/img/icon-sair.svg"></a>
-  </div>
-
-  <div class="layout">
-    <aside>
-      <h2>
-        <img src="../../../assets/img/icon-seta.svg" alt="Voltar" class="icon-seta">
-        Configurações
-      </h2>
-
-      <button class="btn-primary">
-        <img src="../../../assets/img/icon-lapis-cinza.svg" alt="Editar" class="icon">
-        Editar cadastro
-      </button>
-
-      <button class="btn-danger">
-        <img src="../../../assets/img/icon-lixeira-cinza.svg" alt="Excluir" class="icon">
-        Excluir conta
-      </button>
-    </aside>
-
-    <main>
-      <h2>Editar Cadastro</h2>
-      <form>
-        <input type="text" placeholder="Nome completo">
-        <input type="text" placeholder="CPF">
-        <input type="text" placeholder="Telefone">
-        <input type="text" placeholder="Data de Nascimento">
-        <input type="email" placeholder="E-mail">
-        <input type="password" placeholder="Senha">
-        <input type="password" placeholder="Repetir Senha">
-
-        <div class="form-actions">
-          <button type="reset" class="btn-cancel">Cancelar</button>
-          <button type="submit" class="btn-save">Salvar</button>
+      <nav id="container-nav">
+        <a href="../../../pages/donor/listInstitutions/listInstitutions.html"><img src="../../../assets/img/logo.svg"
+            height="45px"></a>
+        <div>
+          <a href="../../../pages/donor/listInstitutions/listInstitutions.html" class="active">Home</a>
+          <a href="../../../pages/donor/donationHistory/donationHistory.html" class="active">Histórico de
+            Doações</a>
+          <a href="#" onclick="toggleDropdown()">
+            <img src="../../../assets/img/icon-nav-account.svg" class="user-icon">
+          </a>
         </div>
-      </form>
-    </main>
+      </nav>
+
+      <div id="userDropdown" class="dropdown-menu" style="display: none;">
+        <a href="../../../pages/donor/editRegistration/editRegistration.html">
+          Configurações da conta <img src="../../../assets/img/icon-editar.svg">
+        </a>
+
+        <a href="#" id="btnLogout">Sair <img src="../../../assets/img/icon-sair.svg"></a>
+      </div>
+    </div>
+
+    <div id="main">
+      <aside>
+        <div id="asideConfig">
+          <a href="../../../pages/donor/listInstitutions/listInstitutions.html">
+            <i class="fa fa-angle-left arrow"></i>
+          </a>
+          <h2>Configurações</h2>
+        </div>
+
+        <div id="asideOpt">
+          <div id="asideOptBtn">
+            <a href="#" class="asideBtnText special">
+              <i class="fa-solid fa-pen"></i>
+              <p>Editar cadastro</p>
+            </a>
+
+            <a href="#" class="asideBtnText">
+              <i class="fa-solid fa-trash-can"></i>
+              <p>Excluir conta</p>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <div id="editContainer">
+        <div id="edit1">
+          <div id="edit2">
+            <h2>Editar Cadastro</h2>
+
+            <form>
+              <div>
+                <label for="nome">Nome Completo</label>
+                <input type="text" input id="nome" placeholder="James Bond">
+              </div>
+              <div>
+                <label for="cpf">CPF</label>
+                <input type="text" input id="cpf" placeholder="000.000.000-00">
+              </div>
+              <div>
+                <label for="telefone">Telefone</label>
+                <input type="text" input id="telefone" placeholder="+55">
+              </div>
+              <div>
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date" input id="nascimento">
+              </div>
+              <div>
+                <label for="email">E-mail</label>
+                <input type="text" input id="email" placeholder="exemplo@exemplo.com">
+              </div>
+              <div>
+                <label for="confirmalEmail">Confirmar e-mail</label>
+                <input type="text" id="confirmalEmail" placeholder="exemplo@exemplo.com">
+              </div>
+              <div>
+                <label for="senha">Senha</label>
+                <input type="text" id="senha" placeholder="Senha">
+              </div>
+              <div>
+                <label for="confirmarSenha">Confirmar Senha</label>
+                <input type="text" id="confirmarSenha" placeholder="Confirmar Senha">
+              </div>
+            </form>
+
+            <div id="editBtn">
+              <a href="#"><button class="btn btn-vermelho">Cancelar</button></a>
+              <a href="#"><button class="btn btn-azul-2">Salvar</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
-  
+
+  <dialog id="modalDeletProfile">
+    <div class="modal">
+      <div class="texto-modal">
+        <h2>
+          Você tem certeza que deseja<br>
+          excluir o seu perfil?
+        </h2>
+        <p>
+          Essa ação não poderá ser desfeita.
+        </p>
+      </div>
+
+      <div class="button-modal">
+        <button type="button" class="btn-modal btn-cinza" id="btnCloseDeletProfile">
+          Cancelar
+        </button>
+        <a href="../../../pages/institution/historyReceipts/historyReceipts.html">
+          <button type="button" class="btn-modal btn-vermelho">
+            Excluir
+          </button>
+        </a>
+      </div>
+    </div>
+  </dialog>
+
   <dialog id="modalLogout">
     <div class="modal">
       <div class="texto-modal">
@@ -97,8 +163,11 @@
       </div>
     </div>
   </dialog>
+
+  <script src="./editProfile.js"></script>
   <script src="../../../assets/js/modalDropDown.js"></script>
   <script src="../../../assets/js/dropDownMenu.js"></script>
+  <script src="../../../assets/js/institutions/modal/deletProfileModal.js"></script>
 </body>
 
 </html>

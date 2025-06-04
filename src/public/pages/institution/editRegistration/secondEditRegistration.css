@@ -1,220 +1,255 @@
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  height: 100vh;
   background-color: var(--branco);
 }
 
-/* Menu lateral */
-.sidebar {
-    background-color: var(--branco-escuro); /* cinza claro */
-    width: 250px;
-    min-height: 100vh;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .sidebar .config-title {
-    display: flex;
-    align-items: center;
-    font-size: 27px;
-    color: var(--cinza-escuro); /* cinza escuro */
-    margin-bottom: 20px;
-    font-weight: 500;
-  }
-  
-  .sidebar .config-title img {
-    margin-right: 10px;
-  }
-  
-  .sidebar .menu-item {
-    display: flex;
-    align-items: center;
-    padding: 10px 12px;
-    margin-bottom: 12px;
-    border-radius: 6px;
-    color: var(--cinza-escuro);
-    font-size: 16px;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  
-  .sidebar .menu-item img {
-    width: 18px;
-    height: 18px;
-    margin-right: 10px;
-    filter: grayscale(100%) brightness(0.6); /* ícones cinzas */
-    transition: filter 0.3s;
-  }
-  
-  .sidebar .menu-item:hover {
-    background-color: var(--azul-2-hover);
-    color: var(--branco);
-  }
-  
-  .sidebar .menu-item:hover img {
-    filter: none; /* volta ao normal, assume branco */
-    filter: brightness(10); /* ícone branco com hover */
-  }
-  
-  .sidebar .menu-item.active {
-    background-color: var(--azul-2);
-    color: var(--branco);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  }
-  
-  .sidebar .menu-item.active img {
-    filter: brightness(10);
-  }
-  
-  .sidebar-header {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-  }
-  
-  .menu-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .menu-item {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
-    padding: 0.5rem;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  .menu-item a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .menu-item:hover {
-    background-color: var(--azul-2-hover);
-  }
-  
-  .menu-item:hover a {
-    color: var(--branco);
-  }
-  
-  .form-section {
-    flex: 1;
-    max-width: 900px; /* Controla a largura */
-    padding: 2rem;
-    margin: 0 auto; /* Centraliza */
-    color: #665f5f;
-  }
-  
-  /* Ajusta o título "Editar Cadastro" */
-  .form-section h1 {
-    text-align: left;
-    font-weight: bold;
-    font-size: 50px;
-    color: var(--azul-2);
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    margin-bottom: 35px;
-    margin-top: 80px;
-  }
-  
-  /* Ajusta os labels para ficarem acima dos inputs */
-  input[type="text"],
-  input[type="date"],
-  select {
-    width: 100%;
-    max-width: 1000px;
-    background-color: var(--branco);
-    color: var(--cinza-escuro); /* cinza claro para o texto */
-    padding: 15px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 15px; /* Espaço entre os campos */
-    font-size: 15px;
-  }
-
-input::placeholder,
-select::placeholder {
-  color: var(--cinza-mediano); /* cinza claro */
+#main {
+  height: 100vh;
+  display: flex;
 }
-  
-  /* Botão "Próximo" menor e com a cor correta */
-  .botoes-rodape {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  
-  .botao-voltar {
-    background-color: var(--branco);
-    color: var(--azul-2);
-    border: 2px solid var(--azul-2);
-    padding: 10px 60px;
-    border-radius: 3px;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-  }
-  
-  .botao-voltar:hover {
-    background-color: var(--azul-2-hover);
-    color: var(--branco);
-  }
-  
-  
-  .botao-proximo {
-    background-color: var(--azul-2);
-    color: var(--branco);
-    padding: 10px 60px;
-    border: none;
-    border-radius: 3px;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  .botao-proximo:hover {
-    background-color: var(--azul-2-hover);
-  }
-  
-  
-  .form-section button:hover {
-    background-color: var(--azul-2-hover);
-  }
-  
 
-  
-  /* Título */
-  h1 {
-    color: var(--azul-2);
-    text-align: center;
-  }
-  
-  /* Botão "Próximo" */
-  button {
-    background-color: var(--azul-2);
-    color: var(--branco);
-    border: none;
-    border-radius: 6px;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: var(--azul-2-hover);
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* --------------------------------------------------------- */
+/* Aside */
+
+aside {
+  height: 100vh;
+  width: calc(100% - 60%);
+  max-width: 320px;
+  background-color: var(--branco-escuro);
+  display: flex;
+  flex-direction: column;
+}
+
+#asideConfig {
+  color: var(--azul-2);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#asideConfig a {
+  color: var(--azul-2);
+  font-size: 32px;
+}
+
+#asideConfig h2 {
+  font: 32px;
+  font-weight: bold;
+}
+
+#asideOptBtn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.asideBtnText {
+  color: #4C4C4C;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  gap: 30px;
+}
+
+.asideBtnText i {
+  font-size: 20px;
+  width: 30px;
+}
+
+.asideBtnText p {
+  font-size: 25px;
+  width: 180px;
+  text-align: left;
+}
+
+#asideOptBtn a:hover,
+.special {
+  background-color: var(--azul-2);
+  color: var(--branco);
+}
+
+/* --------------------------------------------------------- */
+/* Editar Perfil */
+
+#editContainer {
+  margin-top: 25px;
+  width: calc(100% - 25%);
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#edit1 {
+  display: flex;
+  align-items: center;
+}
+
+#edit2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#edit2 h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#editBtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+#editBtn div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputFoto {
+  color: transparent;
+}
+
+::file-selector-button {
+  border: none;
+  background-color: transparent;
+  color: var(--cinza-mediano);
+  cursor: pointer;
+}
+
+/* ------------------------------------------------ */
+input,
+textarea {
+  outline: none;
+  background-color: #FEFEFE;
+  border: 1px solid #D3D3D3;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: var(--cinza-escuro);
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px;
+  width: 800px;
+  height: 60px;
+  text-decoration: none;
+}
+
+textarea {
+  width: 800px;
+  height: 300px;
+  min-width: 800px;
+  min-height: 300px;
+  max-width: 800px;
+  max-height: 300px;
+}
+
+::placeholder,
+label {
+  color: var(--cinza-mediano);
+  font-weight: lighter;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+/* Btn Azul-2 */
+.btn-azul-2 {
+  background-color: var(--azul-2);
+  color: var(--branco);
+}
+
+.btn-azul-2:hover {
+  background-color: var(--azul-2-hover);
+}
+
+/* Btn Vermelho */
+.btn-vermelho {
+  background-color: var(--vermelho);
+  color: var(--branco);
+}
+
+.btn-vermelho:hover {
+  background-color: var(--vermelho-hover);
+}
+
+/* Btn Border */
+.btn-border {
+  background-color: transparent;
+  border: 2px solid var(--azul-2);
+  color: var(--azul-2);
+}
+
+.btn-border:hover {
+  background-color: var(--azul-2);
+  color: var(--branco);
+}
+
+/* ---------------------------------------------------------------- */
+/* Media Query */
+@media (max-width: 1180px) {
+  aside {
+    display: none;
   }
 
-  .main-content {
+  #editContainer {
     display: flex;
-    min-height: calc(100vh - 70px); /* Mantém a altura correta */
-    gap: 2rem; /* Espaço entre menu e formulário */
-    align-items: flex-start; /* Evita desalinhamento */
+    width: 100%;
   }
-  
+
+  input,
+  textarea {
+    width: 400px;
+  }
+
+  textarea {
+    width: 400px;
+    height: 300px;
+    min-width: 400px;
+    min-height: 300px;
+    max-width: 400px;
+    max-height: 300px;
+  }
+
+  .btn {
+    width: 150px;
+  }
+}
