@@ -83,6 +83,7 @@ aside {
 #asideOptBtn a:hover,
 .special {
   background-color: var(--azul-2);
+  border-radius: 25px 0 25px 0;
   color: var(--branco);
 }
 
