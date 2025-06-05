@@ -89,7 +89,7 @@ aside {
 /* --------------------------------------------------------- */
 /* Editar Perfil */
 
-#editContainer {
+.editContainer {
   margin-top: 25px;
   width: calc(100% - 25%);
   height: 850px;
@@ -98,18 +98,18 @@ aside {
   align-items: center;
 }
 
-#edit1 {
+.edit1 {
   display: flex;
   align-items: center;
 }
 
-#edit2 {
+.edit2 {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
-#edit2 h2 {
+.edit2 h2 {
   font-size: 40px;
   font-weight: bold;
 }
@@ -126,12 +126,12 @@ form div {
   gap: 5px;
 }
 
-#editBtn {
+.editBtn {
   display: flex;
   justify-content: space-between;
 }
 
-#editBtn div {
+.editBtn div {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -224,13 +224,19 @@ label {
 }
 
 /* ---------------------------------------------------------------- */
+/* Display: none */
+.second, .third {
+  display: none;
+}
+
+/* ---------------------------------------------------------------- */
 /* Media Query */
 @media (max-width: 1180px) {
   aside {
     display: none;
   }
 
-  #editContainer {
+  .editContainer {
     display: flex;
     width: 100%;
   }
