@@ -256,8 +256,10 @@ label {
     width: 200px;
     height: 60px;
     font-size: 20px;
+    transition: 0.5s;
 }
 
+/* Btn Azul-2 */
 .btn-azul-2 {
     background-color: var(--azul-2);
     color: var(--branco);
@@ -265,9 +267,9 @@ label {
 
 .btn-azul-2:hover {
     background-color: var(--azul-2-hover);
-    transition: 0.5s;
 }
 
+/* Btn Border */
 .btn-border {
     background-color: transparent;
     border: 2px solid var(--azul-2);
@@ -275,10 +277,9 @@ label {
 }
 
 .btn-border:hover {
-    border: none;
+    border: 2px solid var(--vermelho);
     background-color: var(--vermelho);
     color: var(--branco);
-    transition: 0.2s;
 }
 
 /* Right */
