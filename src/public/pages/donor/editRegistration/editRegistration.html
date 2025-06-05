@@ -55,7 +55,7 @@
               <p>Editar cadastro</p>
             </a>
 
-            <a href="#" class="asideBtnText">
+            <a href="#" class="asideBtnText" id="btnDeletAccount">
               <i class="fa-solid fa-trash-can"></i>
               <p>Excluir conta</p>
             </a>
@@ -139,8 +139,39 @@
     </div>
   </dialog>
 
+  <dialog id="modalDeletAccount">
+    <div class="modal">
+      <div class="texto-modal">
+        <h2>
+          Excluir conta?
+        </h2>
+        <p>
+          Você perderá <span>permanentemente</span>:
+        </p>
+        <ul>
+          <div>
+            <li>Acesso ao perfil</li>
+            <li>Histórico de doações</li>
+          </div>
+        </ul>
+      </div>
+
+      <div class="button-modal">
+        <button type="button" class="btn-modal btn-cinza" id="btnCloseDeletAccount">
+          Cancelar
+        </button>
+        <a href="../../../index.html">
+          <button type="button" class="btn-modal btn-vermelho">
+            Excluir Conta
+          </button>
+        </a>
+      </div>
+    </div>
+  </dialog>
+
   <script src="../../../assets/js/modalDropDown.js"></script>
   <script src="../../../assets/js/dropDownMenu.js"></script>
+  <script src="../../../assets/js/donor/modal/deletAccount.js"></script>
 </body>
 
 </html>
