@@ -163,6 +163,7 @@ textarea {
     width: 800px;
     height: 60px;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 textarea {
