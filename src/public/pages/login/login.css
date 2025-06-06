@@ -207,7 +207,7 @@ textarea {
     }
 }
 
-@media (max-width: 870px) {
+@media (max-width: 965px) {
     .mainContainer > img {
         display: none;
     }
