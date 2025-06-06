@@ -12,45 +12,65 @@ body {
     align-items: center;
 }
 
-#imgassets {
+.mainContainer {
+    height: 100vh;
+    display: flex;
+}
+
+/* ---------------------------------------------------------------- */
+/* Imagem */
+.mainContainer img {
+    height: 100vh;
     width: 50%;
-    height: 100%;
     object-fit: cover;
 }
 
-.parent {
+/* ---------------------------------------------------------------- */
+/* Parte login no centro */
+.container {
+    height: 100%;
+    width: 50%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.container {
+.container1 {
     display: flex;
-    height: 100vh;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 50px;
 }
 
+.inputContainer, .btnContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* H2 [texto] */
 h2 {
     font-weight: bold;
     font-size: 45px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
+/* P [texto] */
 p {
     font-size: 16px;
     color: var(--cinza-mediano);
 }
 
+/* Input */
 input {
     outline: none;
     background-color: #FEFEFE;
     border: 1px solid #D3D3D3;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     box-sizing: border-box;
     color: var(--cinza-escuro);
     display: inline-block;
@@ -66,23 +86,23 @@ input {
     font-weight: lighter;
 }
 
-.inputs {
-    margin-bottom: 10px;
+.input-register2 {
+    width: 610px;
 }
 
 .input-login {
     width: 340px;
 }
 
-.input-container {
+/* Ícones [Login] */
+.inputContainer div {
     display: flex;
     width: 100%;
-    margin-bottom: 15px;
 }
 
 .icon {
     background: var(--azul-1);
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     color: var(--branco);
     text-align: center;
     padding: 20px;
@@ -91,14 +111,15 @@ input {
     font-size: 20px;
 }
 
-#link {
+/* [Texto depois dos inputs] */
+.inputContainer a {
     font-weight: bold;
     font-size: 16px;
     color: var(--azul-2);
     text-decoration: none;
 }
 
-#link:hover {
+.inputContainer a:hover {
     text-decoration: underline;
 }
 
@@ -134,26 +155,16 @@ input {
     transition: 0.5s;
 }
 
-.btn-margin {
-    margin-top: 20px;
-}
-
-.margin {
-    margin-top: 50px;
-}
-
 /* ------------------------------------------------------------------ */
 
 @media (max-width: 870px) {
-    .parent > img {
+    .mainContainer > img {
         display: none;
     }
 
-    .parent {
+    .mainContainer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        height: 100vh;
+        align-items: center;
     }
 }

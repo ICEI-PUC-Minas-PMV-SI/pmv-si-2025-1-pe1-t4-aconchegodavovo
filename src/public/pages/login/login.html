@@ -8,7 +8,7 @@
     <title>Aconchego da Vovó | Login</title>
     <link rel="stylesheet" href="../../assets/css/global.css">
     <link rel="stylesheet" href="../../assets/css/navbar/style.css">
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./login2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
@@ -22,41 +22,40 @@
         </div>
     </nav>
 
-    <div class="parent">
+    <div class="mainContainer">
 
-        <img id="imgassets" src="../../assets/img/img-login.svg" alt="Cuidadora e um idoso felizes">
+        <img src="../../assets/img/img-login.svg" alt="Cuidadora e um idoso felizes">
 
         <div class="container">
+            <div class="container1">
+                <h2>Login</h2>
 
-            <h2>Login</h2>
-
-            <div class="margin">
-                <form>
-                    <div class="input-container">
+                <div class="inputContainer">
+                    <div>
                         <i class="fa fa-user icon"></i>
                         <input class="inputs input-login" type="email" required placeholder="Email" name="email">
                     </div>
-
-                    <div class="input-container">
+                    <div>
                         <i class="fa fa-lock icon"></i>
                         <input class="input-login" type="password" required placeholder="Senha" name="password">
                     </div>
-                </form>
-            </div>
+                    <p>Esqueceu a senha? <a href="#">Clique aqui</a></p>
+                </div>
 
-            <div class="margin">
-                <p>Esqueceu a senha? <a id="link" href="forgotPassword/forgotPassword.html">Clique</a></p>
+                <div class="btnContainer">
+                    <a href="#">
+                        <button class="btn btn-azul-2">
+                            Login
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="btn btn-azul-1">
+                            Cadastrar
+                        </button>
+                    </a>
+                </div>
             </div>
-
-            <div class="margin">
-                <button class="btn btn-azul-2" type="button">Login</button><br>
-                <a href="../registrationType/registrationType.html"><button class="btn btn-azul-1 btn-margin"
-                        type="button">Cadastrar</button></a>
-            </div>
-
         </div>
-
-        <div></div>
 
     </div>
 </body>
