@@ -201,12 +201,6 @@ textarea {
 
 /* ------------------------------------------------------------------ */
 
-@media (max-width: 1300px) {
-    .inputContainer input, .inputContainer textarea {
-        width: 400px;
-    }
-}
-
 @media (max-width: 965px) {
     .mainContainer > img {
         display: none;
@@ -216,9 +210,5 @@ textarea {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .inputContainer input, .inputContainer textarea {
-        width: 400px;
     }
 }
