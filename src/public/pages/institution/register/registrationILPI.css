@@ -42,13 +42,13 @@ body {
     gap: 50px;
 }
 
-.container1 > div {
+.container1 > div:first-child {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.inputContainer, .btnContainer {
+.inputContainer {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -150,7 +150,7 @@ textarea {
 /* Botões */
 .btn {
     border: none;
-    border-radius: 15px;
+    border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
     text-align: center;
@@ -159,6 +159,12 @@ textarea {
     height: 60px;
     font-size: 20px;
     transition: 0.5s;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /* Btn Azul-1 */
