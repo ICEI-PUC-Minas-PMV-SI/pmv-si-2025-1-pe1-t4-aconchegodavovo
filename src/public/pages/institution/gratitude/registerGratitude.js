@@ -53,10 +53,21 @@ form.addEventListener('submit', async (e) => {
       body: JSON.stringify(novoAgradecimento)
     });
 
-    alert('Agradecimento cadastrado com sucesso!');
-    window.location.href = 'gratitude.html';
   } catch (err) {
     console.error('Erro ao salvar agradecimento:', err);
     alert('Erro ao salvar agradecimento.');
   }
 });
+
+
+const btnSaveProfile = document.getElementById("btnSaveProfile");
+const modalSaveProfile = document.getElementById("modalSaveProfile");
+const btnCloseSaveProfile = document.getElementById("btnCloseSaveProfile");
+
+btnSaveProfile.onclick = function () {
+    modalSaveProfile.showModal();
+}
+
+btnCloseSaveProfile.onclick = function () {
+    modalSaveProfile.close();
+}
