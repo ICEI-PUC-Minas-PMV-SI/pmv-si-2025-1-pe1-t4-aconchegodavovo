@@ -86,6 +86,15 @@
 
 .modal-verde {
     border-top: 1.5rem solid var(--verde);
+    background-color: var(--branco);
+    width: 52rem;
+    height: 37rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
 }
 
 .button-modal {

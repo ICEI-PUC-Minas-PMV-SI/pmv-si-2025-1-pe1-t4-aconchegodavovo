@@ -79,20 +79,19 @@
                         <form>
                             <div>
                                 <label for="nome">Nome da Instituição</label>
-                                <input type="text" input id="nome" placeholder="Nome">
+                                <input type="text" input id="nome" placeholder="Nome" required>
                             </div>
                             <div>
                                 <label for="descricao">Descrição</label>
-                                <textarea type="text" id="descricao" placeholder="Descreva a sua ILPI..."></textarea>
+                                <textarea type="text" id="descricao" placeholder="Descreva a sua ILPI..." required></textarea>
                             </div>
                             <div>
                                 <label for="foto">Foto</label>
-                                <input id="foto" type="file" accept="image/*" class="inputFoto">
+                                <input id="foto" type="file" accept="image/*" class="inputFoto" >
                             </div>
 
                             <div id="editBtn">
-                            <button class="btn btn-azul-2" type="submit">Salvar</button>
-                            <button class="btn btn-vermelho" id="btnDeletProfile">Excluir</button>
+                            <button class="btn btn-azul-2" type="submit" id="btnSaveProfile">Salvar</button>
                         </div>
                         </form>
                     </div>
@@ -102,28 +101,17 @@
         </div>
     </div>
 
-    <dialog id="modalDeletProfile">
-        <div class="modal">
+    <dialog id="modalSaveProfile">
+        <div class="modal-verde">
             <div class="texto-modal">
+                 <img src="../../../../assets/img/icon-sucess.png" alt="Check Icon" width="90px" >
                 <h2>
-                    Você tem certeza que deseja<br>
-                    excluir o seu perfil?
-                </h2>
-                <p>
-                    Essa ação não poderá ser desfeita.
-                </p>
+                   Perfil atualizado com sucesso!
+                </h2>  
             </div>
-
-            <div class="button-modal">
-                <button type="button" class="btn-modal btn-cinza" id="btnCloseDeletProfile">
-                    Cancelar
-                </button>
-                <a href="../../../../pages/institution/historyReceipts/historyReceipts.html">
-                    <button type="button" class="btn-modal btn-vermelho">
-                        Excluir
-                    </button>
-                </a>
-            </div>
+            <button type="button" class="btn-modal btn-cinza" id="btnCloseSaveProfile">
+                    Fechar
+            </button>
         </div>
     </dialog>
 
@@ -152,41 +140,10 @@
         </div>
     </dialog>
 
-    <dialog id="modalDeletAccount">
-        <div class="modal">
-            <div class="texto-modal">
-                <h2>
-                    Excluir conta?
-                </h2>
-                <p>
-                    Você perderá <span>permanentemente</span>:
-                </p>
-                <ul>
-                    <div>
-                        <li>Acesso ao perfil</li>
-                        <li>Histórico de recebimentos</li>
-                        <li>Novos pagamentos</li>
-                    </div>
-                </ul>
-            </div>
-
-            <div class="button-modal">
-                <button type="button" class="btn-modal btn-cinza" id="btnCloseDeletAccount">
-                    Cancelar
-                </button>
-                <a href="../../../../index.html">
-                    <button type="button" class="btn-modal btn-vermelho">
-                        Excluir Conta
-                    </button>
-                </a>
-            </div>
-        </div>
-    </dialog>
-
     <script src="./editProfile.js"></script>
     <script src="../../../../assets/js/modalDropDown.js"></script>
     <script src="../../../../assets/js/dropDownMenu.js"></script>
-    <script src="../../../../assets/js/institutions/modal/deletProfileModal.js"></script>
+    <script src="./deletProfileModal.js"></script>
     <script src="../../../../assets/js/institutions/modal/deletAccount.js"></script>
 </body>
 

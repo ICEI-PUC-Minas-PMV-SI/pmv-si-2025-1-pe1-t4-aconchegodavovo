@@ -70,7 +70,6 @@ form.addEventListener('submit', async (e) => {
       body: JSON.stringify(perfilAtualizado)
     });
 
-    alert('Perfil atualizado com sucesso!');
   } catch (err) {
     console.error('Erro ao salvar perfil:', err);
     alert('Erro ao salvar perfil.');
@@ -78,3 +77,16 @@ form.addEventListener('submit', async (e) => {
 });
 
 carregarPerfil();
+
+
+const btnSaveProfile = document.getElementById("btnSaveProfile");
+const modalSaveProfile = document.getElementById("modalSaveProfile");
+const btnCloseSaveProfile = document.getElementById("btnCloseSaveProfile");
+
+btnSaveProfile.onclick = function () {
+    modalSaveProfile.showModal();
+}
+
+btnCloseSaveProfile.onclick = function () {
+    modalSaveProfile.close();
+}
