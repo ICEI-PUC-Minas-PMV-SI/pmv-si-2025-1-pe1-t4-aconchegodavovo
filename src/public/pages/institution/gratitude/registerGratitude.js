@@ -70,4 +70,5 @@ btnSaveProfile.onclick = function () {
 
 btnCloseSaveProfile.onclick = function () {
     modalSaveProfile.close();
+    window.location.href = 'gratitude.html';
 }
