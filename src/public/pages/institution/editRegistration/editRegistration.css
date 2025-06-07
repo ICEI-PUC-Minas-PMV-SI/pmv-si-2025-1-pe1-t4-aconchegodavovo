@@ -132,6 +132,19 @@ form div {
   justify-content: space-between;
 }
 
+.editBtnThird {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.editBtnThird div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .editBtn div {
   display: flex;
   flex-direction: column;
