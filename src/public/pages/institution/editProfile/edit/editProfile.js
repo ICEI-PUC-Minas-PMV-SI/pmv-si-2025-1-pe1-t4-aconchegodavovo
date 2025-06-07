@@ -42,6 +42,7 @@ fotoInput.addEventListener('change', () => {
 });
 
 form.addEventListener('submit', async (e) => {
+  console.log('entrou em')
   e.preventDefault();
 
   const nome = nomeInput.value;
