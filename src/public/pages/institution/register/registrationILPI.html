@@ -33,12 +33,12 @@
                     <p>Cadastre e comece a fazer a diferença na vida de<br>um idoso!</p>
                 </div>
 
-                <form class="inputContainer inputRegister">
+                <form class="inputContainer inputRegister cadastroForm">
                     <div>
-                        <input class="inputs input-register2" type="email" required placeholder="E-mail">
+                        <input id="email" class="inputs input-register2" type="email" required placeholder="E-mail">
                     </div>
                     <div>
-                        <input class="inputs input-register2" type="password" required placeholder="Senha">
+                        <input id="senha" class="inputs input-register2" type="password" required placeholder="Senha">
                     </div>
                     <div>
                         <input class="inputs input-register2" type="password" required placeholder="Repita a senha">
@@ -66,21 +66,21 @@
                     <p>Cadastre e comece a fazer a diferença na vida de<br>um idoso!</p>
                 </div>
 
-                <form class="inputContainer inputRegister">
+                <form class="inputContainer inputRegister cadastroForm">
                     <div>
-                        <input class="inputs input-register2" type="text" required placeholder="CNPJ">
+                        <input id="cnpj" class="inputs input-register2" type="text" required placeholder="CNPJ">
                     </div>
                     <div>
-                        <input class="inputs input-register2" type="text" required placeholder="Telefone">
+                        <input id="telefone" class="inputs input-register2" type="text" required placeholder="Telefone">
                     </div>
                     <div>
-                        <input class="inputs input-register2" type="text" required placeholder="Tipo de Instituição">
+                        <input id="tipoInst" class="inputs input-register2" type="text" required placeholder="Tipo de Instituição">
                     </div>
                     <div>
-                        <input class="inputs input-register2" type="text" required placeholder="Cargo Responsável">
+                        <input id="cargoResp" class="inputs input-register2" type="text" required placeholder="Cargo Responsável">
                     </div>
                     <div>
-                        <input class="input-register2" type="date" required placeholder="Data da Fundação">
+                        <input id="fundacao" class="input-register2" type="text" required placeholder="Data da Fundação">
                     </div>
                 </form>
 
@@ -108,24 +108,24 @@
                     <p>Cadastre e comece a fazer a diferença na vida de<br>um idoso!</p>
                 </div>
 
-                <form class="inputContainer inputRegister">
+                <form class="inputContainer inputRegister cadastroForm">
                     <div>
-                        <input class="inputs input-register2" type="text" required placeholder="Endereço">
+                        <input id="endereco" class="inputs input-register2" type="text" required placeholder="Endereço">
                     </div>
                     <div>
-                        <input class="inputs input-register2" type="text" required placeholder="Cidade">
+                        <input id="cidade" class="inputs input-register2" type="text" required placeholder="Cidade">
                     </div>
                     <div>
-                        <input class="inputs input-register2" type="text" required placeholder="Bairro">
+                        <input id="bairro" class="inputs input-register2" type="text" required placeholder="Bairro">
                     </div>
                     <div>
-                        <input class="inputs input-register2" type="text" required placeholder="Logradouro">
+                        <input id="logradouro" class="inputs input-register2" type="text" required placeholder="Logradouro">
                     </div>
                     <div>
-                        <input class="inputs input-register2" type="text" required placeholder="Número">
+                        <input id="numero" class="inputs input-register2" type="text" required placeholder="Número">
                     </div>
                     <div>
-                        <input class="inputs input-register2" type="text" required placeholder="CEP">
+                        <input id="cep" class="inputs input-register2" type="text" required placeholder="CEP">
                     </div>
                 </form>
 
@@ -153,12 +153,12 @@
                     <p>Cadastre e comece a fazer a diferença na vida de<br>um idoso!</p>
                 </div>
 
-                <form class="inputContainer inputRegister">
+                <form class="inputContainer inputRegister cadastroForm">
                     <div>
-                        <input class="inputs input-register2" type="text" required placeholder="Nome da Instituição">
+                        <input id="nomeInst" class="inputs input-register2" type="text" required placeholder="Nome da Instituição">
                     </div>
                     <div>
-                        <textarea type="text" placeholder="Descreva a sua ILPI..."></textarea>
+                        <textarea id="descricao" type="text" placeholder="Descreva a sua ILPI..."></textarea>
                     </div>
                     <div>
                         <input class="inputs input-register2 inputFoto" type="file" accept="image/*" class="input-file"
@@ -181,6 +181,7 @@
     </div>
 
     <script src="../../../assets/js/institutions/registrationILPI.js"></script>
+    <script src="./registrationILPI.js"></script>
 
 </body>
 
