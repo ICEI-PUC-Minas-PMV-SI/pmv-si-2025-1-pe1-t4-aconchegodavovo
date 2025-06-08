@@ -31,14 +31,14 @@
                 <h2>Login</h2>
 
                 <div class="btnContainer">
-                    <form class="inputContainer">
+                    <form id="loginForm" class="inputContainer">
                         <div>
                             <i class="fa fa-user icon"></i>
-                            <input class="inputs input-login" type="email" required placeholder="Email" name="email">
+                            <input id="email" class="inputs input-login" type="email" required placeholder="Email" name="email">
                         </div>
                         <div>
                             <i class="fa fa-lock icon"></i>
-                            <input class="input-login" type="password" required placeholder="Senha" name="password">
+                            <input id="senha" class="input-login" type="password" required placeholder="Senha" name="password">
                         </div>
                         <p>Esqueceu a senha? <a href="./forgotPassword/forgotPassword.html">Clique aqui</a></p>
 
@@ -58,6 +58,9 @@
         </div>
 
     </div>
+
+    <script src="./login.js"></script>
+
 </body>
 
 </html>
