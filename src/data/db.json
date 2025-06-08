@@ -1,4 +1,8 @@
 {
+  "usuarios": [
+    { "id": 1, "email": "joao@email.com" },
+    { "id": 2, "email": "maria@email.com" }
+  ],
   "perfil": {
     "nome": "teste aaaa testanso save",
     "descricao": "O Residencial Bem Viver é um lar de repouso dedicado ao cuidado e bem-estar da pessoa idosa. Oferecemos um ambiente seguro, acolhedor e tranquilo, com equipe especializada e estrutura adaptada para garantir conforto, atenção e qualidade de vida. Aqui, cada morador é tratado com carinho, respeito e dignidade.\nO Residencial Bem Viver é um lar de repouso dedicado ao cuidado e bem-estar da pessoa idosa. Oferecemos um ambiente seguro, acolhedor e tranquilo, com equipe especializada e estrutura adaptada para garantir conforto, atenção e qualidade de vida. Aqui, cada morador é tratado com carinho, respeito e dignidade.",
@@ -50,3 +54,4 @@
     }
   ]
 }
+
