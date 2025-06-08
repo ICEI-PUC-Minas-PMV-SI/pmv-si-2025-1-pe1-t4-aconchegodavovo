@@ -11,7 +11,7 @@
       "id": 2
     }
   ],
-  "donors": [
+  "usuarios": [
     {
       "id": 1,
       "nome": "John Doe",
@@ -38,24 +38,15 @@
       "nascimento": "cassandra",
       "senha": "cassandra",
       "id": 3
-    }
-  ],
-  "institutions": [
+    },
     {
-      "id": 1,
-      "email": "email@gmail.com",
-      "senha": "senha",
-      "cnpj": "cnpj",
-      "tipoInst": "tipoInst",
-      "fundacao": "fundacao",
-      "endereco": "endereco",
-      "cidade": "cidade",
-      "bairro": "bairro",
-      "logradouro": "logradouro",
-      "numero": "numero",
-      "cep": "cep",
-      "nomeInst": "nomeInst",
-      "descricao": "descricao"
+      "nome": "123",
+      "email": "123@gmail.com",
+      "cpf": "123",
+      "telefone": "123",
+      "nascimento": "123",
+      "senha": "123",
+      "id": 4
     }
   ]
 }

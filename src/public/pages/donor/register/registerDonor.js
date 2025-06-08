@@ -20,7 +20,7 @@ document.getElementById('cadastroForm').addEventListener('submit', function (e) 
     };
 
     // Envia os dados para o json-server
-    fetch('http://localhost:3000/donors', {
+    fetch('http://localhost:3000/usuarios', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
