@@ -33,6 +33,15 @@
       "nascimento": "sdf",
       "senha": "123",
       "id": 2
+    },
+    {
+      "nome": "cassandra",
+      "email": "cassandra@gmail.com",
+      "cpf": "cassandra",
+      "telefone": "cassandra",
+      "nascimento": "cassandra",
+      "senha": "cassandra",
+      "id": 3
     }
   ],
   "institutions": [
