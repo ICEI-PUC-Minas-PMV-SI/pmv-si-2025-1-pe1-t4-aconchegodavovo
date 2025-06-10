@@ -56,3 +56,36 @@ async function carregarAgradecimentos() {
 }
 
 carregarAgradecimentos();
+
+const API_URL_PLANS = 'http://localhost:3000/plans';
+
+document.addEventListener('DOMContentLoaded', async () => {
+  const planoCardsContainer = document.querySelector('.plano-cards');
+
+  try {
+    const res = await fetch(API_URL_PLANS);
+    const planos = await res.json();
+
+    // Limpa o container antes de renderizar
+    planoCardsContainer.innerHTML = '';
+
+    planos.forEach(plano => {
+      // Cria a div card
+      const card = document.createElement('div');
+      card.classList.add('card');
+
+      // Conteúdo do card
+      card.innerHTML = `
+        <h3>${plano.nome}</h3>
+        <p>${plano.descricao}</p>
+        <div class="preco">R$${parseFloat(plano.valor).toFixed(2)}</div>
+      `;
+
+      // Adiciona o card no container
+      planoCardsContainer.appendChild(card);
+    });
+  } catch (error) {
+    planoCardsContainer.innerHTML = '<p>Erro ao carregar planos.</p>';
+    console.error(error);
+  }
+});
