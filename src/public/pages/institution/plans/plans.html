@@ -45,8 +45,14 @@
       </div>
     </div>
   </main>
+
   
-    <div class="plan-list"></div>
+   <div id="container-plans">
+   </div>
+      </div>
+      <div></div><br><br><br><br><br>
+   </div>
+
 
   <dialog id="modalLogout">
     <div class="modal">
@@ -72,6 +78,28 @@
       </div>
     </div>
   </dialog>
+
+   <dialog id="modalDelete">
+  <div class="modal">
+    <div class="texto-modal">
+      <h2>
+        Você tem certeza que deseja excluir<br>
+        o plano?
+      </h2>
+    </div>
+
+    <div class="button-modal">
+      <button type="button" class="btn-modal btn-cinza" id="btnCancelDelete">
+        Cancelar
+      </button>
+
+      <button type="button" class="btn-modal btn-vermelho" id="btnConfirmDelete">
+        Excluir
+      </button>
+    </div>
+  </div>
+</dialog>
+   <script src="./plans.js"></script>
   <script src="../../../assets/js/modalDropDown.js"></script>
   <script src="../../../assets/js/dropDownMenu.js"></script>
   <script src="../../../assets/js/institutions/plans/plans.js"></script>

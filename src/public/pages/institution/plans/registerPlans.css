@@ -33,9 +33,7 @@ input, textarea {
     color: var(--cinza-escuro);
     font-size: 20px;
     padding: 15px;
-    width: 900px;
-    max-width: 900px;
-    min-width: 900px;
+    width: 618px;
     height: 60px;
     text-decoration: none;
     cursor: pointer;
@@ -48,6 +46,10 @@ input, textarea {
 
 .descricao {
     height: 150px;
+    width: 618px;
+    height: 400px;
+    padding: 1rem;
+    resize: none;
 }
 
 .btn {
@@ -84,7 +86,8 @@ input, textarea {
 .main {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 100px;
+   
 }
 
 .container-main {
@@ -96,16 +99,16 @@ input, textarea {
 
 .container-middle {
     height: 100%;
-    width: 900px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 60px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 618px;
 }
 
 /* 
