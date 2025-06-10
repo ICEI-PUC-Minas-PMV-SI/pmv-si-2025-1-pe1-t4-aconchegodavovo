@@ -21,7 +21,7 @@ loginForm.addEventListener('submit', function (e) {
 
             // Verifica se a senha confere
             if (user.senha === senha) {
-                window.location.href = '../../../pages/donor/listInstitutions/listInstitutions.html';
+                window.location.href = '../../../pages/institution/historyReceipts/historyReceipts.html';
             } else {
                 alert('Senha incorreta!');
             }
