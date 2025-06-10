@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../assets/img/icon-logo-favecon.svg">
+  <title>Aconchego da Vovó | Perfil da Instituição</title>
+  <link rel="stylesheet" href="../../../assets/css/global.css">
+  <link rel="stylesheet" href="../../../assets/css/navbar/style.css">
+  <link rel="stylesheet" href="./profileInstitution.css">
+  <link rel="stylesheet" href="../../../assets/css/modal/globalModal.css">
+  <link rel="stylesheet" href="../../institution/dropDown/dropDown.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <nav id="container-nav">
+    <a href="../../institution/historyReceipts/historyReceipts.html"><img src="../../../assets/img/logo.svg"
+        height="45px"></a>
+    <div>
+      <a href="../../institution/gratitude/gratitude.html" class="active">Agradecimentos</a>
+      <a href="../../institution/profileInstitution/profileInstitution.html" class="active">Perfil</a>
+      <a href="../../institution/plans/plans.html" class="active">Planos</a>
+      <a href="../../institution/historyReceipts/historyReceipts.html" class="active">Home</a>
+      <a href="#" onclick="toggleDropdown()">
+        <img src="../../../assets/img/icon-nav-account.svg" class="user-icon">
+      </a>
+    </div>
+  </nav>
+
+  <div id="userDropdown" class="dropdown-menu" style="display: none;">
+    <a href="../../institution/editRegistration/editRegistration.html">
+      Configurações da conta <img src="../../../assets/img/icon-editar.svg">
+    </a>
+
+    <a href="#" id="btnLogout">Sair <img src="../../../assets/img/icon-sair.svg"></a>
+  </div>
+
+  <div class="perfil-container">
+    <a href="../../donor/listInstitutions/listInstitutions.html"><button class="back-button"><img
+          src="../../../assets/img/icon-seta-completa.svg"></button></a>
+
+    <div class="perfil-info">
+      <img id="foto-instituicao" src="" alt="Foto da instituição">
+      <div>  
+        <h1 id="nome-instituicao"></h1>
+       <p id="descricao-instituicao"></p>
+      </div>
+     
+    </div>
+
+    <div class="planos">
+      <h2>Planos</h2>
+      <div class="plano-cards">
+ 
+      </div>
+    </div>
+
+   <div class="agradecimento">
+  <h2>Agradecimentos</h2>
+  <div id="agradecimentos-container" class="agradecimentos-container"></div>
+</div>
+
+  </div>
+  <dialog id="modalLogout">
+    <div class="modal">
+      <div class="texto-modal">
+        <h2>
+          Você tem certeza que deseja sair<br>
+          da sua conta?
+        </h2>
+        <p>
+          Você precisará fazer login novamente no próximo<br>acesso.
+        </p>
+      </div>
+
+      <div class="button-modal">
+        <button type="button" class="btn-modal btn-cinza" id="btnCloseLogout">
+          Cancelar
+        </button>
+        <a href="../../../index.html">
+          <button type="button" class="btn-modal btn-vermelho">
+            Sair
+          </button>
+        </a>
+      </div>
+    </div>
+  </dialog>
+  <script src="../../../assets/js/institutions/profileInstitution/profileInstitution.js"></script>
+  <script src="../../../assets/js/modalDropDown.js"></script>
+  <script src="../../../assets/js/dropDownMenu.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+body {
+  background-color: var(--branco);
+}
+
+.perfil-container {
+  font-family: "Inter", sans-serif;
+  padding: 60px;
+  background-color: var(--branco);
+  color: #0B3C5D;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  font-size: 45px;
+  cursor: pointer;
+  position:absolute;
+}
+
+.perfil-container h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.perfil-info {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.perfil-info img {
+  width: 200rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 10rem rgba(0,0,0,0.1);
+}
+
+.perfil-info p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  font-weight: bold;
+  color: #282828;
+
+}
+
+.planos h2,
+.agradecimento h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.planos {
+  background-color: #b2c9d4;
+  margin-left: -60px;
+  margin-right: -60px;
+  padding: 40px 20px;
+}
+
+.planos h2 {
+  padding: 0 60px;
+  font-weight: bold;
+}
+
+
+.plano-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 40;
+  gap: 30px;
+}
+
+.card {
+    background-color: #0B3C5D;
+    color: var(--branco);
+    padding: 30px 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 230px;
+    height: 300px;
+  }
+  .card:hover {
+    transform: translateY(-8px);
+  }
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--branco);
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 16px;
+  flex-grow: 1;
+  margin-bottom: 20px;
+  align-content: center;
+}
+.card .preco {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--branco);
+    margin-top: auto;
+  }
+
+.agradecimento {
+  padding: 40px 20px;
+}
+
+.agradecimento h2 {
+  font-weight: bold;
+}
+
+.agradecimento-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background: var(--cinza);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.agradecimento-box img {
+  width: 20rem;
+  border-radius: 12px;
+}
+
+.agradecimento-box p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.6;
+    text-align: justify;
+    color: black;
+}
+
+#agradecimentos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
