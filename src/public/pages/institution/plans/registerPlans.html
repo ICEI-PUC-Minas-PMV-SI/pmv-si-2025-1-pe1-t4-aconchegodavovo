@@ -50,12 +50,12 @@
                 <div class="container-input">
                     <form id="form">
                         <div class="input-card">
-                            <label for="NomePlano">Nome do Plano</label>
+                            <label for="NomePlano">Nome</label>
                             <input type="text" required placeholder="Nome" name="NomePlano">
                         </div>
 
                         <div class="input-card">
-                            <label for="DescricaoPlano">Descrição do Plano</label>
+                            <label for="DescricaoPlano">Descrição</label>
                             <textarea class="descricao" type="text" required placeholder="Descreva a sua ILPI..."
                                 name="DescricaoPlano"></textarea>
                         </div>
@@ -65,35 +65,7 @@
                             <input type="text" required placeholder="R$ 150,00" name="Valor">
                         </div>
 
-                        <div class="input-card">
-                            <label for="Responsavel">Responsável Legal</label>
-                            <input type="text" required placeholder="Nome Completo" name="Responsavel">
-                        </div>
-
-                        <div class="input-card">
-                            <label for="Periodicidade">Periodicidade</label>
-                            <div class="container-dropdown">
-                                <input class="periodicidade" type="text" required placeholder="Mensal / Anual"
-                                    name="Periodicidade">
-                                <div class="dropdown-menu">
-                                    <ul>
-                                        <li class="border-li">Mensal</li>
-                                        <li>Anual</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="input-card">
-                            <label for="DataInicio">Data de Início</label>
-                            <input type="date" required placeholder="00/00/00" name="DataInicio">
-                        </div>
-
-                        <div>
-                            <label for="DataFim">Data de Término</label>
-                            <input type="date" required placeholder="00/00/00" name="DataFim">
-                        </div>
-                        <button class="btn btn-azul-2"  type="submit">Salvar</button> 
+                        <button class="btn btn-azul-2" type="submit">Salvar</button> 
                     </form>
 
             </div>
@@ -128,7 +100,8 @@
     </dialog>
     <script src="../../../assets/js/modalDropDown.js"></script>
     <script src="../../../assets/js/dropDownMenu.js"></script>
-    <script src="../../../assets/js/registerPlans.js"></script>
+   <script src="../../../assets/js/logout.js"></script>
+    <script src="./registerPlans.js"></script>
 </body>
 
 </html>

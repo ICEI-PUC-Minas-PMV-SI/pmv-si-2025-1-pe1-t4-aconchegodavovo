@@ -1,5 +1,5 @@
-const API_URL = 'http://localhost:3000/gratitude';
-const container = document.getElementById('container-gratitude');
+const API_URL = 'http://localhost:3000/plans';
+const container = document.getElementById('container-plans');
 
 const modal = document.getElementById('modalDelete');
 const btnCancel = document.getElementById('btnCancelDelete');
@@ -7,27 +7,26 @@ const btnConfirm = document.getElementById('btnConfirmDelete');
 
 let idParaExcluir = null;
 
-// Função única para carregar os agradecimentos
-async function carregarAgradecimentos() {
+async function carregarPlanos() {
   try {
     const response = await fetch(API_URL);
-    const agradecimentos = await response.json();
+    const planos = await response.json();
 
-    if (agradecimentos.length === 0) {
-      container.innerHTML = '<p>Nenhum agradecimento encontrado.</p>';
+    if (planos.length === 0) {
+      container.innerHTML = '<p>Nenhum plano encontrado.</p>';
       return;
     }
 
-    container.innerHTML = ''; // Limpa conteúdo anterior, se houver
+    container.innerHTML = ''; // Evita duplicação ao recarregar
 
-    agradecimentos.forEach(item => {
+    planos.forEach(item => {
       const div = document.createElement('div');
-      div.classList.add('div-gratitude');
+      div.classList.add('div-plan');
 
       div.innerHTML = `
-        <span class="span-gratitude">${item.titulo}</span>
+        <span class="span-plan">${item.nome}</span>
         <div class="div-icons">
-          <a href="editGratitude.html?id=${item.id}">
+          <a href="editPlans.html?id=${item.id}">
             <img src="../../../assets/img/icon-lapis-azul.svg" alt="Editar">
           </a>
           <a href="#" data-id="${item.id}" class="btn-excluir">
@@ -39,18 +38,18 @@ async function carregarAgradecimentos() {
       container.appendChild(div);
     });
 
-    // Adiciona os eventos aos botões de excluir
+    // Adiciona eventos aos botões de excluir
     document.querySelectorAll('.btn-excluir').forEach(btn => {
       btn.addEventListener('click', e => {
         e.preventDefault();
         idParaExcluir = btn.dataset.id;
-        modal.showModal(); // Mostra o <dialog>
+        modal.showModal(); // Abre o modal <dialog>
       });
     });
 
   } catch (error) {
-    console.error('Erro ao carregar agradecimentos:', error);
-    container.innerHTML = '<p>Erro ao carregar os agradecimentos.</p>';
+    console.error('Erro ao carregar planos:', error);
+    container.innerHTML = '<p>Erro ao carregar os planos.</p>';
   }
 }
 
@@ -59,7 +58,7 @@ btnCancel.addEventListener('click', () => {
   modal.close();
 });
 
-// Botão "Excluir" do modal
+// Botão "Confirmar Exclusão"
 btnConfirm.addEventListener('click', async () => {
   if (!idParaExcluir) return;
 
@@ -68,11 +67,11 @@ btnConfirm.addEventListener('click', async () => {
       method: 'DELETE'
     });
     modal.close();
-    location.reload(); // Recarrega a página para atualizar a lista
+    carregarPlanos(); // Atualiza a lista sem recarregar a página
   } catch (error) {
-    alert('Erro ao excluir agradecimento.');
+    alert('Erro ao excluir plano.');
   }
 });
 
 // Inicializa a listagem
-carregarAgradecimentos();
+carregarPlanos();

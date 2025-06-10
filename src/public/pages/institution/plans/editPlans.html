@@ -47,7 +47,7 @@
                 <h2>Editar plano</h2>
 
                 <div class="container-input">
-                    <form>
+                    <form id="container-form">
                         <div class="input-card">
                             <label for="NomePlano">Nome do Plano</label>
                             <input type="text" required placeholder="Nome" name="NomePlano">
@@ -63,42 +63,14 @@
                             <label for="Valor">Valor</label>
                             <input type="text" required placeholder="R$ 150,00" name="Valor">
                         </div>
-
-                        <div class="input-card">
-                            <label for="Responsavel">Responsável Legal</label>
-                            <input type="text" required placeholder="Nome Completo" name="Responsavel">
-                        </div>
-
-                        <div class="input-card">
-                            <label for="Periodicidade">Periodicidade</label>
-                            <div class="container-dropdown">
-                                <input class="periodicidade" type="text" required placeholder="Mensal / Anual"
-                                    name="Periodicidade">
-                                <div class="dropdown-menu">
-                                    <ul>
-                                        <li>Mensal</li>
-                                        <li>Anual</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="input-card">
-                            <label for="DataInicio">Data de Início</label>
-                            <input type="date" required placeholder="00/00/00" name="DataInicio">
-                        </div>
-
-                        <div>
-                            <label for="DataFim">Data de Término</label>
-                            <input type="date" required placeholder="00/00/00" name="DataFim">
-                        </div>
+                         <div class="btn-group">
+                   <button class="btn btn-azul-2"
+                            type="submit" id="button-register">Salvar</button>
+                </div>
                     </form>
+                    
                 </div>
-                <div class="btn-group">
-                    <a href="../../institution/plans/plans.html"><button class="btn btn-azul-2"
-                            type="button">Salvar</button></a>
-                    <button class="btn btn-vermelho" type="button">Excluir</button>
-                </div>
+               
             </div>
 
             <div class="container-right"></div>
@@ -131,6 +103,21 @@
             </div>
         </div>
     </dialog>
+
+     <dialog id="modalSaveProfile">
+        <div class="modal-verde">
+            <div class="texto-modal">
+                 <img src="../../../../assets/img/icon-sucess.png" alt="Check Icon" width="90px" >
+                <h2>
+                   Plano editado com sucesso!
+                </h2>  
+            </div>
+            <button type="button" class="btn-modal btn-cinza" id="btnCloseSaveProfile">
+                    Fechar
+            </button>
+        </div>
+    </dialog>
+    <script src="./editPlans.js"></script>
     <script src="../../../assets/js/modalDropDown.js"></script>
     <script src="../../../assets/js/dropDownMenu.js"></script>
     <script src="../../assets/js/editPlans.js"></script>
