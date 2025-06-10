@@ -30,24 +30,24 @@
             <div class="container1">
                 <h2>Login</h2>
 
-                <div class="inputContainer">
-                    <div>
-                        <i class="fa fa-user icon"></i>
-                        <input class="inputs input-login" type="email" required placeholder="Email" name="email">
-                    </div>
-                    <div>
-                        <i class="fa fa-lock icon"></i>
-                        <input class="input-login" type="password" required placeholder="Senha" name="password">
-                    </div>
-                    <p>Esqueceu a senha? <a href="./forgotPassword/forgotPassword.html">Clique aqui</a></p>
-                </div>
-
                 <div class="btnContainer">
-                    <a href="#">
-                        <button class="btn btn-azul-2">
-                            Login
-                        </button>
-                    </a>
+                    <form id="loginForm" class="inputContainer">
+                        <div>
+                            <i class="fa fa-user icon"></i>
+                            <input id="email" class="inputs input-login" type="email" required placeholder="Email" name="email">
+                        </div>
+                        <div>
+                            <i class="fa fa-lock icon"></i>
+                            <input id="senha" class="input-login" type="password" required placeholder="Senha" name="password">
+                        </div>
+                        <p>Esqueceu a senha? <a href="./forgotPassword/forgotPassword.html">Clique aqui</a></p>
+
+                        <a href="#" class="btnLogin">
+                            <button class="btn btn-azul-2">
+                                Login
+                            </button>
+                        </a>
+                    </form>
                     <a href="../registrationType/registrationType.html">
                         <button class="btn btn-azul-1">
                             Cadastrar
@@ -58,6 +58,9 @@
         </div>
 
     </div>
+
+    <script src="../../assets/js/login/login.js"></script>
+
 </body>
 
 </html>

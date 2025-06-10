@@ -48,6 +48,10 @@ body {
     gap: 10px;
 }
 
+.btnLogin {
+    margin-top: 30px;
+}
+
 .inputContainer {
     display: flex;
     flex-direction: column;

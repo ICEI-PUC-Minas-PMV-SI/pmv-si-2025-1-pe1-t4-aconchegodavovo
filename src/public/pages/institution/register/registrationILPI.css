@@ -167,6 +167,17 @@ textarea {
     gap: 20px;
 }
 
+.btnContainerFourth {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnFourth {
+    margin-top: -30px;
+}
+
 /* Btn Azul-1 */
 .btn-azul-1 {
     background-color: var(--azul-1);

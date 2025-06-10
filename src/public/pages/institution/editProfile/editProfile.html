@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../../../../assets/img/icon-logo-favecon.svg">
+    <link rel="icon" type="image/x-icon" href="../../../assets/img/icon-logo-favecon.svg">
     <title>Aconchego da Vovó | Editar Perfil</title>
-    <link rel="stylesheet" href="../../../../assets/css/navbar/style.css">
-    <link rel="stylesheet" href="../../../../assets/css/global.css">
-    <link rel="stylesheet" href="../../../../assets/css/modal/globalModal.css">
-    <link rel="stylesheet" href="../../../../pages/institution/dropDown/dropDown.css">
+    <link rel="stylesheet" href="../../../assets/css/navbar/style.css">
+    <link rel="stylesheet" href="../../../assets/css/global.css">
+    <link rel="stylesheet" href="../../../assets/css/modal/globalModal.css">
+    <link rel="stylesheet" href="../../../pages/institution/dropDown/dropDown.css">
     <link rel="stylesheet" href="./editProfile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -18,33 +18,33 @@
     <div>
         <div>
             <nav id="container-nav">
-                <a href="../../../../pages/institution/historyReceipts/historyReceipts.html"><img
-                        src="../../../../assets/img/logo.svg" height="45px"></a>
+                <a href="../../../pages/institution/historyReceipts/historyReceipts.html"><img
+                        src="../../../assets/img/logo.svg" height="45px"></a>
                 <div>
-                    <a href="../../../../pages/institution/gratitude/gratitude.html" class="active">Agradecimentos</a>
-                    <a href="../../../../pages/institution/profileInstitution/profileInstitution.html"
+                    <a href="../../../pages/institution/gratitude/gratitude.html" class="active">Agradecimentos</a>
+                    <a href="../../../pages/institution/profileInstitution/profileInstitution.html"
                         class="active">Perfil</a>
-                    <a href="../../../../pages/institution/plans/plans.html" class="active">Planos</a>
-                    <a href="../../../../pages/institution/historyReceipts/historyReceipts.html" class="active">Home</a>
+                    <a href="../../../pages/institution/plans/plans.html" class="active">Planos</a>
+                    <a href="../../../pages/institution/historyReceipts/historyReceipts.html" class="active">Home</a>
                     <a href="#" onclick="toggleDropdown()">
-                        <img src="../../../../assets/img/icon-nav-account.svg" class="user-icon">
+                        <img src="../../../assets/img/icon-nav-account.svg" class="user-icon">
                     </a>
                 </div>
             </nav>
 
             <div id="userDropdown" class="dropdown-menu" style="display: none;">
-                <a href="../../../../pages/institution/editRegistration/editRegistration.html">
-                    Configurações da conta <img src="../../../../assets/img/icon-editar.svg">
+                <a href="../../../pages/institution/editRegistration/editRegistration.html">
+                    Configurações da conta <img src="../../../assets/img/icon-editar.svg">
                 </a>
 
-                <a href="#" id="btnLogout">Sair <img src="../../../../assets/img/icon-sair.svg"></a>
+                <a href="#" id="btnLogout">Sair <img src="../../../assets/img/icon-sair.svg"></a>
             </div>
         </div>
 
         <div id="main">
             <aside>
                 <div id="asideConfig">
-                    <a href="../../../../pages/institution/historyReceipts/historyReceipts.html">
+                    <a href="../../../pages/institution/historyReceipts/historyReceipts.html">
                         <i class="fa fa-angle-left arrow"></i>
                     </a>
                     <h2>Configurações</h2>
@@ -52,7 +52,7 @@
 
                 <div id="asideOpt">
                     <div id="asideOptBtn">
-                        <a href="../../../../pages/institution/editRegistration/editRegistration.html"
+                        <a href="../../../pages/institution/editRegistration/editRegistration.html"
                             class="asideBtnText">
                             <i class="fa-solid fa-pen"></i>
                             <p>Editar cadastro</p>
@@ -83,16 +83,17 @@
                             </div>
                             <div>
                                 <label for="descricao">Descrição</label>
-                                <textarea type="text" id="descricao" placeholder="Descreva a sua ILPI..." required></textarea>
+                                <textarea type="text" id="descricao" placeholder="Descreva a sua ILPI..."
+                                    required></textarea>
                             </div>
                             <div>
                                 <label for="foto">Foto</label>
-                                <input id="foto" type="file" accept="image/*" class="inputFoto" >
+                                <input id="foto" type="file" accept="image/*" class="inputFoto">
                             </div>
 
                             <div id="editBtn">
-                            <button class="btn btn-azul-2" type="submit" id="btnSaveProfile">Salvar</button>
-                        </div>
+                                <button class="btn btn-azul-2" type="submit" id="btnSaveProfile">Salvar</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -104,13 +105,13 @@
     <dialog id="modalSaveProfile">
         <div class="modal-verde">
             <div class="texto-modal">
-                 <img src="../../../../assets/img/icon-sucess.png" alt="Check Icon" width="90px" >
+                <img src="../../../assets/img/icon-sucess.png" alt="Check Icon" width="90px">
                 <h2>
-                   Perfil atualizado com sucesso!
-                </h2>  
+                    Perfil atualizado com sucesso!
+                </h2>
             </div>
             <button type="button" class="btn-modal btn-cinza" id="btnCloseSaveProfile">
-                    Fechar
+                Fechar
             </button>
         </div>
     </dialog>
@@ -131,7 +132,7 @@
                 <button type="button" class="btn-modal btn-cinza" id="btnCloseLogout">
                     Cancelar
                 </button>
-                <a href="../../../../index.html">
+                <a href="../../../index.html">
                     <button type="button" class="btn-modal btn-vermelho">
                         Sair
                     </button>
@@ -140,7 +141,7 @@
         </div>
     </dialog>
 
-       <dialog id="modalDeletAccount">
+    <dialog id="modalDeletAccount">
         <div class="modal">
             <div class="texto-modal">
                 <h2>
@@ -171,10 +172,10 @@
         </div>
     </dialog>
 
-    <script src="./editProfile.js"></script>
-    <script src="../../../../assets/js/modalDropDown.js"></script>
-    <script src="../../../../assets/js/dropDownMenu.js"></script>
-    <script src="../../../../assets/js/institutions/modal/deletAccount.js"></script>
+    <script src="../../../assets/js/institutions/editProfile/editProfile.js"></script>
+    <script src="../../../assets/js/modalDropDown.js"></script>
+    <script src="../../../assets/js/dropDownMenu.js"></script>
+    <script src="../../../assets/js/institutions/modal/deletAccount.js"></script>
 </body>
 
 </html>

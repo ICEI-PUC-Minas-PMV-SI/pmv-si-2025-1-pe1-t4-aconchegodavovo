@@ -128,6 +128,7 @@ form div {
 }
 
 #editBtn {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
