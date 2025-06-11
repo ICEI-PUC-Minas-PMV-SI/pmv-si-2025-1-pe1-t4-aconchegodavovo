@@ -1,17 +1,14 @@
-// Supondo que você tenha um formulário com id 'loginForm'
 const loginForm = document.getElementById('loginForm');
 
 loginForm.addEventListener('submit', function (e) {
-    e.preventDefault(); // evita o envio padrão do formulário
+    e.preventDefault();
 
     const email = document.getElementById('email').value.trim();
     const senha = document.getElementById('senha').value.trim();
 
-    // Faz uma requisição GET para buscar os usuários
     fetch('http://localhost:3000/usuarios')
         .then(response => response.json())
         .then(usuarios => {
-            // Encontra o usuário pelo email
             const user = usuarios.find(u => u.email === email);
 
             if (!user) {
@@ -19,13 +16,10 @@ loginForm.addEventListener('submit', function (e) {
                 return;
             }
 
-            // Verifica se a senha confere
             if (user.senha === senha) {
-                // Verifica se o usuário é uma instituição
                 if (user.instituicao === true) {
                     window.location.href = '../../../pages/institution/historyReceipts/historyReceipts.html';
                 } else {
-                    // Caso seja um doador
                     window.location.href = '../../../pages/donor/listInstitutions/listInstitutions.html';
                 }
             } else {
