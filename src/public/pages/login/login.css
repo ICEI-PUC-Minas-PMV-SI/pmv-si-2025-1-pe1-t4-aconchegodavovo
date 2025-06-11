@@ -144,30 +144,13 @@ textarea {
 }
 
 .inputContainer a {
+    font-weight: bold;
     font-size: 16px;
-    color: var(--cinza-mediano);
+    color: var(--azul-2);
     text-decoration: none;
 }
 
 .inputContainer a:hover {
-    text-decoration: underline;
-}
-
-.inst {
-    font-size: 20px;
-}
-
-.inst a {
-    font-weight: bold;
-    font-size: 20px;
-    color: var(--azul-2);
-    text-decoration: none;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.inst a:hover {
     text-decoration: underline;
 }
 
