@@ -12,11 +12,11 @@ authors:
     family-names: Barbieri Fernandes Silva
     email: raissa.barbieri@sga.pucminas.br
     affiliation: PUC Minas
- - given-names: Brenda 
+  - given-names: Brenda
     family-names: Linhares Freitas
     email: email@sga.pucminas.br
     affiliation: PUC Minas
- - given-names: Rafael 
+  - given-names: Rafael
     family-names: Simões Amaral
     email: email@sga.pucminas.br
     affiliation: PUC Minas
@@ -29,14 +29,11 @@ authors:
     email: camila.gomes@sga.pucminas.br
     affiliation: PUC Minas
   - given-names: Diego Augusto
-    name-particle: 'B '
     family-names: Faria Barros
-    name-suffix: Prof.
     email: diegobarros@pucminas.br
     affiliation: PUC Minas
-    orcid: 'https://orcid.org/0000-0002-6193-3205'
-repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-aconchegodavovo.git
+    orcid: https://orcid.org/0000-0002-6193-3205
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-aconchegodavovo.git
 abstract: >-
   O projeto "Aconchego da Vovó" consiste no desenvolvimento de um site que conecta lares de idosos a doadores, 
   facilitando a arrecadação de recursos e trazendo maior visibilidade para a qualidade de vida dos idosos.
