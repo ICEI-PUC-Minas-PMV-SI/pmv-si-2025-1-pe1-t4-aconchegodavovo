@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Web Application Template
+title: Aconchego da Vovó
 message: >-
   Repositório padrão para o Eixo 1 - Projeto 1: Aplicações
   Web da PUC Minas.
@@ -12,26 +12,29 @@ authors:
     family-names: Raissa Barbieri Fernandes Silva
     email: raissa.barbieri@sga.pucminas.br
     affiliation: PUC Minas
-  - given-names: Fabiana
-    family-names: Fabiana Martins do Prato
-    email: 1592061@sga.pucminas.br
+  - given-names: Júlia Maria
+    family-names: Coutinho Corrêa
+    email: jnccorreia@sga.pucminas.br
     affiliation: PUC Minas
-  - given-names: Hugo
+  - given-names: Camila
+    family-names: Santos Gomes
+    email: camila.gomes@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Diego Augusto
     name-particle: 'B '
-    family-names: de Paula
+    family-names: Faria Barros
     name-suffix: Prof.
-    email: hugo@pucminas.br
+    email: diegobarros@pucminas.br
     affiliation: PUC Minas
     orcid: 'https://orcid.org/0000-0002-6193-3205'
 repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
+  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t4-aconchegodavovo.git
 abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+  O projeto "Aconchego da Vovó" consiste no desenvolvimento de um site que conecta lares de idosos a doadores, 
+  facilitando a arrecadação de recursos e trazendo maior visibilidade para a qualidade de vida dos idosos.
 keywords:
   - Desenvolvimento Web
   - HTML
   - CSS
   - JavaScript
-  - Template
-date-released: '2024-06-23'
+date-released: '2025-06-28'
