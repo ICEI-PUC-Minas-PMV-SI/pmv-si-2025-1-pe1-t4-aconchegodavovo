@@ -33,7 +33,7 @@
                     <p>Cadastre e comece a fazer a diferença na vida de<br>um idoso!</p>
                 </div>
 
-                <form class="inputContainer inputRegister">
+                <form id="form1" class="inputContainer inputRegister">
                     <div>
                         <input id="telefone" class="inputs input-register2" type="text" required placeholder="Telefone">
                     </div>
@@ -49,13 +49,12 @@
                         <input id="fundacao" class="input-register2" type="text" required
                             placeholder="Data da Fundação">
                     </div>
+                    <div class="btnContainerFourth">
+                        <button class="btn btn-azul-2 btnToSecond" type="submit">
+                            Próximo
+                        </button>
+                    </div>
                 </form>
-
-                <div class="btnContainer">
-                    <button class="btn btn-azul-2 btnToSecond" type="button">
-                        Próximo
-                    </button>
-                </div>
             </div>
         </div>
 
@@ -72,7 +71,7 @@
                     <p>Cadastre e comece a fazer a diferença na vida de<br>um idoso!</p>
                 </div>
 
-                <form class="inputContainer inputRegister">
+                <form id="form2" class="inputContainer inputRegister">
                     <div>
                         <input id="endereco" class="inputs input-register2" type="text" required placeholder="Endereço">
                     </div>
@@ -92,13 +91,15 @@
                     <div>
                         <input id="cep" class="inputs input-register2" type="text" required placeholder="CEP">
                     </div>
+                    <div class="btnContainerFourth">
+                        <button class="btn btn-azul-2 btnToThird" type="submit">
+                            Próximo
+                        </button>
+                    </div>
                 </form>
 
 
-                <div class="btnContainer">
-                    <button class="btn btn-azul-2 btnToThird" type="button">
-                        Próximo
-                    </button>
+                <div class="btnContainer btnFourth">
                     <button class="btn btn-border btnToFirst" type="button">
                         Voltar
                     </button>
@@ -120,7 +121,7 @@
                     <p>Cadastre e comece a fazer a diferença na vida de<br>um idoso!</p>
                 </div>
 
-                <form class="inputContainer inputRegister">
+                <form id="form3" class="inputContainer inputRegister">
                     <div>
                         <input id="nomeInst" class="inputs input-register2" type="text" required
                             placeholder="Nome da Instituição">
@@ -129,15 +130,17 @@
                         <textarea id="descricao" type="text" placeholder="Descreva a sua ILPI..."></textarea>
                     </div>
                     <div>
-                        <input class="inputs input-register2 inputFoto" type="file" accept="image/*" class="input-file"
-                            required>
+                        <input id="arquivo" class="inputs input-register2 inputFoto" type="file" accept="image/*"
+                            class="input-file" required>
+                    </div>
+                    <div class="btnContainerFourth">
+                        <button class="btn btn-azul-2 btnToFourth" type="submit">
+                            Próximo
+                        </button>
                     </div>
                 </form>
 
-                <div class="btnContainer">
-                    <button class="btn btn-azul-2 btnToFourth" type="button">
-                        Próximo
-                    </button>
+                <div class="btnContainer btnFourth">
                     <button class="btn btn-border btnToSecond2" type="button">
                         Voltar
                     </button>
@@ -158,7 +161,7 @@
                     <p>Cadastre e comece a fazer a diferença na vida de<br>um idoso!</p>
                 </div>
 
-                <form id="cadastroForm" class="inputContainer inputRegister">
+                <form id="form4" class="inputContainer inputRegister">
                     <div>
                         <input id="email" class="inputs input-register2" type="email" required placeholder="E-mail">
                     </div>

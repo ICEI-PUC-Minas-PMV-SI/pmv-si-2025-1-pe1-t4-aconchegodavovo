@@ -1,33 +1,76 @@
-document.getElementById('cadastroForm').addEventListener('submit', function (e) {
-    e.preventDefault(); // evita o envio padrão do formulário
+// URL do json-server (endpoint base)
+const baseUrl = 'http://localhost:3000';
 
-    // Pega os valores dos inputs
-    const email = document.getElementById('email').value;
-    const senha = document.getElementById('senha').value;
-    const cnpj = document.getElementById('cnpj').value;
-
-    // Cria o objeto com os dados
-    const novoUsuario = {
-        email: email,
-        senha: senha,
-        cnpj: cnpj
+// Função para enviar dados ao json-server
+async function enviarDados(endpoint, data, isFormData = false) {
+  try {
+    const options = {
+      method: 'POST',
+      headers: {},
+      body: isFormData ? data : JSON.stringify(data)
     };
 
-    // Envia os dados para o json-server
-    fetch('http://localhost:3000/usuarios', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(novoUsuario)
-    })
-    .then(response => response.json())
-    .then(data => {
-        alert('Usuário cadastrado com sucesso!');
-        // Limpa o formulário após o cadastro
-        document.getElementById('cadastroForm').reset();
-    })
-    .catch(error => {
-        console.error('Erro ao cadastrar usuário:', error);
-    });
+    // Se for JSON, definir o header 'Content-Type'
+    if (!isFormData) {
+      options.headers['Content-Type'] = 'application/json';
+    }
+
+    // Fazendo a requisição ao endpoint específico
+    const response = await fetch(`${baseUrl}/${endpoint}`, options);
+
+    if (!response.ok) {
+      throw new Error('Erro ao enviar dados');
+    }
+
+    const result = await response.json();
+    alert('Dados enviados com sucesso!');
+    return result;
+  } catch (error) {
+    alert('Erro ao enviar dados: ' + error.message);
+  }
+}
+
+// Evento para o formulário 1
+document.getElementById('form1').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const telefone = document.getElementById('telefone').value;
+  const tipoInst = document.getElementById('tipoInst').value;
+  const cargoResp = document.getElementById('cargoResp').value;
+  const fundacao = document.getElementById('fundacao').value;
+
+  // Enviar todos os dados de uma vez
+  enviarDados('usuarios', { telefone, tipoInst, cargoResp, fundacao });
+});
+
+// Evento para o formulário 2
+document.getElementById('form2').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const endereco = document.getElementById('endereco').value;
+  const cidade = document.getElementById('cidade').value;
+  const bairro = document.getElementById('bairro').value;
+  const logradouro = document.getElementById('logradouro').value;
+  const numero = document.getElementById('numero').value;
+  const cep = document.getElementById('cep').value;
+
+  enviarDados('usuarios', { endereco, cidade, bairro, logradouro, numero, cep });
+});
+
+// Evento para o formulário 3
+document.getElementById('form3').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const nomeInst = document.getElementById('nomeInst').value;
+  const descricao = document.getElementById('descricao').value;
+
+  enviarDados('usuarios', { nomeInst, descricao });
+});
+
+// Evento para o formulário 4
+document.getElementById('form4').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const email = document.getElementById('email').value;
+  const senha = document.getElementById('senha').value;
+  const cnpj = document.getElementById('cnpj').value;
+  const instituicao = true;
+
+  enviarDados('usuarios', { email, senha, cnpj, instituicao });
 });
