@@ -32,6 +32,7 @@ document.getElementById('cadastroForm').addEventListener('submit', function (e) 
         alert('Usuário cadastrado com sucesso!');
         // Limpa o formulário após o cadastro
         document.getElementById('cadastroForm').reset();
+        window.location.href = '../../../pages/login/login.html';
     })
     .catch(error => {
         console.error('Erro ao cadastrar usuário:', error);

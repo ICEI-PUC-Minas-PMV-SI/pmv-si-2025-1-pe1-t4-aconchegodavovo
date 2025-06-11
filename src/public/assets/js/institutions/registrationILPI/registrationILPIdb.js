@@ -23,7 +23,6 @@ async function enviarDados(endpoint, data, isFormData = false) {
     }
 
     const result = await response.json();
-    alert('Dados enviados com sucesso!');
     return result;
   } catch (error) {
     alert('Erro ao enviar dados: ' + error.message);
@@ -73,4 +72,7 @@ document.getElementById('form4').addEventListener('submit', function(e) {
   const instituicao = true;
 
   enviarDados('usuarios', { email, senha, cnpj, instituicao });
+  
+  alert('Usuário cadastrado com sucesso!');
+  window.location.href = '../../../pages/login/login.html';
 });
