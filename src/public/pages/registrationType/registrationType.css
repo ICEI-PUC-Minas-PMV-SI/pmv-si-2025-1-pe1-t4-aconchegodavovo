@@ -15,6 +15,7 @@ body {
 .main-container {
   display: flex;
   height: calc(100vh - 80px);
+  min-height: 750px;
 }
 
 .image-section {

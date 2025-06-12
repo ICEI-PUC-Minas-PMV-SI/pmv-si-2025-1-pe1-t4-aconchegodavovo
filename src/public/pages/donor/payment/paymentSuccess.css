@@ -15,6 +15,7 @@ body {
 #imgassets {
     width: 50%;
     height: 100%;
+    min-height: 750px;
     object-fit: cover;
 }
 
@@ -29,6 +30,7 @@ body {
 .container {
     display: flex;
     height: 100vh;
+    min-height: 750px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
