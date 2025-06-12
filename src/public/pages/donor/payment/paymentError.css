@@ -93,7 +93,7 @@ p {
 
 /* ------------------------------------------------------------------ */
 
-@media (max-width: 870px) {
+@media (max-width: 1040px) {
     .parent > img {
         display: none;
     }
@@ -104,5 +104,6 @@ p {
         justify-content: center;
         width: 100%;
         height: 100vh;
+        min-height: 750px;
     }
 }
