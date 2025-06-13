@@ -124,6 +124,7 @@ main h1 {
     overflow: hidden;
     width: 280px;
     text-align: center;
+    text-decoration: none;
 }
 
 .card img {
