@@ -68,11 +68,12 @@ body {
 
 .plano-cards {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 0 40;
-  gap: 30px;
+  justify-content: center;      /* Centraliza os cards no contêiner */
+  flex-wrap: wrap;              /* Quebra para nova linha se necessário */
+  gap: 80px;                    /* Espaçamento entre os cards */
+  padding: 20px 0;
 }
+
 
 .card {
     background-color: #0B3C5D;
