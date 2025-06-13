@@ -17,14 +17,21 @@ document.getElementById('form').addEventListener('submit', async (e) => {
       body: JSON.stringify(plano)
     });
 
-    if (response.ok) {
-      alert('Plano salvo com sucesso!');
-      form.reset();
-    } else {
-      alert('Erro ao salvar plano.');
-    }
   } catch (error) {
     console.error('Erro:', error);
     alert('Erro na comunicação com o servidor.');
   }
 });
+
+const btnSaveProfile = document.getElementById("btnSaveProfile");
+const modalSaveProfile = document.getElementById("modalSaveProfile");
+const btnCloseSaveProfile = document.getElementById("btnCloseSaveProfile");
+
+btnSaveProfile.onclick = function () {
+    modalSaveProfile.showModal();
+}
+
+btnCloseSaveProfile.onclick = function () {
+    modalSaveProfile.close();
+    window.location.href = 'plans.html';
+}
