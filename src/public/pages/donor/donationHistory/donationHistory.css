@@ -192,7 +192,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
-    margin: 10px auto; /* <-- centraliza horizontalmente */
+    margin: 10px auto; 
     background-color: #fff;
     border: 2px solid #d3d3d3;
     border-radius: 6px;
@@ -200,6 +200,12 @@ body {
     color: var(--cinza-mediano);
     font-weight: 600;
     box-shadow: none;
-    width: 90%; /* melhor para responsividade que 1600px fixos */
-    max-width: 1600px; /* ou ajuste conforme o layout */
+    width: 90%;
+    max-width: 1600px; 
   } 
+
+.titulo,
+.linha {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+}

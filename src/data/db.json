@@ -120,5 +120,35 @@
       "valor": "20000",
       "id": 5
     }
+  ],
+  "doacoes": [
+    {
+      "data": "15/06/2025",
+      "valor": "100",
+      "nomeinst": "Recanto nascer do sol",
+      "id": 1,
+      "pagamento": "pix"
+    },
+    {
+      "data": "14/06/2025",
+      "valor": 100,
+      "nomeinst": "Recanto nascer do sol",
+      "pagamento": "boleto",
+      "id": 2
+    },
+    {
+      "data": "14/06/2025",
+      "valor": 20000,
+      "nomeinst": "Recanto nascer do sol",
+      "pagamento": "pix",
+      "id": 3
+    },
+    {
+      "data": "14/06/2025",
+      "valor": 300,
+      "nomeinst": "Recanto nascer do sol",
+      "pagamento": "boleto",
+      "id": 4
+    }
   ]
 }
