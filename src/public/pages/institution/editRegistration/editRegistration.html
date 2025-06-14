@@ -76,49 +76,22 @@
                     <div class="edit2">
                         <h2>Editar Cadastro</h2>
 
-                        <form>
+                        <form id="form">
                             <div>
-                                <label for="nome">Nome Completo</label>
-                                <input type="text" input id="nome" placeholder="James">
+                                <label for="nome">Telefone</label>
+                                <input type="text" input id="telefone" placeholder="(31) 99456-2328">
                             </div>
                             <div>
-                                <label for="CNPJ">CNPJ</label>
-                                <input type="text" id="cnpj" placeholder="00.000.000/0000-00">
+                               <label for="tipo">Tipo de Instituição</label>
+                                <input type="text" id="tipo" placeholder="Instituição de Longa Permanência para Idosos">
                             </div>
                             <div>
                                 <label for="cargoResponsavel">Cargo Responsável</label>
                                 <input type="text" id="cargoResponsavel" placeholder="Cargo Responsável">
-                            </div>
-                            <div>
-                                <label for="reponsavelLegal">Responsável Legal</label>
-                                <input type="text" id="reponsavelLegal" placeholder="James Bond">
-                            </div>
-                            <div>
-                                <label for="data">Data da Fundação Legal</label>
-                                <input type="date" id="data">
-                            </div>
-                            <div>
-                                <label for="tipo">Tipo de Instituição</label>
-                                <input type="text" id="tipo" placeholder="Instituição de Longa Permanência para Idosos">
-                            </div>
-                        </form>
+                            </div>                     
+                             <div class="editBtn">
 
-                        <div class="editBtn">
-                            <button class="btn btn-azul-2" id="btnNextFirst">
-                                Próximo
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="editContainer second" style="display: none;">
-                <div class="edit1">
-                    <div class="edit2">
-                        <h2>Editar Cadastro</h2>
-
-                        <form>
-                            <div>
+                                  <div>
                                 <label for="endereco">Endereço</label>
                                 <input type="text" input id="endereco" placeholder="Logradouro">
                             </div>
@@ -135,35 +108,16 @@
                                 <input type="text" id="cidade" placeholder="Belo Horizonte">
                             </div>
                             <div>
-                                <label for="complemento">Complemento</label>
-                                <input type="text" id="complemento" placeholder="Apt. 123A">
+                                <label for="logradouro">Logradouro</label>
+                                <input type="text" id="logradouro" placeholder="Logradouro">
                             </div>
                             <div>
                                 <label for="cep">CEP</label>
                                 <input type="text" id="cep" placeholder="00.000-000">
                             </div>
-                        </form>
-
-                        <div class="editBtn">
-                            <button class="btn btn-border" id="btnBackSecond">
-                                Voltar
-                            </button>
-
-                            <button class="btn btn-azul-2" id="btnNextSecond">
-                                Próximo
-                            </button>
                         </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="editContainer third" style="display: none;">
-                <div class="edit1">
-                    <div class="edit2">
-                        <h2>Editar Cadastro</h2>
-
-                        <form>
-                            <div>
+                          <div>
                                 <label for="email">E-mail</label>
                                 <input type="email" input id="email" placeholder="exemplo@exemplo.com">
                             </div>                         
@@ -171,21 +125,16 @@
                                 <label for="senha">Senha</label>
                                 <input type="password" id="senha" placeholder="Senha">
                             </div>                         
-                            <div class="editBtnThird">
-                                <button class="btn btn-border" id="btnBackThird">
-                                    Voltar
-                                </button>
-
-                                <div>
-                                    <button class="btn btn-azul-2" type="submit">Salvar</button>
-                                
-                                </div>
-                            </div>
+                       
+                        <button class="btn btn-azul-2"  id="atualizar" type="button">
+                                Atualizar
+                            </button>
+              
                         </form>
+                        
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -244,7 +193,7 @@
             </div>
         </div>
     </dialog>
-
+    <script src="./editResgistration.js"></script>
     <script src="../../../assets/js/institutions/editRegistration/editRegistration.js"></script>
     <script src="../../../assets/js/modalDropDown.js"></script>
     <script src="../../../assets/js/dropDownMenu.js"></script>
