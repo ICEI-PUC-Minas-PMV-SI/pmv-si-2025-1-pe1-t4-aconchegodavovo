@@ -16,23 +16,10 @@ const senhaInput = document.getElementById('senha');
 const modalSaveProfile = document.getElementById("modalSaveProfile");
 const btnCloseSaveProfile = document.getElementById("btnCloseSaveProfile");
 
-function toBase64(file) {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.readAsDataURL(file);
-    reader.onload = () => resolve(reader.result);
-    reader.onerror = err => reject(err);
-  });
-}
-
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   try {
-    let fotoBase64 = null;
-    if (fotoInput.files.length > 0) {
-      fotoBase64 = await toBase64(fotoInput.files[0]);
-    }
 
     const novoUsuario = {
       email: emailInput.value,
@@ -42,9 +29,6 @@ form.addEventListener('submit', async (e) => {
       telefone: telefoneInput.value,
       tipoInst: tipoInstInput.value,
       cep: cepInput.value,
-      nomeInst: nomeInstInput.value,
-      descricao: descricaoInput.value,
-      foto: fotoBase64
     };
 
     const response = await fetch(API_URL, {

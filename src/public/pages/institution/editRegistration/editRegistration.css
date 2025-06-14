@@ -9,6 +9,10 @@ body {
   background-color: var(--branco);
 }
 
+#main{
+  display: flex;
+}
+
 button {
   background-color: transparent;
   border: none;
@@ -19,6 +23,7 @@ button {
 /* Aside */
 
 aside {
+  height: 90vh;
   width: calc(100% - 60%);
   max-width: 320px;
   background-color: var(--branco-escuro);
@@ -85,8 +90,8 @@ aside {
 
 .editContainer {
   margin-top: 25px;
-  width: 100%;
-  height: 850px;
+    width: calc(100% - 25%);
+    height: 850px;
   display: flex;
   justify-content: center;
   align-items: center;
