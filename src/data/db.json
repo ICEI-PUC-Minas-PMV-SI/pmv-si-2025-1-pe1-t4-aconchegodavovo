@@ -78,6 +78,19 @@
       "descricao": "testee",
       "foto": null,
       "id": 8
+    },
+    {
+      "email": "teste@gmail",
+      "senha": "teste",
+      "cnpj": "teste",
+      "instituicao": true,
+      "telefone": "teste",
+      "tipoInst": "teste",
+      "cep": "teste",
+      "nomeInst": "teste",
+      "descricao": "",
+      "foto": null,
+      "id": 9
     }
   ],
   "perfil": {

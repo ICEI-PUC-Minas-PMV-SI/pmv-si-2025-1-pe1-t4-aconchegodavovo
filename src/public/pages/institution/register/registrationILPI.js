@@ -1,6 +1,6 @@
 const API_URL = 'http://localhost:3000/usuarios';
 
-// Pegando os elementos do seu formulário
+// Elementos do formulário
 const form = document.getElementById('form1');
 const telefoneInput = document.getElementById('telefone');
 const tipoInstInput = document.getElementById('tipoInst');
@@ -11,6 +11,10 @@ const descricaoInput = document.getElementById('descricao');
 const fotoInput = document.getElementById('arquivo');
 const emailInput = document.getElementById('email');
 const senhaInput = document.getElementById('senha');
+
+// Elementos do modal
+const modalSaveProfile = document.getElementById("modalSaveProfile");
+const btnCloseSaveProfile = document.getElementById("btnCloseSaveProfile");
 
 function toBase64(file) {
   return new Promise((resolve, reject) => {
@@ -45,9 +49,7 @@ form.addEventListener('submit', async (e) => {
 
     const response = await fetch(API_URL, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(novoUsuario)
     });
 
@@ -55,11 +57,17 @@ form.addEventListener('submit', async (e) => {
       throw new Error('Erro ao salvar usuário');
     }
 
-    alert('Cadastro realizado com sucesso!');
-    form.reset();
+    // Cadastro OK: abrir modal
+    modalSaveProfile.showModal();
 
   } catch (error) {
     console.error('Erro:', error);
     alert('Erro ao cadastrar. Tente novamente.');
   }
 });
+
+// Quando fechar o modal, redireciona para a página de login
+btnCloseSaveProfile.onclick = function () {
+  modalSaveProfile.close();
+  window.location.href = '../../../pages/login/login.html';
+};

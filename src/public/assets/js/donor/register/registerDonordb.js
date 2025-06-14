@@ -1,7 +1,9 @@
+const modalSaveProfile = document.getElementById("modalSaveProfile");
+const btnCloseSaveProfile = document.getElementById("btnCloseSaveProfile");
+
 document.getElementById('cadastroForm').addEventListener('submit', function (e) {
     e.preventDefault(); // evita o envio padrão do formulário
 
-    // Pega os valores dos inputs
     const nome = document.getElementById('nome').value;
     const email = document.getElementById('email').value;
     const cpf = document.getElementById('cpf').value;
@@ -9,17 +11,15 @@ document.getElementById('cadastroForm').addEventListener('submit', function (e) 
     const nascimento = document.getElementById('nascimento').value;
     const senha = document.getElementById('senha').value;
 
-    // Cria o objeto com os dados
     const novoUsuario = {
-        nome: nome,
-        email: email,
-        cpf: cpf,
-        telefone: telefone,
-        nascimento: nascimento,
-        senha: senha
+        nome,
+        email,
+        cpf,
+        telefone,
+        nascimento,
+        senha
     };
 
-    // Envia os dados para o json-server
     fetch('http://localhost:3000/usuarios', {
         method: 'POST',
         headers: {
@@ -27,14 +27,23 @@ document.getElementById('cadastroForm').addEventListener('submit', function (e) 
         },
         body: JSON.stringify(novoUsuario)
     })
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Erro ao cadastrar usuário.');
+        }
+        return response.json();
+    })
     .then(data => {
-        alert('Usuário cadastrado com sucesso!');
-        // Limpa o formulário após o cadastro
-        document.getElementById('cadastroForm').reset();
-        window.location.href = '../../../pages/login/login.html';
+        // Mostra o modal de sucesso
+        modalSaveProfile.showModal();
     })
     .catch(error => {
         console.error('Erro ao cadastrar usuário:', error);
     });
 });
+
+// Quando clicar no botão de fechar modal, redireciona
+btnCloseSaveProfile.onclick = function () {
+    modalSaveProfile.close();
+    window.location.href = '../../../pages/login/login.html';
+};
