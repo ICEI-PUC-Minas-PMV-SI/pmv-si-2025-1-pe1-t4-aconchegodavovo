@@ -127,6 +127,10 @@ form div {
   gap: 5px;
 }
 
+form button {
+  margin-top: 20px;
+}
+
 .editBtn {
   margin-top: 20px;
   display: flex;

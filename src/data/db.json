@@ -16,7 +16,7 @@
       "cep": "38702030",
       "email": "ilpi@gmail.com",
       "senha": "123",
-      "instituicao": true,
+      "instituicao": "true",
       "id": 2
     }
   ],

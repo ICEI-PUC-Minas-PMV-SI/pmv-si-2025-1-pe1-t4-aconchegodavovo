@@ -69,7 +69,7 @@ document.getElementById('form4').addEventListener('submit', function(e) {
   const email = document.getElementById('email').value;
   const senha = document.getElementById('senha').value;
   const cnpj = document.getElementById('cnpj').value;
-  const instituicao = true;
+  const instituicao = "true";
 
   enviarDados('usuarios', { email, senha, cnpj, instituicao });
   

@@ -17,7 +17,7 @@ loginForm.addEventListener('submit', function (e) {
             }
 
             if (user.senha === senha) {
-                if (user.instituicao === true) {
+                if (user.instituicao === "true") {
                     window.location.href = '../../../pages/institution/historyReceipts/historyReceipts.html';
                 } else {
                     window.location.href = '../../../pages/donor/listInstitutions/listInstitutions.html';
