@@ -196,3 +196,7 @@ main h1 {
     color: #003366;
     margin: 0;
 }
+
+.hide {
+    display: none;
+}

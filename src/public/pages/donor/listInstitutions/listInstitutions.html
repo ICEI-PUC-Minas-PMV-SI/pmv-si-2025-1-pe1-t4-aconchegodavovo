@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="../../../pages/institution/dropDown/dropDown.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="../../../assets/css/modal/globalModal.css">
+  <script src="./listInstSearch.js" defer></script>
 </head>
 
 <body>
@@ -47,27 +48,27 @@
   <main>
     <h1>Instituições</h1>
 
-    <div class="busca">
-      <input type="text" placeholder="Buscar por nome ou município">
+    <div class="busca" data-search>
+      <input type="search" id="pesquisa" placeholder="Buscar por nome...">
       <button><img src="../../../assets/img/icon-lupa-barra-pesquisa.svg" alt="Buscar"></button>
     </div>
 
-    <div class="cards">
-       <a href="../../donor/profileInstitution/profileInstitution.html" class="card">
-        <img src="" alt="foto instituição" id="img1" >
-        <h3 id="nome1"></h3>
-       </a>
-      <a href="../../donor/profileInstitution/profileInstitution.html" class="card">
+    <div id="lista" class="cards">
+      <a href="../../donor/profileInstitution/profileInstitution.html" class="card" id="card1">
+        <img src="" alt="foto instituição" id="img1">
+        <h3 id="nome1" class="nomeILPI"></h3>
+      </a>
+      <a href="../../donor/profileInstitution/profileInstitution.html" class="card" id="card2">
         <img src="../../../assets/img/img-perfil-ilpi-2.svg" alt="Cantinho da Serenidade">
-        <h3>Cantinho da Serenidade</h3>
-       </a>
-       <a href="../../donor/profileInstitution/profileInstitution.html" class="card">
+        <h3 class="nomeILPI">Cantinho da Serenidade</h3>
+      </a>
+      <a href="../../donor/profileInstitution/profileInstitution.html" class="card" id="card3">
         <img src="../../../assets/img/img-perfil-ilpi-3.svg" alt="Lar Recanto do Sol">
-        <h3>Lar Recanto do Sol</h3>
-       </a>
+        <h3 class="nomeILPI">Lar Recanto do Sol</h3>
+      </a>
     </div>
   </main>
-  
+
   <dialog id="modalLogout">
     <div class="modal">
       <div class="texto-modal">
@@ -92,9 +93,11 @@
       </div>
     </div>
   </dialog>
-    <script src="./listInstitutions.js"></script>
+
+  <script src="./listInstitutions.js"></script>
   <script src="../../../assets/js/modalDropDown.js"></script>
   <script src="../../../assets/js/dropDownMenu.js"></script>
+
 </body>
 
 </html>
