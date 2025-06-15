@@ -25,7 +25,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta do Doador**
+**Caso de Teste** | **CT001 - Criar conta do Doador**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Entre / Cadastre-se <br> 3) Clique em Cadastrar <br> 4) Escolha a opção Doador <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Registrar".
 **Requisitos associados** | RF-003
@@ -33,7 +33,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT02 - Criar conta da Instituição**
+**Caso de Teste** | **CT002 - Criar conta da Instituição**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em "Entre / Cadastre-se" <br> 3) Clique em "Cadastrar" <br> 4) Escolha a opção Instituição <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Registrar".
 **Requisitos associados** | RF-004
@@ -41,7 +41,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT03 - Login**
+**Caso de Teste** | **CT003 - Login**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em "Entre / Cadastre-se" <br> 3) Preencha o email e senha <br> 4) Clique no botão "Login".
 **Requisitos associados** | RF-005
@@ -49,13 +49,142 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de login
 **Resultado obtido** | Entrar na Main Page
 
-**Caso de Teste** | **CT04 - Esqueci a Senha**
+**Caso de Teste** | **CT004 - Esqueci a Senha**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em "Entre / Cadastre-se" <br> 3) Clique em "Esqueceu a Senha?" <br> 4) Preencha o email <br> 5) Clique no botão "Enviar".
 **Requisitos associados** | RF-006
 **Resultado esperado** | Recuperar a senha
 **Dados de entrada** | Inserção de email válido no formulário
 **Resultado obtido** | Senha recuperada
+
+**Caso de Teste** | **CT005 - Listagem das Instituições**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-007
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT006 - Histórico de Doações**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-008
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT007 - Editar Cadastro Doador**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-009
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT008 - Perfil das Intituições**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-010
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT009 - Pagamento**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-011
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT010 - Erro de Pagamento**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-012
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT011 - Sucesso de Pagamento**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-013
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT012 - Histórico de Recebimentos**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-014
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT013 - Meus Planos**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-015
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT014 - Cadastrar Novo Plano**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-016
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT015 - Editar Plano**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-017
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT016 - Editar Cadastro ILPI**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-018
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT017 - Editar Perfil**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-019
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT018 - Agradecimentos**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-020
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT019 - Cadastrar Agradecimentos**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-021
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
+**Caso de Teste** | **CT020 - Editar Agradecimentos**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Requisitos associados** | RF-022
+**Resultado esperado** | 
+**Dados de entrada** | 
+**Resultado obtido** | 
+
 
 ## Registro dos Testes de Software
 
