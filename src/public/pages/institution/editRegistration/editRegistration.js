@@ -3,11 +3,10 @@ const form = document.getElementById('form');
 
 // Pega o ID da URL
 const urlParams = new URLSearchParams(window.location.search);
-const id = 13;
+const id = 2;
 
-// Verifica se o ID está presente
 if (!id) {
-  alert('ID da instituição não encontrado.');
+  alert('ID da Instituição não encontrado.');
 } else {
   preencherFormulario(id);
 }
@@ -20,22 +19,18 @@ async function preencherFormulario(id) {
 
     const dados = await response.json();
 
-    const setValue = (id, value) => {
-      const input = document.getElementById(id);
+    const setValue = (elementId, value) => {
+      const input = document.getElementById(elementId);
       if (input) input.value = value || '';
     };
 
     setValue('telefone', dados.telefone);
-    setValue('tipo', dados.tipoInst);
-    setValue('cargoResponsavel', dados.cargoResponsavel);
-    setValue('endereco', dados.endereco);
-    setValue('bairro', dados.bairro);
-    setValue('numero', dados.numero);
-    setValue('cidade', dados.cidade);
-    setValue('logradouro', dados.logradouro);
+    setValue('tipoInst', dados.tipoInst);
+    setValue('cnpj', dados.cnpj);
     setValue('cep', dados.cep);
     setValue('email', dados.email);
     setValue('senha', dados.senha);
+    setValue('instituicao', dados.instituicao);
 
   } catch (error) {
     console.error('Erro ao carregar dados:', error);
@@ -49,16 +44,12 @@ document.getElementById('atualizar').addEventListener('click', async (e) => {
 
   const dadosAtualizados = {
     telefone: document.getElementById('telefone')?.value,
-    tipoInst: document.getElementById('tipo')?.value,
+    tipoInst: document.getElementById('tipoInst')?.value,
+    cnpj: document.getElementById('cnpj')?.value,
     cep: document.getElementById('cep')?.value,
     email: document.getElementById('email')?.value,
     senha: document.getElementById('senha')?.value,
-    cargoResponsavel: document.getElementById('cargoResponsavel')?.value,
-    endereco: document.getElementById('endereco')?.value,
-    bairro: document.getElementById('bairro')?.value,
-    numero: document.getElementById('numero')?.value,
-    cidade: document.getElementById('cidade')?.value,
-    logradouro: document.getElementById('logradouro')?.value
+    instituicao: document.getElementById('instituicao')?.value
   };
 
   try {
@@ -74,7 +65,11 @@ document.getElementById('atualizar').addEventListener('click', async (e) => {
 
     // Abre o modal de sucesso
     const modal = document.getElementById('modalSaveProfile');
-    if (modal) modal.showModal();
+    if (modal && typeof modal.showModal === 'function') {
+      modal.showModal();
+    } else {
+      alert('Dados atualizados com sucesso!');
+    }
 
   } catch (error) {
     console.error('Erro ao atualizar:', error);

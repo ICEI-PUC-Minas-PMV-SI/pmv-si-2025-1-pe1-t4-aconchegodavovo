@@ -6,10 +6,12 @@
 }
 
 body {
+  height: 100vh;
   background-color: var(--branco);
 }
 
-#main{
+#main {
+  height: 100vh;
   display: flex;
 }
 
@@ -23,7 +25,7 @@ button {
 /* Aside */
 
 aside {
-  height: 90vh;
+  height: 100vh;
   width: calc(100% - 60%);
   max-width: 320px;
   background-color: var(--branco-escuro);
@@ -78,7 +80,7 @@ aside {
   text-align: left;
 }
 
-#asideOptBtn a:hover,
+.asideOptBtn a:hover,
 .special {
   background-color: var(--azul-2);
   border-radius: 25px 0 25px 0;
@@ -90,8 +92,8 @@ aside {
 
 .editContainer {
   margin-top: 25px;
-    width: calc(100% - 25%);
-    height: 850px;
+  width: calc(100% - 25%);
+  height: 1100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,21 +128,10 @@ form div {
 }
 
 .editBtn {
-  display: flex;
-  justify-content: space-between;
-}
-
-.editBtnThird {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.editBtnThird div {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 
 .editBtn div {
@@ -238,7 +229,8 @@ label {
 
 /* ---------------------------------------------------------------- */
 /* Display: none */
-.second, .third {
+.second,
+.third {
   display: none;
 }
 
@@ -272,6 +264,7 @@ label {
     width: 150px;
   }
 }
-#form{
-margin-bottom: 50px;
+
+#form {
+  margin-bottom: 50px;
 }
