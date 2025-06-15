@@ -27,7 +27,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT01 - Criar conta do Doador**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Entre | Cadastre-se <br> 3) Clique em Cadastrar <br> 4) Escolha a opção Doador <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Registrar".
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Entre / Cadastre-se <br> 3) Clique em Cadastrar <br> 4) Escolha a opção Doador <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Registrar".
 **Requisitos associados** | RF-003
 **Resultado esperado** | Doador cadastrado
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
