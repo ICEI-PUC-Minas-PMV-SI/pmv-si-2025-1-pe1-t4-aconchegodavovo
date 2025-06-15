@@ -1,6 +1,5 @@
 const API_URL_DOACOES = 'http://localhost:3000/doacoes';
 const listaDoacoes = document.getElementById('listaDoacoes');
-const inputBusca = document.getElementById('searchInput');
 
 // Função para formatar data em DD/MM/AAAA
 function formatarData(dataISO) {
@@ -49,14 +48,15 @@ async function carregarDoacoes() {
 }
 
 // Evento de busca
-inputBusca.addEventListener('input', () => {
-  const termo = inputBusca.value.toLowerCase();
+const searchInput = document.querySelector('[data-search]');
+const lista = document.getElementById('listaDoacoes');
 
-  const filtradas = window.todasDoacoes.filter(d =>
-    d.instituicao.toLowerCase().includes(termo)
-  );
-
-  renderizarDoacoes(filtradas);
+searchInput.addEventListener('input', (e) => {
+    const value = e.target.value.toLowerCase();
+    Array.from(lista.children).forEach(item => {
+        const isVisible = item.textContent.toLowerCase().includes(value);
+        item.classList.toggle('hide', !isVisible);
+    });
 });
 
 // Ao carregar a página
