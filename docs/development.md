@@ -23,7 +23,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-013| Desenvolver tela de Sucesso de Pagamento 		| Brenda | paymentSuccess.html |
 |RF-014| Desenvolver tela de Histórico de Recebimentos 	| Rafael | historyReceipts.html |
 |RF-015| Desenvolver tela de Meus Planos 				| Brenda | plans.html |
-|RF-016| Desenvolver tela de Cadastrar novo Plano 		| Camila | registerPlans.html |
+|RF-016| Desenvolver tela de Cadastrar Novo Plano 		| Camila | registerPlans.html |
 |RF-017| Desenvolver tela de Editar Plano 				| Brenda | editPlans.html |
 |RF-018| Desenvolver tela de Editar Cadastro ILPI	 	| Rafael | editRegistration.html |
 |RF-019| Desenvolver tela de Editar Perfil 				| Rafael | editProfile.html |
