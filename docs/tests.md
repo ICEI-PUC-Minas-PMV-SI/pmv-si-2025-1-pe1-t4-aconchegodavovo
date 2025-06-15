@@ -27,7 +27,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT01 - Criar conta do Doador**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 3) Escolha a opção Doador <br> 4) Preencha todos os campos do formulário <br> 3) Clique no botão "Registrar".
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Entre | Cadastre-se <br> 3) Clique em Cadastrar <br> 4) Escolha a opção Doador <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Registrar".
 **Requisitos associados** | RF-003
 **Resultado esperado** | Doador cadastrado
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
@@ -35,11 +35,27 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT02 - Criar conta da Instituição**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 3) Escolha a opção Instituição <br> 4) Preencha todos os campos do formulário <br> 3) Clique no botão "Registrar".
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em "Entre | Cadastre-se" <br> 3) Clique em "Cadastrar" <br> 4) Escolha a opção Instituição <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Registrar".
 **Requisitos associados** | RF-004
 **Resultado esperado** | Instituição cadastrada
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT03 - Login**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em "Entre | Cadastre-se" <br> 3) Preencha o email e senha <br> 4) Clique no botão "Login".
+**Requisitos associados** | RF-005
+**Resultado esperado** | Realizar o login
+**Dados de entrada** | Inserção de dados válidos no formulário de login
+**Resultado obtido** | Entrar na Main Page
+
+**Caso de Teste** | **CT04 - Esqueci a Senha**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em "Entre | Cadastre-se" <br> 3) Clique em "Esqueceu a Senha?" <br> 4) Preencha o email <br> 5) Clique no botão "Enviar".
+**Requisitos associados** | RF-006
+**Resultado esperado** | Recuperar a senha
+**Dados de entrada** | Inserção de email válido no formulário
+**Resultado obtido** | Senha recuperada
 
 ## Registro dos Testes de Software
 
