@@ -123,4 +123,8 @@ body {
     box-shadow: none;
     width: 90%; /* melhor para responsividade que 1600px fixos */
     max-width: 1600px; /* ou ajuste conforme o layout */
-  } 
+  }
+
+  .hide {
+    display: none;
+  }

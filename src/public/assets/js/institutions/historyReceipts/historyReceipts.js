@@ -1,15 +1,10 @@
-const searchInput = document.getElementById('searchInput');
-const linhas = document.querySelectorAll('.linha');
+const searchInput = document.querySelector('[data-search]');
+const lista = document.getElementById('listaDoacoes');
 
-searchInput.addEventListener('input', () => {
-  const termo = searchInput.value.toLowerCase();
-
-  linhas.forEach(linha => {
-    const texto = linha.textContent.toLowerCase();
-    if (texto.includes(termo)) {
-      linha.style.display = 'flex'; // ou 'block'
-    } else {
-      linha.style.display = 'none';
-    }
-  });
+searchInput.addEventListener('input', (e) => {
+    const value = e.target.value.toLowerCase();
+    Array.from(lista.children).forEach(item => {
+        const isVisible = item.textContent.toLowerCase().includes(value);
+        item.classList.toggle('hide', !isVisible);
+    });
 });
