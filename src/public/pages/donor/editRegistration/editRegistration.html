@@ -68,7 +68,7 @@
                     <div id="edit2">
                         <h2>Editar Cadastro</h2>
 
-                        <form>
+                        <form id="form">
                             <div>
                                 <label for="nome">Nome Completo</label>
                                 <input type="text" input id="nome" placeholder="James Bond">
@@ -83,24 +83,29 @@
                             </div>
                             <div>
                                 <label for="nascimento">Data de Nascimento</label>
-                                <input type="date" input id="nascimento">
+                                <input type="text" input id="nascimento" placeholder="12/12/2000">
                             </div>
                             <div>
                                 <label for="email">E-mail</label>
                                 <input type="email" input id="email" placeholder="exemplo@exemplo.com">
                             </div>
                             <div>
-                                <label for="confirmalEmail">Confirmar e-mail</label>
-                                <input type="email" id="confirmalEmail" placeholder="exemplo@exemplo.com">
-                            </div>
-                            <div>
                                 <label for="senha">Senha</label>
                                 <input type="password" id="senha" placeholder="Senha">
                             </div>
-                           
+
                             <div id="editBtn">
-                                <a href="#"><button class="btn btn-vermelho">Cancelar</button></a>
-                                <a href="#"><button class="btn btn-azul-2" type="submit">Salvar</button></a>
+                                <a href="#">
+                                    <button class="btn btn-vermelho">
+                                        Cancelar
+                                    </button>
+                                </a>
+                                
+                                <a href="#">
+                                    <button class="btn btn-azul-2" type="submit" id="atualizar">
+                                        Atualizar
+                                    </button>
+                                </a>
                             </div>
                         </form>
                     </div>
@@ -165,6 +170,21 @@
         </div>
     </dialog>
 
+    <dialog id="modalSaveProfile">
+        <div class="modal-verde">
+            <div class="texto-modal">
+                <img src="../../../../assets/img/icon-sucess.png" alt="Check Icon" width="90px">
+                <h2>
+                    Cadastro editado com sucesso!
+                </h2>
+            </div>
+            <button type="button" class="btn-modal btn-cinza" id="btnCloseSaveProfile">
+                Fechar
+            </button>
+        </div>
+    </dialog>
+
+    <script src="./editRegistration.js"></script>
     <script src="../../../assets/js/modalDropDown.js"></script>
     <script src="../../../assets/js/dropDownMenu.js"></script>
     <script src="../../../assets/js/donor/modal/deletAccount.js"></script>
