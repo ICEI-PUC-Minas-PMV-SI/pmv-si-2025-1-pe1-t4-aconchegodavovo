@@ -22,9 +22,6 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 ## Plano de Testes de Software
 
-Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
-
-
 **Caso de Teste** | **CT001 - Criar conta do Doador**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Entre / Cadastre-se <br> 3) Clique em Cadastrar <br> 4) Escolha a opção Doador <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Registrar".
@@ -59,132 +56,91 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT005 - Listagem das Instituições**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Faça login na conta do Doador <br> 3) Preencha o campo de pesquisa
 **Requisitos associados** | RF-007
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
+**Resultado esperado** | Filtrar por nome da Instituição
+**Dados de entrada** | Inserção de nome da Instituição na barra de pesquisa
+**Resultado obtido** | Filtragem realizada com sucesso
 
 **Caso de Teste** | **CT006 - Histórico de Doações**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Faça login na conta do Doador <br> 3) Clique em "Histórico de Doações" <br> 4) Preencha o campo de pesquisa
 **Requisitos associados** | RF-008
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
+**Resultado esperado** | Filtrar por nome da Instituição, <br> por data da doação, <br> pelo valor da doação <br> ou forma de pagamento
+**Dados de entrada** | Inserção de dados na barra de pesquisa
+**Resultado obtido** | Filtragem realizada com sucesso
 
 **Caso de Teste** | **CT007 - Editar Cadastro Doador**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Faça login na conta do Doador <br> 3) Clique no ícone cima direita <br> 4) Clique em "Configurações da Conta" <br> 4) Preencha os dados que deseja alterar <br> 5) Clique no botão "Atualizar"
 **Requisitos associados** | RF-009
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
+**Resultado esperado** | Dados de cadastro atualizados
+**Dados de entrada** | Inserção de dados válidos no formulário
+**Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT008 - Perfil das Intituições**
+**Caso de Teste** | **CT008 - Pagamento**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
-**Requisitos associados** | RF-010
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
-
-**Caso de Teste** | **CT009 - Pagamento**
- :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Faça login na conta do Doador <br> 3) Clique no card de uma Instituição <br> 4) Clique no plano de doação deseja <br> 5) Escolha o tipo de pagamento <br> 6) Preencha todos os campos do formulário <br> 7) Clique no botão "Continuar"
 **Requisitos associados** | RF-011
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
+**Resultado esperado** | Doação realizada com sucesso
+**Dados de entrada** | Inserção de dados válidos no formulário
+**Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT010 - Erro de Pagamento**
+**Caso de Teste** | **CT009 - Histórico de Recebimentos**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
-**Requisitos associados** | RF-012
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
-
-**Caso de Teste** | **CT011 - Sucesso de Pagamento**
- :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
-**Requisitos associados** | RF-013
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
-
-**Caso de Teste** | **CT012 - Histórico de Recebimentos**
- :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Faça login na conta da Instituição <br> 3) Preencha o campo de pesquisa
 **Requisitos associados** | RF-014
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
+**Resultado esperado** | Filtrar por valor da doação ou por data da doação
+**Dados de entrada** | Inserção de dados na barra de pesquisa
+**Resultado obtido** | Filtragem realizada com sucesso
 
-**Caso de Teste** | **CT013 - Meus Planos**
+**Caso de Teste** | **CT010 - Cadastrar Novo Plano**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
-**Requisitos associados** | RF-015
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
-
-**Caso de Teste** | **CT014 - Cadastrar Novo Plano**
- :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Faça login na conta da Instituição <br> 3) Clique em "Planos" <br> 4) Clique no botão "Cadastrar planos +" <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Salvar"
 **Requisitos associados** | RF-016
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
+**Resultado esperado** | Novo plano de doação cadastrado
+**Dados de entrada** | Inserção de dados válidos no formulário
+**Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT015 - Editar Plano**
+**Caso de Teste** | **CT011 - Editar Plano**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Faça login na conta da Instituição <br> 3) Clique em "Planos" <br> 4) Clique no ícone de lápis no plano desejado <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Salvar"
 **Requisitos associados** | RF-017
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
+**Resultado esperado** | Plano atualizado com sucesso
+**Dados de entrada** | Inserção de dados válidos no formulário
+**Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT016 - Editar Cadastro ILPI**
+**Caso de Teste** | **CT012 - Editar Cadastro ILPI**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Faça login na conta da Instituição <br> 3) Clique no ícone cima direita <br> 4) Clique em "Configurações da Conta" <br> 4) Preencha os dados que deseja alterar <br> 5) Clique no botão "Atualizar"
 **Requisitos associados** | RF-018
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
+**Resultado esperado** | Dados de cadastro atualizados
+**Dados de entrada** | Inserção de dados válidos no formulário
+**Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT017 - Editar Perfil**
+**Caso de Teste** | **CT013 - Editar Perfil**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Faça login na conta da Instituição <br> 3) Clique no ícone cima direita <br> 4) Clique em "Configurações da Conta" <br> 4) Clique em "Editar Perfil" <br> 5) Preencha os dados que deseja alterar <br> 6) Clique no botão "Atualizar"
 **Requisitos associados** | RF-019
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
+**Resultado esperado** | Dados de perfil atualizados
+**Dados de entrada** | Inserção de dados válidos no formulário
+**Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT018 - Agradecimentos**
+**Caso de Teste** | **CT014 - Cadastrar Agradecimentos**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
-**Requisitos associados** | RF-020
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
-
-**Caso de Teste** | **CT019 - Cadastrar Agradecimentos**
- :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Faça login na conta da Instituição <br> 3) Clique em "Agradecimentos" <br> 4) Clique no botão "Cadastrar agradecimentos +" <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Salvar"
 **Requisitos associados** | RF-021
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
+**Resultado esperado** | Novo agradecimento cadastrado
+**Dados de entrada** | Inserção de dados válidos no formulário
+**Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT020 - Editar Agradecimentos**
+**Caso de Teste** | **CT015 - Editar Agradecimentos**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Faça login na conta da Instituição <br> 3) Clique em "Agradecimentos" <br> 4) Clique no ícone de lápis no agradecimento desejado <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Salvar"
 **Requisitos associados** | RF-022
-**Resultado esperado** | 
-**Dados de entrada** | 
-**Resultado obtido** | 
-
+**Resultado esperado** | Agradecimento atualizado com sucesso
+**Dados de entrada** | Inserção de dados válidos no formulário
+**Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software
 
