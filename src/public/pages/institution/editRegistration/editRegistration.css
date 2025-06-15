@@ -93,7 +93,6 @@ aside {
 .editContainer {
   margin-top: 25px;
   width: calc(100% - 25%);
-  height: 1100px;
   display: flex;
   justify-content: center;
   align-items: center;
