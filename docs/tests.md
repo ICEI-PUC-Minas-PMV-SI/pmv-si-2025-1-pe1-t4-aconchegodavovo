@@ -181,52 +181,48 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT10 -  Histórico de Recebimentos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-014 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: |https://github.com/user-attachments/assets/f86655d4-b665-4b87-8c68-b54a0e6cc920 | 
 
 |*Caso de Teste*                                 |*CT11 -  Meus Planos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-015 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/29ea6856-21bf-4827-9aa4-9abff7b6839e | 
 
-|*Caso de Teste*                                 |*CT12 -  Meus Planos - Instituição*                                        |
-|---|---|
-|Requisito Associado | RF-015 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT13 -  Cadastrar Novo Plano - Instituição*                                        |
+|*Caso de Teste*                                 |*CT12 -  Cadastrar Novo Plano - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-016 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT14 -  Editar Plano - Instituição*                                        |
+|*Caso de Teste*                                 |*CT13 -  Editar Plano - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-017 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 
-|*Caso de Teste*                                 |*CT16 -  Editar Cadastro ILPI - Instituição*                                        |
+|*Caso de Teste*                                 |*CT14 -  Editar Cadastro ILPI - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-018 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT17 -  Editar Perfil - Instituição*                                        |
+|*Caso de Teste*                                 |*CT15 -  Editar Perfil - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-019 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 
-|*Caso de Teste*                                 |*CT18 -  Agradecimentos - Instituição*                                        |
+|*Caso de Teste*                                 |*CT16 -  Agradecimentos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-020 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 
-|*Caso de Teste*                                 |*CT19 -  Cadastrar Agradecimentos - Instituição*                                        |
+|*Caso de Teste*                                 |*CT17 -  Cadastrar Agradecimentos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-021 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT20 -  Editar Agradecimentos - Instituição*                                        |
+|*Caso de Teste*                                 |*CT28 -  Editar Agradecimentos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-022 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
