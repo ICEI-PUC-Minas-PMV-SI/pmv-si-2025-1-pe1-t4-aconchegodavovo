@@ -128,8 +128,6 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
-
 |*Caso de Teste*                                 |*CT01 - Criar conta de Doador*                                         |
 |---|---|
 |Requisito Associado | RF-003 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
