@@ -206,7 +206,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 |*Caso de Teste*                                 |*CT15 -  Editar Perfil - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-019 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/ca4cbcc1-0d0a-407f-9779-f6e821ce0fa4 | 
 
 
 |*Caso de Teste*                                 |*CT16 -  Agradecimentos - Instituição*                                        |
