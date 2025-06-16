@@ -270,23 +270,25 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Registro de Testes de Usabilidade
 
+
+## Registro de Testes de Usabilidade
+
 Cenário 1: Você é uma pessoa que gostaria de ajudar instituições de longa permanências para idosos, e econtrar um site cujo a finalidade é fornecer suporte financeiro para diversas instituições desse segmento.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 132   segundos                  |
+| 2       | SIM             | 5                    | 150   segundos                  |
+| 3       | SIM             | 5                    | 125   segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 10.57 segundos |
-
+| **Média**     | 100%      | 5                | 135,67 segundos                      |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Não tive dificuldades e acho que ficou bem intuitivo.Site simples e direto, sendo bastante objetivo e atendendo seu propósito.
 
 
-Cenário 2: Você é uma pessoa que coordena uma instituições de longa permanência de idosos e deseja receber doações financeiras para auxiliar nas despesas.
+Cenário 2:Você é uma pessoa que coordena uma instituições de longa permanência de idosos e deseja receber doações financeiras para auxiliar nas despesas.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -294,7 +296,7 @@ Cenário 2: Você é uma pessoa que coordena uma instituições de longa perman�
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 4                    | 36.21 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
+| **Média**     | 100%           | 4.67                | 30.06 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
