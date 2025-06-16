@@ -218,7 +218,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 |*Caso de Teste*                                 |*CT17 -  Cadastrar Agradecimentos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-021 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/730277e5-b41f-4123-91e3-e9628a291423 | 
 
 |*Caso de Teste*                                 |*CT28 -  Editar Agradecimentos - Instituição*                                        |
 |---|---|
