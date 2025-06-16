@@ -107,8 +107,6 @@ document.addEventListener('DOMContentLoaded', () => {
       window.location.href = '../../../pages/donor/payment/paymentSuccess.html';
 
     } catch (err) {
-      console.error(err);
-      alert('Erro ao salvar a doação!');
     }
   });
 });
