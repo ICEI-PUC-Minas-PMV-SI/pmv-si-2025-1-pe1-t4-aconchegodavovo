@@ -149,7 +149,8 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT01 - Criar conta de Doador*                                         |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/dd1ae2b0-2f92-449b-b8f9-ddefae48bd66 | 
+
 
 |*Caso de Teste*                                 |*CT02 - Criar conta de Instuição*                                        |
 |---|---|
