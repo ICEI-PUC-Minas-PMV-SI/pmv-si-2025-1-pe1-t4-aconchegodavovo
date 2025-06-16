@@ -249,7 +249,7 @@ Cenário 1: Você é uma pessoa que gostaria de ajudar instituições de longa p
 | 3       | SIM             | 5                    | 125   segundos                  |
 |  |  |  |  |
 | **Média**     | 100%      | 5                | 135,67 segundos                      |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 107 segundos |
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
     Não tive dificuldades e acho que ficou bem intuitivo.Site simples e direto, sendo bastante objetivo e atendendo seu propósito.
@@ -263,7 +263,7 @@ Cenário 2:Você é uma pessoa que coordena uma instituições de longa permanê
 | 2       | SIM             | 5                    | 215   segundos                          |
 | 3       | SIM             | 4                    | 238   segundos                          |
 | **Média**| 100%           | 4.67                 | 226,67  segundos                        |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos                      |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 206 segundos                      |
 
 
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
