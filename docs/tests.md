@@ -226,7 +226,7 @@ Nessa sessão se encontra a avaliação e a conclusão dos testes elaborados par
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Abaixo segue a análise e a conclusão feita com os usuarios levantando pontos positivos e negativos a respeito do projeto. 
 
 # Testes de Usabilidade
 
