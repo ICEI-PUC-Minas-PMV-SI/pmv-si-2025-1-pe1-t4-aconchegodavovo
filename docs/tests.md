@@ -172,12 +172,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT05 -  Listagem das Instituições - Doador*                                        |
 |---|---|
 |Requisito Associado | RF-007 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/b563f5a5-81d0-4139-b9cf-96493dd91440 | 
 
 |*Caso de Teste*                                 |*CT06 - Histórico de Doações - Doador*                                        |
 |---|---|
 |Requisito Associado | RF-008 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/8b03cb33-ee06-4e48-9d7b-4b21b1ee8ec2 | 
 
 |*Caso de Teste*                                 |*CT07 - Editar Cadastro - Doador*                                        |
 |---|---|
