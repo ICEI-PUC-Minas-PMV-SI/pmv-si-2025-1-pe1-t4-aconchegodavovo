@@ -121,7 +121,7 @@ Esta tela permite ao usuário atualizar suas informações pessoais cadastradas 
 | Botão "Cancelar"       | Botão      | Cancela a edição e retorna à tela anterior             | -                      |
 | Botão "Atualizar"      | Botão      | Atualiza  as alterações feitas                             | -                      |
 
-## Tela de Cadastro - Etapa Inicial (Instituição)
+## Tela de Cadastro - (Instituição)
 
 Esta é a primeira etapa do cadastro do usuário, onde são solicitadas informações básicas para criação da conta.
 
@@ -129,30 +129,15 @@ Esta é a primeira etapa do cadastro do usuário, onde são solicitadas informa�
 |-------------------|----------|------------------------------------------------------------------|------------------------|
 | Título da página  | Texto    | Informa que o usuário está na etapa de cadastro                 | Cadastro                            |
 | Subtítulo         | Texto    | Mensagem de incentivo para o usuário se cadastrar               | "Cadastre-se e faça a diferença..." |
+| Telefone|         | Texto    |  Telefone                                                       |  666666666                          |  
 | E-mail            | Texto    | Campo para inserir o e-mail do usuário                          | exemplo@email.com                   |
-| Senha             | Senha    | Campo para criação de senha                                     | Todos os caracteres                              |
-| Repetir senha     | Senha    | Campo para confirmar a senha                                    | Todos os caracteres                           |
-| Botão "Próximo"   | Botão    | Avança para a próxima etapa do cadastro                         | -                                   |
+| Senha             | Senha    | Campo para criação de senha                                     | Todos os caracteres                 |          
 | Imagem lateral    | Imagem   | Imagem ilustrativa para tornar a interface mais acolhedora      | Foto de idoso e cuidador            |
-
-## Tela de Cadastro - Etapa Três (Instituição)
-
-Esta é a terceira etapa do cadastro do usuário, onde são solicitadas informações de endereço para criação da conta.
-
-| **Nome**              | **Tipo**       | **Descrição**                                                        | **Exemplo**              |
-|------------------------|----------------|------------------------------------------------------------------------|--------------------------|
-| Título            | Texto    | Título principal da tela de cadastro                            | Cadastro                                                      |
-| Subtítulo	        |Texto     | Mensagem motivacional para incentivar o cadastro                   | Cadastre-se e comece a fazer a diferença na vida de um idoso! |
-| Endereço          |Campo 	   | Campo para digitar o endereço completo                             | Rua das Flores                                                |
-|Cidade             |Campo     | Campo para digitar a cidade	                                    |São Paulo                                                      |
-|Bairro             |Campo     | Campo para digitar o bairro	                                    |Centro                                                         |
-|Logradouro         |Campo     | Campo para inserir o nome da rua ou avenida                        |Av. Brasil                                                     |
-|Número	            |Campo     | Campo para inserir o número da residência                          |123                                                            |
-|CEP                |Campo     | Campo para digitar o código postal	                                |01001-000                                                      |
-|Botão Próximo	    |Botão	   | Avança para a próxima etapa do cadastro                            |Próximo                                                        |
-|Botão Voltar	    |Botão	   | Retorna para a tela anterior                                       |Voltar                                                         |
-|Imagem             |Imagem    | Imagem ilustrativa de cuidadora com idosa                          |cuidadora_idosa.jpg                                            |
-
+|  CNPJ             | Texto    |  CNPJ                                                           |  00000000000000                     |              
+|CEP                | Texto    | CEP                                                             |01001-000                            |                             
+|Botão cadastrar	  |Botão	   | Avança para a próxima etapa do cadastro|                        |      Próximo                        |                                                                                       
+|Imagem             |Imagem    | Imagem ilustrativa de cuidadora com idosa                       |cuidadora_idosa.jpg                  |
+                                          
 
 ## Tela Meus Planos (Instituições)
 
