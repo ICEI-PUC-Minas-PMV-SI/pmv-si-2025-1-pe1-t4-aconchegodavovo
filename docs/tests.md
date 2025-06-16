@@ -286,7 +286,7 @@ Cenário 1: Você é uma pessoa que gostaria de ajudar instituições de longa p
     Não tive dificuldades e acho que ficou bem intuitivo.
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Você é uma pessoa que coordena uma instituições de longa permanência de idosos e deseja receber doações financeiras para auxiliar nas despesas.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
