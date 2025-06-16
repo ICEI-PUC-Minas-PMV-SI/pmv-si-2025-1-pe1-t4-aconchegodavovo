@@ -265,10 +265,6 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 2             | Você é uma pessoa que coordena uma instituições de longa permanência de idosos e deseja receber doações financeiras para auxiliar nas despesas. |
 
 
-
-## Registro de Testes de Usabilidade
-
-
 ## Registro de Testes de Usabilidade
 
 Cenário 1: Você é uma pessoa que gostaria de ajudar instituições de longa permanências para idosos, e econtrar um site cujo a finalidade é fornecer suporte financeiro para diversas instituições desse segmento.
@@ -290,11 +286,11 @@ Cenário 2:Você é uma pessoa que coordena uma instituições de longa permanê
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.06 segundos                           |
+| 1       | SIM             | 5                    | 227   segundos                          |
+| 2       | SIM             | 5                    | 215   segundos                          |
+| 3       | SIM             | 4                    | 238   segundos                          |
+
+| **Média**     | 100%           | 4.67            | 226,67  segundos                        |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
