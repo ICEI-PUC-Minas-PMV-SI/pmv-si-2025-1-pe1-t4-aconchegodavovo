@@ -156,94 +156,94 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT03 - Login *                                        |
+|*Caso de Teste*                                 |*CT03 - Login*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT04 -  Esqueci a Senha *                                        |
+|*Caso de Teste*                                 |*CT04 -  Esqueci a Senha*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT05 -  Listagem das Instituições - Doador *                                        |
+|*Caso de Teste*                                 |*CT05 -  Listagem das Instituições - Doador*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT06 - Histórico de Doações - Doador *                                        |
+|*Caso de Teste*                                 |*CT06 - Histórico de Doações - Doador*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 - Editar Cadastro - Doador *                                        |
+|*Caso de Teste*                                 |*CT07 - Editar Cadastro - Doador*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 - Perfil das Intituições - Doador *                                        |
+|*Caso de Teste*                                 |*CT08 - Perfil das Intituições - Doador*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 - Pagamento - Doador *                                        |
+|*Caso de Teste*                                 |*CT09 - Pagamento - Doador*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 -  Histórico de Recebimentos - Instituição *                                        |
+|*Caso de Teste*                                 |*CT10 -  Histórico de Recebimentos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 -  Meus Planos - Instituição *                                        |
+|*Caso de Teste*                                 |*CT11 -  Meus Planos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 -  Meus Planos - Instituição *                                        |
+|*Caso de Teste*                                 |*CT12 -  Meus Planos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 -  Cadastrar Novo Plano - Instituição *                                        |
+|*Caso de Teste*                                 |*CT13 -  Cadastrar Novo Plano - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 -  Editar Plano - Instituição *                                        |
+|*Caso de Teste*                                 |*CT14 -  Editar Plano - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 -  Editar Plano - Instituição *                                        |
+|*Caso de Teste*                                 |*CT15 -  Editar Plano - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 -  Editar Cadastro ILPI - Instituição *                                        |
+|*Caso de Teste*                                 |*CT16 -  Editar Cadastro ILPI - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 -  Editar Perfil - Instituição *                                        |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
-
-
-|*Caso de Teste*                                 |*CT07 -  Agradecimentos - Instituição *                                        |
+|*Caso de Teste*                                 |*CT17 -  Editar Perfil - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 
-|*Caso de Teste*                                 |*CT07 -  Cadastrar Agradecimentos - Instituição *                                        |
+|*Caso de Teste*                                 |*CT18 -  Agradecimentos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT07 -  Editar Agradecimentos - Instituição *                                        |
+
+|*Caso de Teste*                                 |*CT19 -  Cadastrar Agradecimentos - Instituição*                                        |
+|---|---|
+|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT20 -  Editar Agradecimentos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
