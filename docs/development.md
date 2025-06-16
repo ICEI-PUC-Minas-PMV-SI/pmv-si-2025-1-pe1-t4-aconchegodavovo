@@ -121,22 +121,21 @@ Esta tela permite ao usuário atualizar suas informações pessoais cadastradas 
 | Botão "Cancelar"       | Botão      | Cancela a edição e retorna à tela anterior             | -                      |
 | Botão "Atualizar"      | Botão      | Atualiza  as alterações feitas                             | -                      |
 
-## Tela de Cadastro - (Instituição)
+# Tela de  Editar Perfil da Instituição
 
-Esta é a primeira etapa do cadastro do usuário, onde são solicitadas informações básicas para criação da conta.
+Esta tela permite que a Instituição de Longa Permanência para Idosos visualize e atualize suas informações de contato, identificação e acesso no sistema.
 
-| **Nome**          | **Tipo** | **Descrição**                                                   | **Exemplo**           |
-|-------------------|----------|------------------------------------------------------------------|------------------------|
-| Título da página  | Texto    | Informa que o usuário está na etapa de cadastro                 | Cadastro                            |
-| Subtítulo         | Texto    | Mensagem de incentivo para o usuário se cadastrar               | "Cadastre-se e faça a diferença..." |
-| Telefone|         | Texto    |  Telefone                                                       |  666666666                          |  
-| E-mail            | Texto    | Campo para inserir o e-mail do usuário                          | exemplo@email.com                   |
-| Senha             | Senha    | Campo para criação de senha                                     | Todos os caracteres                 |          
-| Imagem lateral    | Imagem   | Imagem ilustrativa para tornar a interface mais acolhedora      | Foto de idoso e cuidador            |
-|  CNPJ             | Texto    |  CNPJ                                                           |  00000000000000                     |              
-|CEP                | Texto    | CEP                                                             |01001-000                            |                             
-|Botão cadastrar	  |Botão	   | Avança para a próxima etapa do cadastro|                        |      Próximo                        |                                                                                       
-|Imagem             |Imagem    | Imagem ilustrativa de cuidadora com idosa                       |cuidadora_idosa.jpg                  |
+| **Nome do Campo**     | **Tipo**       | **Descrição**                                                                 | **Exemplo**                                 |
+|------------------------|----------------|--------------------------------------------------------------------------------|---------------------------------------------|
+| Telefone               | Texto          | Número de telefone para contato com a instituição                              | 31 99999-9999                               |
+| Tipo de Instituição    | Texto          | Define a categoria da instituição                                              | Instituição de Longa Permanência para Idosos |
+| CNPJ                   | Texto          | Número do Cadastro Nacional de Pessoa Jurídica da instituição                  | 00.623.904/0001-73                           |
+| CEP                    | Texto          | Código de Endereçamento Postal da instituição                                  | 38702030                                    |
+| E-mail                 | Texto          | Endereço de e-mail institucional para contato                                  | ilpi@gmail.com                              |
+| Senha                  | Campo de Senha | Campo para digitar ou alterar a senha de acesso                                | ***                                         |
+| Botão "Atualizar"      | Botão           | Confirma e salva as alterações feitas no perfil                                | -                                           |
+
+
                                           
 
 ## Tela Meus Planos (Instituições)
@@ -268,18 +267,20 @@ Esta tela Instituições podem criar um novo plano para receber doações.
 | Data de Início	 | Data	            | Campo para inserir a data de Início do Plano    	| 10/03/2025                           |
 | Data de Término    | Data	            | Campo para inserir a data de Término do Plano    	| 10/03/2025                            |
 
-## Tela de Cadastro ILPI 2
+# Tela de Cadastro da Instituição
 
-Esta tela usuários que escolheram se cadastrar como Instituição podem inserir os dados da empresa.
+Esta tela permite que uma Instituição de Longa Permanência para Idosos realize seu cadastro no sistema, preenchendo os campos obrigatórios para posterior autenticação e uso dos serviços disponíveis.
 
-| **Nome**           | **Tipo**         | **Descrição**                                 | **Exemplo**                          |
-|--------------------|------------------|-----------------------------------------------|--------------------------------------|
-| CNPJ      		 	 | Texto            | Campo para inserir o CNPJ		            | 00.623.904/0001-73                   |
-| Telefone           	 | Texto            | Campo para inserir o Telefone		        | (31) 995312092                  |
-| Tipo de Instituição	 | Texto            | Campo para inserir o Tipo de Instituição  | Instituição de Longa Permanência     |
-| Cargo Responsável	 	 | Texto            | Campo para inserir o Nome do Responsável  | Cleide da Silva                      |
-| Data da Fundação	 	 | Texto            | Campo para inserir a Data da Fundação		| 10/03/2025                        |
-| Foto               	 | String           | Foto de Cadastro					        | img.svg                              |
-| Botão "Próximo"      	 | Botão            | Ir para a próxima página de cadastro		| -                                    |
-| Botão "Voltar"      	 | Botão            | Voltar para a página de cadastro anterior	| -                                    |
+| **Nome do Campo**     | **Tipo**       | **Descrição**                                                                 | **Exemplo**                                 |
+|------------------------|----------------|--------------------------------------------------------------------------------|---------------------------------------------|
+| Telefone               | Texto          | Número de telefone de contato da instituição                                   | 31 99999-9999                               |
+| Tipo de Instituição    | Texto / Lista  | Categoria ou classificação da instituição                                      | Instituição de Longa Permanência para Idosos |
+| CNPJ                   | Texto          | Cadastro Nacional de Pessoa Jurídica da instituição                            | 00.623.904/0001-73                           |
+| CEP                    | Texto          | Código de Endereçamento Postal da localização da instituição                   | 38702030                                    |
+| E-mail                 | Texto          | Endereço de e-mail da instituição                                              | ilpi@gmail.com                              |
+| Senha                  | Campo de Senha | Senha de acesso ao sistema                                                     | ********                                    |
+| Botão "Cadastrar"      | Botão           | Envia os dados preenchidos para o sistema realizar o cadastro                  | -                                           |
+
+> **Mensagem de apoio:**  
+> _“Cadastre-se e comece a fazer a diferença na vida de um idoso!”_
 
