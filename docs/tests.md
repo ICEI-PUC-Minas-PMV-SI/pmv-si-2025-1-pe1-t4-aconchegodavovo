@@ -223,7 +223,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 |*Caso de Teste*                                 |*CT28 -  Editar Agradecimentos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-022 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/d9855779-a25b-4d05-ab18-50a7424d82b4 | 
 
 
 ## Avaliação dos Testes de Software
