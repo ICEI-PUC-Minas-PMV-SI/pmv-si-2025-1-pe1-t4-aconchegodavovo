@@ -192,12 +192,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT12 -  Cadastrar Novo Plano - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-016 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: |https://github.com/user-attachments/assets/523c5265-b182-44db-918c-3e78f6fa1a7c | 
 
 |*Caso de Teste*                                 |*CT13 -  Editar Plano - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-017 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/c9603689-da0f-4582-be48-8bd5df8da1be | 
 
 
 |*Caso de Teste*                                 |*CT14 -  Editar Cadastro ILPI - Instituição*                                        |
