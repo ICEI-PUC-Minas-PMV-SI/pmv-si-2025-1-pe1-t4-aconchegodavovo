@@ -24,7 +24,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 **Caso de Teste** | **CT001 - Criar conta do Doador**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço http://localhost:3000/index.html <br> 2) Clique em Entre / Cadastre-se <br> 3) Clique em Cadastrar <br> 4) Escolha a opção Doador <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Registrar".
+**Procedimento**  | 1) Acesse o endereço http://localhost:3000/index.html <br> 2) Clique em Entre / Cadastre-se <br> 3) Clique em Cadastrar <br> 4) Escolha a opção Doador <br> 5) Preencha todos os campos do formulário <br> 6) Clique no botão "Registrar"
 **Requisitos associados** | RF-003
 **Resultado esperado** | Doador cadastrado
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
@@ -32,7 +32,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 **Caso de Teste** | **CT002 - Criar conta da Instituição**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em "Entre / Cadastre-se" <br> 2) Clique em "Cadastrar" <br> 3) Escolha a opção Instituição <br> 4) Preencha todos os campos do formulário <br> 5) Clique no botão "Registrar".
+**Procedimento**  | 1) Clique em "Entre / Cadastre-se" <br> 2) Clique em "Cadastrar" <br> 3) Escolha a opção Instituição <br> 4) Preencha todos os campos do formulário <br> 5) Clique no botão "Registrar"
 **Requisitos associados** | RF-004
 **Resultado esperado** | Instituição cadastrada
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
@@ -40,7 +40,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 **Caso de Teste** | **CT003 - Login**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em "Entre / Cadastre-se" <br> 2) Preencha o email e senha <br> 3) Clique no botão "Login".
+**Procedimento**  | 1) Clique em "Entre / Cadastre-se" <br> 2) Preencha o email e senha <br> 3) Clique no botão "Login"
 **Requisitos associados** | RF-005
 **Resultado esperado** | Realizar o login
 **Dados de entrada** | Inserção de dados válidos no formulário de login
@@ -48,7 +48,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 
 **Caso de Teste** | **CT004 - Esqueci a Senha**
  :--------------: | ------------
-**Procedimento**  | 1) Clique em "Entre / Cadastre-se" <br> 2) Clique em "Esqueceu a Senha?" <br> 3) Preencha o email <br> 4) Clique no botão "Enviar".
+**Procedimento**  | 1) Clique em "Entre / Cadastre-se" <br> 2) Clique em "Esqueceu a Senha?" <br> 3) Preencha o email <br> 4) Clique no botão "Enviar"
 **Requisitos associados** | RF-006
 **Resultado esperado** | Recuperar a senha
 **Dados de entrada** | Inserção de email válido no formulário
