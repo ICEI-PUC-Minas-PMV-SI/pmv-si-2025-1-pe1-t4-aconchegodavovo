@@ -279,7 +279,7 @@ Cenário 1: Você é uma pessoa que gostaria de ajudar instituições de longa p
 | 3       | SIM             | 5                    | 39.09 segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 12.45 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 10.57 segundos |
 
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
