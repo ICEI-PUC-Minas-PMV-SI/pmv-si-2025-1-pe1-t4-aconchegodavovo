@@ -3,6 +3,8 @@
 Nessa sessão se encontra a avaliação e a conclusão dos testes elaborados para a etapa 4 referente ao projeto 'Aconchego da vovó'. 
 
 ## Plano de Testes de Software
+Um Plano de Testes de Software é um documento essencial que descreve a estratégia, os objetivos, o escopo, os recursos e o cronograma para testar um sistema ou aplicação.
+Nesse plano, vamos definir os tipos de testes que serão realizados, como testes de funcionalidade, usabilidade, segurança e desempenho. 
 
 **Caso de Teste** | **CT001 - Criar conta do Doador**
  :--------------: | ------------
