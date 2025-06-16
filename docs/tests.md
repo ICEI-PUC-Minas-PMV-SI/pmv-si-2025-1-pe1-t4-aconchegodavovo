@@ -289,9 +289,8 @@ Cenário 2:Você é uma pessoa que coordena uma instituições de longa permanê
 | 1       | SIM             | 5                    | 227   segundos                          |
 | 2       | SIM             | 5                    | 215   segundos                          |
 | 3       | SIM             | 4                    | 238   segundos                          |
-
-| **Média**     | 100%           | 4.67            | 226,67  segundos                        |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**| 100%           | 4.67                 | 226,67  segundos                        |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos                      |
 
 
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
