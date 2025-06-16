@@ -41,11 +41,31 @@
       "email": "larsvpbh@gmail.com",
       "senha": "123",
       "cnpj": "08.123.456/0001-78",
-      "instituicao": true,
+      "instituicao": "true",
       "telefone": "(31) 3456-7890",
       "tipoInst": "Filantrópica",
       "cep": "30140-110",
       "id": 5
+    },
+    {
+      "email": "aaaa@gmail.com",
+      "senha": "123",
+      "cnpj": "sdf",
+      "instituicao": true,
+      "telefone": "asf",
+      "tipoInst": "adsf",
+      "cep": "sdf",
+      "id": 6
+    },
+    {
+      "email": "asdf@gmail.com",
+      "senha": "123",
+      "cnpj": "asdf",
+      "instituicao": "true",
+      "telefone": "asdf",
+      "tipoInst": "asdf",
+      "cep": "asdf",
+      "id": 7
     }
   ],
   "perfil": {

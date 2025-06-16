@@ -25,7 +25,7 @@ form.addEventListener('submit', async (e) => {
       email: emailInput.value,
       senha: senhaInput.value,
       cnpj: cnpjInput.value,
-      instituicao: true,
+      instituicao: "true",
       telefone: telefoneInput.value,
       tipoInst: tipoInstInput.value,
       cep: cepInput.value,
