@@ -1,9 +1,6 @@
-# Testes
-Nessa sessão se encontra a avaliação e a conclusão dos testes elaborados para a etapa 4 referente ao projeto 'Aconchego da vovó'. 
-
 # Teste de Software
 
-Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software.
+Nessa sessão se encontra a avaliação e a conclusão dos testes elaborados para a etapa 4 referente ao projeto 'Aconchego da vovó'. 
 
 ## Plano de Testes de Software
 
