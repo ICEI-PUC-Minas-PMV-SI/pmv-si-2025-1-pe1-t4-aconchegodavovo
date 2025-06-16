@@ -270,7 +270,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Você é uma pessoa que gostaria de ajudar instituições de longa permanências para idosos, e econtrar um site cujo a finalidade é fornecer suporte financeiro para diversas instituições desse segmento.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -279,7 +279,7 @@ Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site u
 | 3       | SIM             | 5                    | 39.09 segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 12.45 segundos |
 
 
     Comentários dos usuários: Achei o site muito bom e intuitivo. 
