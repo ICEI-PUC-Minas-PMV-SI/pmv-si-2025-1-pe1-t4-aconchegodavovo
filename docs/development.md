@@ -104,7 +104,7 @@ Esta tela exibe o histórico de doações realizadas pelo usuário, permitindo c
 | Valor                | Moeda           | Valor doado em reais                                                  | R$ 50,00                 |
 | Ícone de configurações | Ícone           | Ícone de engrenagem para acessar o menu de configurações do usuário    | ⚙                        |
 
-## Tela de Editar Cadastro (Doador)
+# Tela de Editar Cadastro (Doador)
 
 Esta tela permite ao usuário atualizar suas informações pessoais cadastradas na plataforma "Aconchego da Vovó", além de ter acesso à opção de exclusão de conta.
 
@@ -280,7 +280,4 @@ Esta tela permite que uma Instituição de Longa Permanência para Idosos realiz
 | E-mail                 | Texto          | Endereço de e-mail da instituição                                              | ilpi@gmail.com                              |
 | Senha                  | Campo de Senha | Senha de acesso ao sistema                                                     | ********                                    |
 | Botão "Cadastrar"      | Botão           | Envia os dados preenchidos para o sistema realizar o cadastro                  | -                                           |
-
-> **Mensagem de apoio:**  
-> _“Cadastre-se e comece a fazer a diferença na vida de um idoso!”_
 
