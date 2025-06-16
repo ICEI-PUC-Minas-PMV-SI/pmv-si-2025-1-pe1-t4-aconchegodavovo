@@ -221,7 +221,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 |Requisito Associado | RF-021 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/730277e5-b41f-4123-91e3-e9628a291423 | 
 
-|*Caso de Teste*                                 |*CT28 -  Editar Agradecimentos - Instituição*                                        |
+|*Caso de Teste*                                 |*CT18 -  Editar Agradecimentos - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-022 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/d9855779-a25b-4d05-ab18-50a7424d82b4 | 
