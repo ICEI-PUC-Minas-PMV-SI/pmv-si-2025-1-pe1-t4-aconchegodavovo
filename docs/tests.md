@@ -290,8 +290,8 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é uma pessoa que gostaria de ajudar instituições de longa permanências para idosos, e econtrar um site cujo a finalidade é fornecer suporte financeiro para diversas instituições desse segmento. |
+| 2             | Você é uma pessoa que coordena uma instituições de longa permanência de idosos e deseja receber doações financeiras para auxiliar nas despesas. |
 
 
 
