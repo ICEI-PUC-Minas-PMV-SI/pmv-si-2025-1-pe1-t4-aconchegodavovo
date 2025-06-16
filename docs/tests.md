@@ -1,5 +1,5 @@
 # Testes
-Nesaa sessão se encontra a avaliação e a conclusão dos testes elaborados para a etapa 4 referente ao projeto 'Aconchego da vovó'. 
+Nessa sessão se encontra a avaliação e a conclusão dos testes elaborados para a etapa 4 referente ao projeto 'Aconchego da vovó'. 
 
 # Teste de Software
 
