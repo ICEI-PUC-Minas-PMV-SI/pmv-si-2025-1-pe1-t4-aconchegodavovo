@@ -104,7 +104,7 @@ Esta tela exibe o histórico de doações realizadas pelo usuário, permitindo c
 | Valor                | Moeda           | Valor doado em reais                                                  | R$ 50,00                 |
 | Ícone de configurações | Ícone           | Ícone de engrenagem para acessar o menu de configurações do usuário    | ⚙                        |
 
-## Tela de Editar Cadastro
+## Tela de Editar Cadastro (Doador)
 
 Esta tela permite ao usuário atualizar suas informações pessoais cadastradas na plataforma "Aconchego da Vovó", além de ter acesso à opção de exclusão de conta.
 
@@ -118,9 +118,8 @@ Esta tela permite ao usuário atualizar suas informações pessoais cadastradas 
 | Data de Nascimento     | Texto/Data | Campo para editar a data de nascimento                 | 01/01/1990             |
 | E-mail                 | Texto      | Campo para editar o e-mail                             | email@gmail.com        |
 | Senha                  | Senha      | Campo para alterar a senha                             | Todos os caracteres            |
-| Repetir Senha          | Senha      | Campo para confirmar a nova senha                      | Todos os caracteres              |
 | Botão "Cancelar"       | Botão      | Cancela a edição e retorna à tela anterior             | -                      |
-| Botão "Salvar"         | Botão      | Salva as alterações feitas                             | -                      |
+| Botão "Atualizar"      | Botão      | Atualiza  as alterações feitas                             | -                      |
 
 ## Tela de Cadastro - Etapa Inicial (Instituição)
 
