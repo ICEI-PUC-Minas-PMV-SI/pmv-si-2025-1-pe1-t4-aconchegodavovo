@@ -155,7 +155,8 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT02 - Criar conta de Instuição*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/cff0c549-e238-4e03-837c-db4831d9ec49 | 
+
 
 |*Caso de Teste*                                 |*CT03 - Login*                                        |
 |---|---|
