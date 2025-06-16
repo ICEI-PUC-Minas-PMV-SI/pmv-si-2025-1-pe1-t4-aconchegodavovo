@@ -203,7 +203,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT14 -  Editar Cadastro ILPI - Instituição*                                        |
 |---|---|
 |Requisito Associado | RF-018 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/0ace1462-1fc2-48fc-988a-3348ca6e5b27 | 
 
 |*Caso de Teste*                                 |*CT15 -  Editar Perfil - Instituição*                                        |
 |---|---|
