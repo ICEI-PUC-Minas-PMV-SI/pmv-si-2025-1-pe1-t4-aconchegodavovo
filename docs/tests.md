@@ -161,7 +161,8 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT03 - Login*                                        |
 |---|---|
 |Requisito Associado | RF-005 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Link do vídeo do teste realizado: | https://github.com/user-attachments/assets/faba9306-280b-46dd-a2ab-f266769a582c
+https://github.com/user-attachments/assets/b45d3e15-7684-4908-beed-0fec2a8865f4| 
 
 |*Caso de Teste*                                 |*CT04 -  Esqueci a Senha*                                        |
 |---|---|
