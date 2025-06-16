@@ -129,11 +129,9 @@ Esta é a primeira etapa do cadastro do usuário, onde são solicitadas informa�
 |-------------------|----------|------------------------------------------------------------------|------------------------|
 | Título da página  | Texto    | Informa que o usuário está na etapa de cadastro                 | Cadastro                            |
 | Subtítulo         | Texto    | Mensagem de incentivo para o usuário se cadastrar               | "Cadastre-se e faça a diferença..." |
-| Telefone|         | Texto    |  Telefone                                                       |  666666666 
+| Telefone|         | Texto    |  Telefone                                                       |  666666666                          |  
 | E-mail            | Texto    | Campo para inserir o e-mail do usuário                          | exemplo@email.com                   |
-| Senha             | Senha    | Campo para criação de senha                                     | Todos os caracteres                 |           
-| Repetir senha     | Senha    | Campo para confirmar a senha                                    | Todos os caracteres                 |        
-| Botão "Próximo"   | Botão    | Avança para a próxima etapa do cadastro                         | -                                   |
+| Senha             | Senha    | Campo para criação de senha                                     | Todos os caracteres                 |          
 | Imagem lateral    | Imagem   | Imagem ilustrativa para tornar a interface mais acolhedora      | Foto de idoso e cuidador            |
 |  CNPJ             | Texto    |  CNPJ                                                           |  00000000000000                     |              
 |CEP                | Texto    | CEP                                                             |01001-000                            |                             
