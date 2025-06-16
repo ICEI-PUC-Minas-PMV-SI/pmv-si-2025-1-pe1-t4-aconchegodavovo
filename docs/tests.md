@@ -298,14 +298,13 @@ Cenário 2:Você é uma pessoa que coordena uma instituições de longa permanê
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
 ## Avaliação dos Testes de Usabilidade
+Com base nos testes realizados em dois cenários distintos, foi possível identificar que a aplicação web atende bem aos objetivos propostos, apresentando 100% de taxa de sucesso por parte dos usuários em ambos os casos.
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+No Cenário 1, voltado ao público doador, os usuários demonstraram alta satisfação subjetiva (nota média 5) e conseguiram concluir as tarefas propostas com uma média de 135,67 segundos, tempo considerado adequado. Além disso, os comentários reforçam a boa experiência: os usuários classificaram o site como intuitivo, direto e objetivo.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+Já no Cenário 2, destinado às instituições que desejam receber doações, também houve 100% de sucesso nas tarefas, mas a satisfação média foi ligeiramente menor (4,67). O tempo médio de conclusão das tarefas também foi maior, 226,67 segundos, indicando uma maior complexidade ou necessidade de melhorias na navegação para esse perfil de usuário. Os comentários dos participantes destacam pontos importantes como a ausência de redirecionamentos automáticos e a falta de filtros nas buscas.
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+Além disso, ao comparar os tempos dos usuários com o tempo do especialista (13,57 segundos no cenário 2 e 8,66 segundos no cenário 1), observa-se uma diferença significativa, o que é esperado pelo maior conhecimento prévio do desenvolvedor. No entanto, essa diferença também sugere possíveis oportunidades de otimização na experiência do usuário, especialmente para novos visitantes.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
-
+Em resumo, os testes indicam que a aplicação é funcional e bem recebida, mas há oportunidades de aprimoramento na usabilidade, especialmente no fluxo de navegação das instituições. Melhorias nos redirecionamentos automáticos e no uso de filtros podem elevar ainda mais a eficiência e a satisfação geral com o sistema.
 
