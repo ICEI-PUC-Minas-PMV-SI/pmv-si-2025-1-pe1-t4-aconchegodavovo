@@ -17,7 +17,7 @@ Aconchego da Vovó.
 * Logo: <br><br>
 ![logo](https://github.com/user-attachments/assets/afd953dc-3803-4b05-b18c-7ce6c9a26317)
 
-* Paleta de cores: <br>
+* Paleta de cores: <br><br>
 ![Paleta Mockup](https://github.com/user-attachments/assets/d00265a9-22a6-49e6-9e8c-2c5b5ac727a2)
 
 ## Vídeo de demonstração
