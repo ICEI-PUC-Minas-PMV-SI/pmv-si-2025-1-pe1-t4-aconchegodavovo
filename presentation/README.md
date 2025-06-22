@@ -15,10 +15,10 @@ Aconchego da Vovó.
 ## Identidade Visual (Marca, Design)
 
 Logo:
-![logo](https://github.com/user-attachments/assets/593450c9-f5bb-4efc-96c7-5aaf9d48696d)
+![logo](https://github.com/user-attachments/assets/afd953dc-3803-4b05-b18c-7ce6c9a26317)
 
 Paleta de cores:
-![Paleta Mockup](https://github.com/user-attachments/assets/1c4ce60b-cb02-4d06-b310-b6a0202d718e)
+![Paleta Mockup](https://github.com/user-attachments/assets/d00265a9-22a6-49e6-9e8c-2c5b5ac727a2)
 
 > **Links Úteis**:
 > - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
