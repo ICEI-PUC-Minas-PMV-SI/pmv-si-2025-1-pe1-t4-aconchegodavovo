@@ -14,7 +14,7 @@ Aconchego da Vovó.
 
 ## Identidade Visual (Marca, Design)
 
-Logo:
+Logo: <br>
 ![logo](https://github.com/user-attachments/assets/afd953dc-3803-4b05-b18c-7ce6c9a26317)
 
 Paleta de cores:
