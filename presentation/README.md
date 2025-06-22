@@ -1,19 +1,16 @@
 # Apresentação
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+O projeto "Aconchego da Vovó" consiste no desenvolvimento de um site que conecta lares de idosos a doadores, facilitando a arrecadação de recursos e trazendo maior visibilidade para a qualidade de vida dos idosos.
 
-Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
+O objetivo deste trabalho é desenvolver um sistema web que otimize e facilite as doações para ILPIs, tornando o processo mais eficiente, acessível e organizado. A proposta do sistema é conectar os doadores aos lares de idosos de uma maneira simples e organizada, dar visibilidade a estes lares e garantir que os recursos sejam devidamente alocados.
 
-
-* [Pitch inicial](./PitchInicial.pdf) -- arquivo com os slides da apresentação inicial
-* [Apresentação final](./ApresentacaoFinal.pdf) -- arquivo com os slides da apresentação final
+* [Apresentação Inicial](./PitchInicial.pdf) -- arquivo com os slides da apresentação inicial
+* [Apresentação Final](./ApresentacaoFinal.pdf) -- arquivo com os slides da apresentação final
 * [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
-
-O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
 
 ## Título do Projeto
 
-Nome e marca do projeto
+Aconchego da Vovó.
 
 ## Identidade Visual (Marca, Design)
 
