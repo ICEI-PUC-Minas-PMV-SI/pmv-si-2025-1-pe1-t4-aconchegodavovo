@@ -1,8 +1,8 @@
 # Apresentação
 
-O projeto "Aconchego da Vovó" consiste no desenvolvimento de um site que conecta lares de idosos a doadores, facilitando a arrecadação de recursos e trazendo maior visibilidade para a qualidade de vida dos idosos.
+O projeto "Aconchego da Vovó" consiste no desenvolvimento de um site que conecta lares de idosos a doadores, facilitando a arrecadação de recursos e aumentando a visibilidade da qualidade de vida dos idosos.
 
-O objetivo deste trabalho é desenvolver um sistema web que otimize e facilite as doações para Instituições de Longa Permanência para Idosos (ILPIs), tornando o processo mais eficiente, acessível e organizado. A proposta do sistema é conectar os doadores aos lares de idosos de uma maneira simples e organizada, dar visibilidade a estes lares e garantir que os recursos sejam devidamente alocados.
+O objetivo deste trabalho é criar um sistema web que torne o processo de doação mais eficiente, acessível e organizado para as Instituições de Longa Permanência para Idosos (ILPIs). A proposta é conectar os doadores aos lares de forma simples e transparente, promovendo maior visibilidade dessas instituições e garantindo que os recursos arrecadados sejam utilizados de maneira adequada para o bem-estar dos idosos.
 
 * [Apresentação Inicial](./PitchInicial.pdf) -- arquivo com os slides da apresentação inicial
 * [Apresentação Final](./ApresentacaoFinal.pdf) -- arquivo com os slides da apresentação final
