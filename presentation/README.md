@@ -6,7 +6,7 @@ O objetivo deste trabalho é criar um sistema web que torne o processo de doaç�
 
 * [Apresentação Inicial](./PitchInicial.pdf) -- arquivo com os slides da apresentação inicial
 * [Apresentação Final](./ApresentacaoFinal.pdf) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](./VideoApresentação.mp4) -- arquivo com a demonstração do funcionamento do sistema
+* [Vídeo de Demonstração](./VideoApresentação.mp4) -- arquivo com a demonstração do funcionamento do sistema
 
 ## Título do Projeto
 
